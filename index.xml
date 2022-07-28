@@ -33,62 +33,6 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://example.com/post/python/</link>
-      <pubDate>Sat, 28 May 2022 23:11:36 +0300</pubDate>
-      <guid>https://example.com/post/python/</guid>
-      <description>&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Python_logo&#34; srcset=&#34;
-               /post/python/1_hub3d1f30012c987616c79b017e6c075d4_139962_5dfb9838d38e9b02fc0517f01f9f52d5.webp 400w,
-               /post/python/1_hub3d1f30012c987616c79b017e6c075d4_139962_604626508a61c09fc552b3161f34d93c.webp 760w,
-               /post/python/1_hub3d1f30012c987616c79b017e6c075d4_139962_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/post/python/1_hub3d1f30012c987616c79b017e6c075d4_139962_5dfb9838d38e9b02fc0517f01f9f52d5.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;342&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.&lt;/p&gt;
-&lt;p&gt;Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a &amp;ldquo;batteries included&amp;rdquo; language due to its comprehensive standard library.&lt;/p&gt;
-&lt;p&gt;Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020.&lt;/p&gt;
-&lt;p&gt;Python consistently ranks as one of the most popular programming languages.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week part 4</title>
-      <link>https://example.com/post/last_week/</link>
-      <pubDate>Sat, 28 May 2022 23:11:17 +0300</pubDate>
-      <guid>https://example.com/post/last_week/</guid>
-      <description>&lt;h1 id=&#34;my-last-week&#34;&gt;My last week&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spent-my-last-week&#34;&gt;How I spent my last week?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;I have passed an English test.&lt;/li&gt;
-&lt;li&gt;I did 2 laboratory work on OS.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;my-review-of-the-week&#34;&gt;My review of the week.&lt;/h2&gt;
-&lt;p&gt;Soon the end of the 1st course, I&amp;rsquo;m looking forward to the summer.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>My Project</title>
       <link>https://example.com/project/my-project/</link>
       <pubDate>Sat, 28 May 2022 23:10:53 +0300</pubDate>
@@ -188,40 +132,6 @@ The next major issue that people encounter is that they need to collaborate with
 &lt;p&gt;Distributed Version Control Systems
 This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.&lt;/p&gt;
 &lt;p&gt;Furthermore, many of these systems deal pretty well with having several remote repositories they can work with, so you can collaborate with different groups of people in different ways simultaneously within the same project. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week</title>
-      <link>https://example.com/post/last-week/</link>
-      <pubDate>Sat, 07 May 2022 18:32:36 +0300</pubDate>
-      <guid>https://example.com/post/last-week/</guid>
-      <description>&lt;h1 id=&#34;my-last-week&#34;&gt;My last week&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spent-my-last-week&#34;&gt;How I spent my last week?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;I have finished reading Goethe&amp;rsquo;s Faust.&lt;/li&gt;
-&lt;li&gt;I did 2 laboratory work on OS.&lt;/li&gt;
-&lt;li&gt;I also learned a new song on electric guitar.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;my-review-of-the-week&#34;&gt;My review of the week.&lt;/h2&gt;
-&lt;p&gt;I was tired and finally waited for Sunday. The thought of next week is scary.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week part 2</title>
-      <link>https://example.com/post/last/</link>
-      <pubDate>Sat, 07 May 2022 18:32:36 +0300</pubDate>
-      <guid>https://example.com/post/last/</guid>
-      <description>&lt;h1 id=&#34;my-last-week&#34;&gt;My last week&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spent-my-last-week&#34;&gt;How I spent my last week?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;I have found new friend.&lt;/li&gt;
-&lt;li&gt;I did 2 laboratory work on OS.&lt;/li&gt;
-&lt;li&gt;I bought food dor the week.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;my-review-of-the-week&#34;&gt;My review of the week.&lt;/h2&gt;
-&lt;p&gt;I understood that I am happy person.&lt;/p&gt;
 </description>
     </item>
     
@@ -466,6 +376,38 @@ $$&lt;/p&gt;
       <link>https://example.com/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/post/last-week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/last-week/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/post/last/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/last/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/post/last_week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/last_week/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/post/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/python/</guid>
       <description></description>
     </item>
     
