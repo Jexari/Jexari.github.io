@@ -33,6 +33,16 @@
     </item>
     
     <item>
+      <title>Fundamentals of Software Testing</title>
+      <link>https://example.com/post/latex/</link>
+      <pubDate>Fri, 17 Jun 2022 18:44:49 +0300</pubDate>
+      <guid>https://example.com/post/latex/</guid>
+      <description>&lt;h1 id=&#34;about-my-pastime-in-summer&#34;&gt;About my pastime in summer&lt;/h1&gt;
+&lt;p&gt;I got the opportunity to study under the retraining program in the direction of &amp;ldquo;Fundamentals of Software Testing&amp;rdquo;. The training will take place in absentia (online) at the University of Inopolis. I am very interested in the profession of a tester. I am also looking for an internship where I can learn more about this profession.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Python. Introduction.</title>
       <link>https://example.com/post/python/</link>
       <pubDate>Wed, 01 Jun 2022 18:44:49 +0300</pubDate>
@@ -47,49 +57,6 @@
       <pubDate>Sat, 28 May 2022 23:10:53 +0300</pubDate>
       <guid>https://example.com/project/my-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>LaTeX</title>
-      <link>https://example.com/post/latex/</link>
-      <pubDate>Sat, 07 May 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/post/latex/</guid>
-      <description>&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Git_logo&#34; srcset=&#34;
-               /post/latex/latex_hua2a093b426af8993942352df18d5d753_105399_52aa1a125eed968b60d9372cc5c39198.webp 400w,
-               /post/latex/latex_hua2a093b426af8993942352df18d5d753_105399_8d530be54391307e4ecc483769dc2af3.webp 760w,
-               /post/latex/latex_hua2a093b426af8993942352df18d5d753_105399_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/post/latex/latex_hua2a093b426af8993942352df18d5d753_105399_52aa1a125eed968b60d9372cc5c39198.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;289&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h1 id=&#34;latex&#34;&gt;LaTeX&lt;/h1&gt;
-&lt;p&gt;LaTeX is a software system for document preparation. When writing, the writer uses plain text as opposed to the formatted text found in &amp;ldquo;What You See Is What You Get&amp;rdquo; word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document to stylise text throughout a document (such as bold and italics), and to add citations and cross-references. A TeX distribution such as TeX Live or MiKTeX is used to produce an output file (such as PDF or DVI) suitable for printing or digital distribution.&lt;/p&gt;
-&lt;p&gt;LaTeX is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, computer science, engineering, physics, chemistry, economics, linguistics, quantitative psychology, philosophy, and political science. It also has a prominent role in the preparation and publication of books and articles that contain complex multilingual materials, such as Sanskrit and Greek. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language.&lt;/p&gt;
-&lt;p&gt;LaTeX can be used as a standalone document preparation system, or as an intermediate format. In the latter role, for example, it is sometimes used as part of a pipeline for translating DocBook and other XML-based formats to PDF. The typesetting system offers programmable desktop publishing features and extensive facilities for automating most aspects of typesetting and desktop publishing, including numbering and cross-referencing of tables and figures, chapter and section headings, the inclusion of graphics, page layout, indexing and bibliographies.&lt;/p&gt;
-&lt;p&gt;Like TeX, LaTeX started as a writing tool for mathematicians and computer scientists, but even from early in its development, it has also been taken up by scholars who needed to write documents that include complex math expressions or non-Latin scripts, such as Arabic, Devanagari and Chinese.&lt;/p&gt;
-&lt;p&gt;LaTeX is intended to provide a high-level, descriptive markup language that accesses the power of TeX in an easier way for writers. In essence, TeX handles the layout side, while LaTeX handles the content side for document processing. LaTeX comprises a collection of TeX macros and a program to process LaTeX documents, and because the plain TeX formatting commands are elementary, it provides authors with ready-made commands for formatting and layout requirements such as chapter headings, footnotes, cross-references and bibliographies.&lt;/p&gt;
-&lt;p&gt;LaTeX was originally written in the early 1980s by Leslie Lamport at SRI International. The current version is LaTeX2e (stylised as LaTeX2ε), released in 1994, but updated in 2020. LaTeX3 (LaTeX3) has been under long-term development since the early 1990s. LaTeX is free software and is distributed under the LaTeX Project Public License (LPPL).&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -393,14 +360,6 @@ $$&lt;/p&gt;
       <link>https://example.com/post/last/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/last/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/post/last_week/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/last_week/</guid>
       <description></description>
     </item>
     
