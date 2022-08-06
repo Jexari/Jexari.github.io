@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Aslan A. Sheozhev</title>
-    <link>https://example.com/tag/python/</link>
-      <atom:link href="https://example.com/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jexari.github.io/tag/python/</link>
+      <atom:link href="https://jexari.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 18:44:49 +0300</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
-      <link>https://example.com/tag/python/</link>
+      <link>https://jexari.github.io/tag/python/</link>
     </image>
     
     <item>
       <title>Python. Introduction.</title>
-      <link>https://example.com/post/python/</link>
+      <link>https://jexari.github.io/post/python/</link>
       <pubDate>Wed, 01 Jun 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/post/python/</guid>
+      <guid>https://jexari.github.io/post/python/</guid>
       <description>&lt;p&gt;Python was the first programming language I was introduced to. I taught him exclusively for passing the exam (EGE), but later I began to go to additional courses. I was attracted to it not only by its simplicity, but also by the demand and conciseness of this language. C++, which I still have a personal dislike for, seems big, complex, and very tricky. Today, I try to improve my skills not only in Python, but also in other programming languages, and I also continue to get acquainted with markup languages (HTML and Markdown).&lt;/p&gt;
 </description>
     </item>
