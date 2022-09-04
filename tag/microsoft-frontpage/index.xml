@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft FrontPage | Aslan A. Sheozhev</title>
+    <link>https://jexari.github.io/tag/microsoft-frontpage/</link>
+      <atom:link href="https://jexari.github.io/tag/microsoft-frontpage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Microsoft FrontPage</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Sep 2022 17:30:25 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Microsoft FrontPage</title>
+      <link>https://jexari.github.io/tag/microsoft-frontpage/</link>
+    </image>
+    
+    <item>
+      <title>Microsoft FrontPage</title>
+      <link>https://jexari.github.io/post/frontpage/</link>
+      <pubDate>Sun, 04 Sep 2022 17:30:25 +0300</pubDate>
+      <guid>https://jexari.github.io/post/frontpage/</guid>
+      <description>&lt;nav class=&#34;toc&#34;&gt;
+  &lt;h2&gt;Content:&lt;/h2&gt;
+  &lt;ul&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;General information&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Frontpage installation&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#site&#34;&gt;My web-page&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#outcome&#34;&gt;Conclusion&lt;/a&gt;
+  &lt;/ol&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;General information&lt;/h2&gt;
+Web-pages can be created in several ways - from scratch or based on some kind of template. Both of these approaches can be implemented in Microsoft FrontPage. This editor was one of the best of its time, allowing you to edit HTML code, as well as view all changes in direct view mode. This editor did not require knowledge of the basics of HTML.
+&lt;p&gt;The main features of the editor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;create and save web-pages&lt;/li&gt;
+&lt;li&gt;save web-pages directly to the Web&lt;/li&gt;
+&lt;li&gt;view and administer web-pages&lt;/li&gt;
+&lt;li&gt;create complex web-page designs&lt;/li&gt;
+&lt;li&gt;use ready-made HTML tags&lt;/li&gt;
+&lt;li&gt;use ready-made images from the program delivery kit, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Frontpage installation&lt;/h2&gt;
+&lt;p&gt;Installation of the program is simple, available when you install Office 2003.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-installing-microsoft-front-page&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Installing Microsoft Front Page&#34; srcset=&#34;
+               /post/frontpage/frontpage_installation_1_hu90013eb17dbb1ddd50b966d7b15762af_110632_b7315f80c7f691b41f59e045164f4e03.webp 400w,
+               /post/frontpage/frontpage_installation_1_hu90013eb17dbb1ddd50b966d7b15762af_110632_7449e3543ff11c599adf27735b71c34d.webp 760w,
+               /post/frontpage/frontpage_installation_1_hu90013eb17dbb1ddd50b966d7b15762af_110632_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jexari.github.io/post/frontpage/frontpage_installation_1_hu90013eb17dbb1ddd50b966d7b15762af_110632_b7315f80c7f691b41f59e045164f4e03.webp&#34;
+               width=&#34;516&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Installing Microsoft Front Page
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-microsoft-frontpage-in-start-menu&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Microsoft FrontPage in Start Menu&#34; srcset=&#34;
+               /post/frontpage/frontpage_installation_2_hu393815e2a92cfd102c3c10f3bc1922e9_91499_67a45dc1ac5cd498161a394c5610e245.webp 400w,
+               /post/frontpage/frontpage_installation_2_hu393815e2a92cfd102c3c10f3bc1922e9_91499_bdd431a3df0c349d77966bf96bfb3c52.webp 760w,
+               /post/frontpage/frontpage_installation_2_hu393815e2a92cfd102c3c10f3bc1922e9_91499_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jexari.github.io/post/frontpage/frontpage_installation_2_hu393815e2a92cfd102c3c10f3bc1922e9_91499_67a45dc1ac5cd498161a394c5610e245.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Microsoft FrontPage in Start Menu
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;site&#34;&gt;My web-page&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-frontpage-interface&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;FrontPage Interface&#34; srcset=&#34;
+               /post/frontpage/interface_hu2f6c5b648a8810997c2226b1e4bb44f7_132217_1031a2ccbadaddca3d0d7445c2bbdf58.webp 400w,
+               /post/frontpage/interface_hu2f6c5b648a8810997c2226b1e4bb44f7_132217_00ca0a410ad0b55013bdf8c192ec2fc0.webp 760w,
+               /post/frontpage/interface_hu2f6c5b648a8810997c2226b1e4bb44f7_132217_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jexari.github.io/post/frontpage/interface_hu2f6c5b648a8810997c2226b1e4bb44f7_132217_1031a2ccbadaddca3d0d7445c2bbdf58.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;569&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      FrontPage Interface
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I will not dwell on creating a web-page in detail, since in fact we are working with the Microsoft Word interface. I will only show the final web-page.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-web-page&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&amp;amp;ldquo;Web-page&#34; srcset=&#34;
+               /post/frontpage/site_2_hu6573b2b8217fc8f4a38d3bbc056d92bb_251932_a28e3c3a9a64b88d963666a34c46197a.webp 400w,
+               /post/frontpage/site_2_hu6573b2b8217fc8f4a38d3bbc056d92bb_251932_74e270999ac9bc6497e7c35677e95e2d.webp 760w,
+               /post/frontpage/site_2_hu6573b2b8217fc8f4a38d3bbc056d92bb_251932_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jexari.github.io/post/frontpage/site_2_hu6573b2b8217fc8f4a38d3bbc056d92bb_251932_a28e3c3a9a64b88d963666a34c46197a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;569&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Web-page
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Conclusion&lt;/h2&gt;
+Obviously, it is impossible to create a site with a modern design on a program for Windows XP, but despite this, some sites written in FrontPage still work. The Microsoft Frontpage was replaced by Microsoft Expression Web and Microsoft SharePoint Designer.
+</description>
+    </item>
+    
+  </channel>
+</rss>
