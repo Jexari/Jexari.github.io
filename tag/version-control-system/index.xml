@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version control system | Aslan A. Sheozhev</title>
+    <link>https://jexari.github.io/tag/version-control-system/</link>
+      <atom:link href="https://jexari.github.io/tag/version-control-system/index.xml" rel="self" type="application/rss+xml" />
+    <description>Version control system</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Sep 2022 18:37:36 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Version control system</title>
+      <link>https://jexari.github.io/tag/version-control-system/</link>
+    </image>
+    
+    <item>
+      <title>Basics of Git</title>
+      <link>https://jexari.github.io/post/git/</link>
+      <pubDate>Wed, 14 Sep 2022 18:37:36 +0300</pubDate>
+      <guid>https://jexari.github.io/post/git/</guid>
+      <description>&lt;p&gt;What is Git for, and what is a version control system anyway?
+A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
+&lt;p&gt;One such system is &lt;a target = &#34;_blank&#34; href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
+&lt;ul type=&#34;square&#34;&gt;
+&lt;li&gt;Free and open source&lt;/li&gt;
+&lt;li&gt;Fast&lt;/li&gt;
+&lt;li&gt;Simple branching&lt;/li&gt;
+&lt;li&gt;Backup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab и др.&lt;/p&gt;
+&lt;p&gt;Basic commands:&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git init - creating a new repository&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git status - view status of current files&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git add - adding changes and new files to the current directory&lt;br&gt;
+git add file.py - adding a file file.py&lt;br&gt;
+git .add - adding all changes&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git commit - creating a new commit&lt;br&gt;
+git commit -m &#39;text&#39; - create a commit with the name text&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git branch - managing branches in a repository&lt;br&gt;
+git branch — shows a list of all branches&lt;br&gt;
+git branch name — creates a new branch name&lt;br&gt;
+git branch -D name — deletes a branch name
+&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git checkout - switching between recent commits&lt;br&gt;
+git checkout file — revert file to last commit state&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git config - git configuration and options&lt;br&gt;
+git config --global user.name — shows username&lt;br&gt;
+git config --global user.name &#39;New name&#39; — changes username&lt;br&gt;
+git config --global user.email — shows the user&#39;s email&lt;br&gt;
+git config --global user.email &#39;name@gmail.com&#39; — changes the user&#39;s email&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git push - uploading local commits to a remote repository&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git pull - downloads changes from the remote repository to the local one&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git clone - cloning a project from a remote repository&lt;/p&gt;&lt;br&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

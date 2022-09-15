@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github | А. А. Шеожев</title>
+    <link>https://jexari.github.io/ru/tag/github/</link>
+      <atom:link href="https://jexari.github.io/ru/tag/github/index.xml" rel="self" type="application/rss+xml" />
+    <description>Github</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Wed, 14 Sep 2022 18:37:36 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Github</title>
+      <link>https://jexari.github.io/ru/tag/github/</link>
+    </image>
+    
+    <item>
+      <title>Основы Git</title>
+      <link>https://jexari.github.io/ru/post/git/</link>
+      <pubDate>Wed, 14 Sep 2022 18:37:36 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/git/</guid>
+      <description>&lt;p&gt;Для чего нужен Git, и что вообще такое система контроля версий?
+Система контроля версий – это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определенной версии. Проще говоря, в случае изменения файла будет отмечен файл и место изменения, также можно отменить введенные ранее изменения файла, увидеть, кто последний менял что-то и вызвал проблему и когда, и многое другое. Если вы сломали что-то или потеряли файлы, это спокойно можно исправить.&lt;/p&gt;
+&lt;p&gt;Одной из таких систем является &lt;a target = &#34;_blank&#34; href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;. На данный момент она наиболее распространена по ряду причин:&lt;/p&gt;
+&lt;ul type=&#34;square&#34;&gt;
+&lt;li&gt;Бесплатная и с открытым кодом&lt;/li&gt;
+&lt;li&gt;Быстрая&lt;/li&gt;
+&lt;li&gt;Простое ветвление&lt;/li&gt;
+&lt;li&gt;Резервное копирование&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Для git-репозиториев предоставляются хостинги, например: GitHub, Codebase, Bitbucket, GitLab и др.&lt;/p&gt;
+&lt;p&gt;Основные команды:&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git init - создание нового репозитория&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git status - просмотр статуса текущих файлов&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git add - добавление изменений и новых файлов в текущую директорию&lt;br&gt;
+git add file.py - добавление файла file.py&lt;br&gt;
+git .add - добавление всех изменений&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git commit - создание нового коммита&lt;br&gt;
+git commit -m &#39;text&#39; - создание коммита с названием text&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git branch - управление ветками в репозитории&lt;br&gt;
+git branch — показывает список всех веток&lt;br&gt;
+git branch name — создает новую ветку name&lt;br&gt;
+git branch -D name — удаляет ветку name
+&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git checkout - переключение между последними коммитами&lt;br&gt;
+git checkout file — вернуть file в состояние последнего коммита&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git config - конфигурация и параметры git&lt;br&gt;
+git config --global user.name — показывает имя пользователя&lt;br&gt;
+git config --global user.name &#39;New name&#39; — изменяет имя пользователя&lt;br&gt;
+git config --global user.email — показывает email пользователя&lt;br&gt;
+git config --global user.email &#39;name@gmail.com&#39; — изменяет email пользователя&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git push - загрузка локальных коммитов в удаленный репозиторий&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git pull - загружает изменения с удаленного репозитория в локальный&lt;/p&gt;
+&lt;p style=&#34;border:3px #086CA2  double;&#34;&gt;git clone - клонирование проекта из удаленного репозитория&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;b&gt;&lt;h2&gt;Толковый словарь&lt;/h2&gt;&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;    Бранч&lt;/b&gt;&lt;br&gt;
+    Ветка или копия проекта, в которую можно вносить любые изменения, они не повлияют на основной проект.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;    Гит&lt;/b&gt;&lt;br&gt;
+    Способ хранения файлов и их версий.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;    Клонирование&lt;/b&gt;&lt;br&gt;
+    Копирование репозитория на жесткий диск.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;    Коммит&lt;/b&gt;&lt;br&gt;
+    Набор с изменениями (измененными, новыми и добавленными файлами), записанный в локальный репозиторий.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;    Пуш&lt;/b&gt;&lt;br&gt;
+    Отправка изменений на сервер.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

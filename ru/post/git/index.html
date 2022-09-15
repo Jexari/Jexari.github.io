@@ -64,7 +64,7 @@
   
     
   
-  <meta name="description" content="Main information about Git" />
+  <meta name="description" content="Система управления версиями." />
 
   
     <link rel="alternate" hreflang="en" href="https://jexari.github.io/post/git/" />
@@ -295,7 +295,6 @@
   
   
     
-    
   
   
 
@@ -304,24 +303,24 @@
     
     
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@wowchemy" />
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="А. А. Шеожев" />
   <meta property="og:url" content="https://jexari.github.io/ru/post/git/" />
-  <meta property="og:title" content="Version control. Git | А. А. Шеожев" />
-  <meta property="og:description" content="Main information about Git" /><meta property="og:image" content="https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ru-ru" />
+  <meta property="og:title" content="Основы Git | А. А. Шеожев" />
+  <meta property="og:description" content="Система управления версиями." /><meta property="og:image" content="https://jexari.github.io/ru/post/git/featured.jpg" />
+    <meta property="twitter:image" content="https://jexari.github.io/ru/post/git/featured.jpg" /><meta property="og:locale" content="ru-ru" />
   
     
       <meta
         property="article:published_time"
-        content="2022-05-07T18:44:49&#43;03:00"
+        content="2022-09-14T18:37:36&#43;03:00"
       />
     
-    <meta property="article:modified_time" content="2022-05-07T18:44:49&#43;03:00">
+    <meta property="article:modified_time" content="2022-09-14T18:37:36&#43;03:00">
   
 
   
@@ -347,14 +346,18 @@
     "@type": "WebPage",
     "@id": "https://jexari.github.io/ru/post/git/"
   },
-  "headline": "Version control. Git",
+  "headline": "Основы Git",
   
-  "datePublished": "2022-05-07T18:44:49+03:00",
-  "dateModified": "2022-05-07T18:44:49+03:00",
+  "image": [
+    "https://jexari.github.io/ru/post/git/featured.jpg"
+  ],
+  
+  "datePublished": "2022-09-14T18:37:36+03:00",
+  "dateModified": "2022-09-14T18:37:36+03:00",
   
   "author": {
     "@type": "Person",
-    "name": "Aslan A. Sheozhev"
+    "name": "А.А. Шеожев"
   },
   
   "publisher": {
@@ -365,7 +368,7 @@
       "url": "https://jexari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Main information about Git"
+  "description": "Система управления версиями."
 }
 </script>
 
@@ -381,7 +384,7 @@
 
 
 
-  <title>Version control. Git | А. А. Шеожев</title>
+  <title>Основы Git | А. А. Шеожев</title>
 </head>
 
 
@@ -833,18 +836,25 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Version control. Git</h1>
+  <h1>Основы Git</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -857,7 +867,7 @@
     
 
   <span >
-      Aslan A. Sheozhev</span>
+      А.А. Шеожев</span>
   </div>
   
   
@@ -868,7 +878,7 @@
     
       
     
-    мая 7, 2022
+    сент. 14, 2022
   </span>
   
 
@@ -877,7 +887,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 мин. для прочтения
+    2 мин. для прочтения
   </span>
   
 
@@ -891,13 +901,20 @@
 
 </div>
 
-    
-
-
-
-
-
   
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/ru/post/git/featured_hu1a6cabab9473759c561dd5e1a58c8f55_35828_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -905,50 +922,50 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="Git_logo" srcset="
-               /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp 400w,
-               /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_927c5a9b8367435e9a4f3798437c32a6.webp 760w,
-               /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp"
-               width="700"
-               height="299"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+      <p>Для чего нужен Git, и что вообще такое система контроля версий?
+Система контроля версий – это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определенной версии. Проще говоря, в случае изменения файла будет отмечен файл и место изменения, также можно отменить введенные ранее изменения файла, увидеть, кто последний менял что-то и вызвал проблему и когда, и многое другое. Если вы сломали что-то или потеряли файлы, это спокойно можно исправить.</p>
+<p>Одной из таких систем является <a target = "_blank" href="https://git-scm.com/">Git</a>. На данный момент она наиболее распространена по ряду причин:</p>
+<ul type="square">
+<li>Бесплатная и с открытым кодом</li>
+<li>Быстрая</li>
+<li>Простое ветвление</li>
+<li>Резервное копирование</li>
+</ul>
+<p>Для git-репозиториев предоставляются хостинги, например: GitHub, Codebase, Bitbucket, GitLab и др.</p>
+<p>Основные команды:</p>
+<p style="border:3px #086CA2  double;">git init - создание нового репозитория</p>
+<p style="border:3px #086CA2  double;">git status - просмотр статуса текущих файлов</p>
+<p style="border:3px #086CA2  double;">git add - добавление изменений и новых файлов в текущую директорию<br>
+git add file.py - добавление файла file.py<br>
+git .add - добавление всех изменений</p>
+<p style="border:3px #086CA2  double;">git commit - создание нового коммита<br>
+git commit -m 'text' - создание коммита с названием text</p>
+<p style="border:3px #086CA2  double;">git branch - управление ветками в репозитории<br>
+git branch — показывает список всех веток<br>
+git branch name — создает новую ветку name<br>
+git branch -D name — удаляет ветку name
 </p>
-<h1 id="about-version-control">About Version Control</h1>
-<p>This chapter will be about getting started with Git. We will begin by explaining some background on version control tools, then move on to how to get Git running on your system and finally how to get it set up to start working with. At the end of this chapter you should understand why Git is around, why you should use it and you should be all set up to do so.</p>
-<p>About Version Control
-What is “version control”, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.</p>
-<p>If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use. It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead.</p>
-<p>Local Version Control Systems
-Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.</p>
-<p>To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control.</p>
-<p>One of the most popular VCS tools was a system called RCS, which is still distributed with many computers today. RCS works by keeping patch sets (that is, the differences between files) in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.</p>
-<p>Centralized Version Control Systems
-The next major issue that people encounter is that they need to collaborate with developers on other systems. To deal with this problem, Centralized Version Control Systems (CVCSs) were developed. These systems (such as CVS, Subversion, and Perforce) have a single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.</p>
-<p>This setup offers many advantages, especially over local VCSs. For example, everyone knows to a certain degree what everyone else on the project is doing. Administrators have fine-grained control over who can do what, and it’s far easier to administer a CVCS than it is to deal with local databases on every client.</p>
-<p>However, this setup also has some serious downsides. The most obvious is the single point of failure that the centralized server represents. If that server goes down for an hour, then during that hour nobody can collaborate at all or save versioned changes to anything they’re working on. If the hard disk the central database is on becomes corrupted, and proper backups haven’t been kept, you lose absolutely everything — the entire history of the project except whatever single snapshots people happen to have on their local machines. Local VCSs suffer from this same problem — whenever you have the entire history of the project in a single place, you risk losing everything.</p>
-<p>Distributed Version Control Systems
-This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.</p>
-<p>Furthermore, many of these systems deal pretty well with having several remote repositories they can work with, so you can collaborate with different groups of people in different ways simultaneously within the same project. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.</p>
+<p style="border:3px #086CA2  double;">git checkout - переключение между последними коммитами<br>
+git checkout file — вернуть file в состояние последнего коммита</p>
+<p style="border:3px #086CA2  double;">git config - конфигурация и параметры git<br>
+git config --global user.name — показывает имя пользователя<br>
+git config --global user.name 'New name' — изменяет имя пользователя<br>
+git config --global user.email — показывает email пользователя<br>
+git config --global user.email 'name@gmail.com' — изменяет email пользователя</p>
+<p style="border:3px #086CA2  double;">git push - загрузка локальных коммитов в удаленный репозиторий</p>
+<p style="border:3px #086CA2  double;">git pull - загружает изменения с удаленного репозитория в локальный</p>
+<p style="border:3px #086CA2  double;">git clone - клонирование проекта из удаленного репозитория</p><br>
+<p><b><h2>Толковый словарь</h2></b>
+<p><b>    Бранч</b><br>
+    Ветка или копия проекта, в которую можно вносить любые изменения, они не повлияют на основной проект.</p>
+<p><b>    Гит</b><br>
+    Способ хранения файлов и их версий.</p>
+<p><b>    Клонирование</b><br>
+    Копирование репозитория на жесткий диск.</p>
+<p><b>    Коммит</b><br>
+    Набор с изменениями (измененными, новыми и добавленными файлами), записанный в локальный репозиторий.</p>
+<p><b>    Пуш</b><br>
+    Отправка изменений на сервер.</p></p>
 
     </div>
 
@@ -956,6 +973,16 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/ru/tag/git/">Git</a>
+  
+  <a class="badge badge-light" href="/ru/tag/github/">Github</a>
+  
+  <a class="badge badge-light" href="/ru/tag/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%D0%BC%D0%B8/">Системы управления версиями</a>
+  
+</div>
 
 
 
@@ -970,7 +997,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/ru/post/git/&amp;text=Version%20control.%20Git" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/ru/post/git/&amp;text=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -983,7 +1010,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/ru/post/git/&amp;t=Version%20control.%20Git" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/ru/post/git/&amp;t=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -996,7 +1023,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="mailto:?subject=Version%20control.%20Git&amp;body=https://jexari.github.io/ru/post/git/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git&amp;body=https://jexari.github.io/ru/post/git/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1009,7 +1036,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/ru/post/git/&amp;title=Version%20control.%20Git" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/ru/post/git/&amp;title=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1022,7 +1049,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="whatsapp://send?text=Version%20control.%20Git%20https://jexari.github.io/ru/post/git/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git%20https://jexari.github.io/ru/post/git/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1035,7 +1062,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/ru/post/git/&amp;title=Version%20control.%20Git" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/ru/post/git/&amp;title=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20Git" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
