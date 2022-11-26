@@ -4,16 +4,6 @@
   
   
   <url>
-    <loc>https://example.com/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://example.com/ru/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://example.com/"
-    /></url>
-  <url>
     <loc>https://example.com/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -32,6 +22,16 @@
       rel="alternate"
       hreflang="en"
       href="https://example.com/event/"
+    /></url>
+  <url>
+    <loc>https://example.com/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://example.com/ru/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://example.com/"
     /></url>
   <url>
     <loc></loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -194,16 +194,6 @@
       href="https://example.com/category/demo/"
     /></url>
   <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
     <loc>https://example.com/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -212,6 +202,16 @@
       rel="alternate"
       hreflang="en"
       href="https://example.com/post/getting-started/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
     /></url>
   <url>
     <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link

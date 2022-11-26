@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software testing | А. А. Шеожев</title>
+    <title>Software testing | Ян Долганов</title>
     <link>https://example.com/ru/tag/software-testing/</link>
       <atom:link href="https://example.com/ru/tag/software-testing/index.xml" rel="self" type="application/rss+xml" />
     <description>Software testing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Fri, 17 Jun 2022 18:44:49 +0300</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Software testing</title>
       <link>https://example.com/ru/tag/software-testing/</link>
     </image>
