@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yan L. Dolganov</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jexari.github.io/</link>
+      <atom:link href="https://jexari.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yan L. Dolganov</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Yan L. Dolganov</title>
-      <link>https://example.com/</link>
+      <link>https://jexari.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/talk/example-talk/</link>
+      <link>https://jexari.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/example-talk/</guid>
+      <guid>https://jexari.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Fundamentals of Software Testing</title>
-      <link>https://example.com/post/latex/</link>
+      <link>https://jexari.github.io/post/latex/</link>
       <pubDate>Fri, 17 Jun 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/post/latex/</guid>
+      <guid>https://jexari.github.io/post/latex/</guid>
       <description>&lt;h1 id=&#34;about-my-pastime-in-summer&#34;&gt;About my pastime in summer&lt;/h1&gt;
 &lt;p&gt;I got the opportunity to study under the retraining program in the direction of &amp;ldquo;Fundamentals of Software Testing&amp;rdquo;. The training will take place in absentia (online) at the University of Inopolis. I am very interested in the profession of a tester. I am also looking for an internship where I can learn more about this profession.&lt;/p&gt;
 </description>
@@ -44,26 +44,26 @@
     
     <item>
       <title>Python. Introduction.</title>
-      <link>https://example.com/post/python/</link>
+      <link>https://jexari.github.io/post/python/</link>
       <pubDate>Wed, 01 Jun 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/post/python/</guid>
+      <guid>https://jexari.github.io/post/python/</guid>
       <description>&lt;p&gt;Python was the first programming language I was introduced to. I taught him exclusively for passing the exam (EGE), but later I began to go to additional courses. I was attracted to it not only by its simplicity, but also by the demand and conciseness of this language. C++, which I still have a personal dislike for, seems big, complex, and very tricky. Today, I try to improve my skills not only in Python, but also in other programming languages, and I also continue to get acquainted with markup languages (HTML and Markdown).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>My Project</title>
-      <link>https://example.com/project/my-project/</link>
+      <link>https://jexari.github.io/project/my-project/</link>
       <pubDate>Sat, 28 May 2022 23:10:53 +0300</pubDate>
-      <guid>https://example.com/project/my-project/</guid>
+      <guid>https://jexari.github.io/project/my-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Version control. Git</title>
-      <link>https://example.com/post/git/</link>
+      <link>https://jexari.github.io/post/git/</link>
       <pubDate>Sat, 07 May 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/post/git/</guid>
+      <guid>https://jexari.github.io/post/git/</guid>
       <description>&lt;p&gt;
 
 
@@ -86,7 +86,7 @@
                /post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp 400w,
                /post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_927c5a9b8367435e9a4f3798437c32a6.webp 760w,
                /post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp&#34;
+               src=&#34;https://jexari.github.io/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp&#34;
                width=&#34;700&#34;
                height=&#34;299&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -113,9 +113,9 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://example.com/post/getting-started/</link>
+      <link>https://jexari.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/getting-started/</guid>
+      <guid>https://jexari.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -192,9 +192,9 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://jexari.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://jexari.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -317,9 +317,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://jexari.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://jexari.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -330,9 +330,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
+      <link>https://jexari.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
+      <guid>https://jexari.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -349,9 +349,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://jexari.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://jexari.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

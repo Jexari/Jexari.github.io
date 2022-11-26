@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Ян Долганов</title>
-    <link>https://example.com/ru/post/</link>
-      <atom:link href="https://example.com/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jexari.github.io/ru/post/</link>
+      <atom:link href="https://jexari.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Fri, 17 Jun 2022 18:44:49 +0300</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://example.com/ru/post/</link>
+      <link>https://jexari.github.io/ru/post/</link>
     </image>
     
     <item>
       <title>Fundamentals of Software Testing</title>
-      <link>https://example.com/ru/post/latex/</link>
+      <link>https://jexari.github.io/ru/post/latex/</link>
       <pubDate>Fri, 17 Jun 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/ru/post/latex/</guid>
+      <guid>https://jexari.github.io/ru/post/latex/</guid>
       <description>&lt;h1 id=&#34;about-my-pastime-in-summer&#34;&gt;About my pastime in summer&lt;/h1&gt;
 &lt;p&gt;I got the opportunity to study under the retraining program in the direction of &amp;ldquo;Fundamentals of Software Testing&amp;rdquo;. The training will take place in absentia (online) at the University of Inopolis. I am very interested in the profession of a tester. I am also looking for an internship where I can learn more about this profession.&lt;/p&gt;
 </description>
@@ -24,18 +24,18 @@
     
     <item>
       <title>Python. Introduction.</title>
-      <link>https://example.com/ru/post/python/</link>
+      <link>https://jexari.github.io/ru/post/python/</link>
       <pubDate>Wed, 01 Jun 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/ru/post/python/</guid>
+      <guid>https://jexari.github.io/ru/post/python/</guid>
       <description>&lt;p&gt;Python was the first programming language I was introduced to. I taught him exclusively for passing the exam (EGE), but later I began to go to additional courses. I was attracted to it not only by its simplicity, but also by the demand and conciseness of this language. C++, which I still have a personal dislike for, seems big, complex, and very tricky. Today, I try to improve my skills not only in Python, but also in other programming languages, and I also continue to get acquainted with markup languages (HTML and Markdown).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Version control. Git</title>
-      <link>https://example.com/ru/post/git/</link>
+      <link>https://jexari.github.io/ru/post/git/</link>
       <pubDate>Sat, 07 May 2022 18:44:49 +0300</pubDate>
-      <guid>https://example.com/ru/post/git/</guid>
+      <guid>https://jexari.github.io/ru/post/git/</guid>
       <description>&lt;p&gt;
 
 
@@ -58,7 +58,7 @@
                /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp 400w,
                /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_927c5a9b8367435e9a4f3798437c32a6.webp 760w,
                /ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp&#34;
+               src=&#34;https://jexari.github.io/ru/post/git/git_hu8fb1e3a7f3f8f005005a9c020fc94120_20368_f84358a80bf20401672d90379c25bd97.webp&#34;
                width=&#34;700&#34;
                height=&#34;299&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -85,9 +85,9 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://example.com/ru/post/getting-started/</link>
+      <link>https://jexari.github.io/ru/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/post/getting-started/</guid>
+      <guid>https://jexari.github.io/ru/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
