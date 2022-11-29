@@ -5,12 +5,96 @@
     <link>https://jexari.github.io/ru/post/</link>
       <atom:link href="https://jexari.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Fri, 17 Jun 2022 18:44:49 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 27 Nov 2022 21:42:56 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jexari.github.io/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Управление пользователями в Windows</title>
+      <link>https://jexari.github.io/ru/post/user_management_windows/</link>
+      <pubDate>Sun, 27 Nov 2022 21:42:56 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/user_management_windows/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Введение&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#Управление-учетными-записями-через-lusrmgrmsc&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Управление учетными записями через lusrmgr.msc&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#управление-учетными-записями-через-cmd&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Управление учетными записями через cmd&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Заключение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Введение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Учетная запись – это совокупность данных о пользователе, необходимая для его аутентификации и предоставления доступа к его личным данным и настройкам. Таким образом, учетная запись состоит из имени пользователя и пароля (либо иных способов аутентификации). Пароль зачастую зашифрован или хэширован. Учетная запись может хранить фотографию пользователя или иное изображение, учитывать давность различные статистические характеристики поведенияпользователя в системе.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Не редко за одним компьютером работают несколько пользователей. В Linux управление пользователями удобнее производить в командной строке. В группе семейств операционных систем Microsoft такая возможность так же присутствует, как и GUI (Graphical User Interface).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Управление учетными пользователями является одной из основных обязанностей системного администратора. Очень удобно объединять пользователей в группы, редактировать их права доступа в зависимости, например, от должности в компании. От этого напрямую зависит обеспечение безопасности информационной системы.&lt;/p&gt;
+&lt;h2 id=&#39;Управление-учетными-записями-через-lusrmgrmsc&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Управление учетными записями через lusrmgr.msc&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Сразу после установки Windows мы начинаем работу с правами Администратор. Данные права в ОС позволяют, например, создавать, изменять, удалять иные учетные записи, выполнять любые операции по настройке системы.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Для управления учетными записями используется оснастка lusrmgr.msc (рис. 1). Мы также можем открыть её, введя название в поле команды «Выполнить», либо же во внутрисистемный поиск.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;lusrmgr.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 1. Окно lusrmgr.msc&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для того, чтобы создать учетную запись, нужно сделать следующее:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Перейти в папку «Пользователи» (рис. 2).&lt;/li&gt;
+&lt;li&gt;В строке меню выбираем «Действие», затем «Новый пользователь».&lt;/li&gt;
+&lt;li&gt;Обязательно заполняем поле «Пользователь», остальное при необходимости (рис. 3).&lt;/li&gt;&lt;/ol&gt;
+&lt;img align=&#34;middle&#34; src=&#34;users_in_os.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 2. Пользователи в ОС&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;user-creation.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 3. Создание пользователя&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Группа пользователей — это совокупность учетных записей пользователей, которые имеют одинаковые права и разрешения безопасности. Учетная запись пользователя должна быть членом хотя бы одной группы пользователей.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Разные пользователи имеют разные потребности, администратор может распределить нужные разрешения и запреты. Если у нас много пользователей, то удобно распределить права не индивидуально, а по группам пользователей. В Windows есть несколько встроенных групп: Администраторы (Administrators), Пользователи (Users), Опытные пользователи (Power Users), Операторы архива (Backup Operators), Гости (Guests), Пользователи удаленного рабочего стола, DHCP Administrators, DHCP Users и WINS Users. Мы также можем создать свою группу. Для этого:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Переходим в папку «Группы» (рис. 4).&lt;/li&gt;
+&lt;li&gt;В строке меню выбираем «Действие», затем «Создать группу».&lt;/li&gt;
+&lt;li&gt;Обязательно заполняем поле «Имя группы», остальное при необходимости (рис. 5.1 - 5.2).&lt;/li&gt;&lt;/ol&gt;
+&lt;img align=&#34;middle&#34; src=&#34;list_os_all_users.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 4. Список всех групп&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;groups_creation.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 5.1. Создание группы&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_a_user_to_a_group.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 5.2. Добавление пользователей в группу&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Просмотреть, к каким группам принадлежит пользователь можно в папке «Пользователи», нажав правой кнопкой мыши на пользователя, затем выбрав «Свойства», «Членство в группах». Если мы перейдем во вкладку «Общие», то сможем управлять паролем пользователя, а также, при необходимости, отключить учетную запись (рис. 6).&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;management_in_general.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 6. Управление во вкладке «Общие»&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Администратор также может задавать ограничения по времени действия пароля, для этого необходимо воспользоваться оснасткой gpedit.msc. Далее перейти в «Конфигурация компьютера», «Конфигурация Windows», «Параметры безопасности», «Политика учетных записей», «Политика паролей» (рис. 7).&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;changing_the_password_expiration_time.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 7. Изменение времени действия пароля&lt;/p&gt;
+&lt;h2 id=&#39;управление-учетными-записями-через-cmd&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Управление учетными записями через cmd&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Как и говорилось ранее, управление учетными записями мы можем производить через командную строку. Для начала мы пропишем команду whoami и whoami /user (рис. 8). Первая отображает сведения о текущем пользователе, вторая дополнительно показывает SID (security identifier). SID - это структура данных переменной длины, которая идентифицирует учетную запись пользователя, группы, домена или компьютера. Последние 4 цифры указывают на относительный идентификатор безопасности объекта (RID). 3 набора цифр перед RID это как раз и есть SID.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;whoami_and_whoami_user.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 8. whoami и whoami /user&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для дальнейшего управления учетными записями нам понадобиться команда net user. С помощью неё мы сможем:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;добавить учетную запись (net user NAME PASSWORD /ADD) (рис. 9.1);&lt;/li&gt;
+&lt;li&gt;добавить пароль учетной записи (net user NAME PASSWORD) (рис. 9.4);&lt;/li&gt;
+&lt;li&gt;переименовать учетную запись (wmic useraccount where name=&#39;NAME&#39; rename ‘NEWNAME’) (рис. 9.2);&lt;/li&gt;
+&lt;li&gt;просмотреть информацию об учетной записи (net user NAME) (рис. 9.3);&lt;/li&gt;
+&lt;li&gt;изменить пароль учетной записи (net user NAME NEW_PASSWORD);&lt;/li&gt;
+&lt;li&gt;отключить учетную запись (net user NAME /active:no);&lt;/li&gt;
+&lt;li&gt;удалить учетную запись (net user NAME /delete) (рис. 9.5).&lt;/li&gt;&lt;/ul&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 9.1. Добавление учетной записи&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 9.2. Добавление учетной записи&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account_3.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 9.3. Добавление учетной записи&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_a_password_to_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 9.4. Добавление пароля к учетной записи&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;delition_an_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 9.5. Удаление учетной записи&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для работы с группами необходимо использовать команду net localgroup. Например, с помощью неё мы можем:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;вывести список всех локальных групп (net localgroup);&lt;/li&gt;
+&lt;li&gt;добавить локальную группу (net localgroup GROUPNAME /add);&lt;/li&gt;
+&lt;li&gt;добавить учетные записи существующих пользователей в группу (net localgroup GROUPNAME USERNAME1 USERNAME2 /add /domain);&lt;/li&gt;
+&lt;li&gt;вывести список пользователей локальной группы (net localgroup GROUPNAME).&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Заключение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Таким образом, ознакомившись с основами управления пользователями в операционной системе Windows можно сделать следующие выводы:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Создание учетной записи, изменение пароля учетной записи и многие другие действия можно выполнять как через различные оснастки, так и через командную строку. Во втором случае мы можем использовать, например, команду net user. Также и с изменениями групп, они тоже могут выполняться двумя вышеописанными способами.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Для обеспечения информационной безопасности необходимо сортировать их учетные записи по группам, где можно вводить ограничения их прав (например, просмотр определенных папок).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fundamentals of Software Testing</title>

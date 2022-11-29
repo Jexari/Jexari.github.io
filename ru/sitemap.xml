@@ -34,7 +34,7 @@
       href="https://jexari.github.io/ru/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href=""
@@ -42,6 +42,28 @@
       rel="alternate"
       hreflang="ru"
       href=""
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/user_management_windows/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/user_management_windows/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/user_management_windows/"
     /></url>
   <url>
     <loc></loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -82,16 +104,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/tag/my-pastime-in-summer/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/tag/software-testing/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
