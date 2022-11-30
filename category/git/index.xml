@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git | Yan L. Dolganov</title>
+    <link>https://jexari.github.io/category/git/</link>
+      <atom:link href="https://jexari.github.io/category/git/index.xml" rel="self" type="application/rss+xml" />
+    <description>Git</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 18:44:49 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Git</title>
+      <link>https://jexari.github.io/category/git/</link>
+    </image>
+    
+    <item>
+      <title>Git Basics</title>
+      <link>https://jexari.github.io/post/git/</link>
+      <pubDate>Sat, 07 May 2022 18:44:49 +0300</pubDate>
+      <guid>https://jexari.github.io/post/git/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#about_git&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; What is Git and what is it for?&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#main_commands&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Basic commands&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#dictionary&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Dictionary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;about_git&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. What is Git and what is it for?&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;What is &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt; for, and what is a version control system anyway? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;One such system is Git. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Free and open source&lt;/li&gt;
+&lt;li&gt;Fast&lt;/li&gt;
+&lt;li&gt;Simple branching&lt;/li&gt;
+&lt;li&gt;Backup&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab, etc.&lt;/p&gt;
+&lt;h2 id=&#39;main_commands&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Basic commands:&lt;/b&gt;&lt;/h2&gt;
+&lt;style&gt;
+    .heatMap {
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    td, th {
+    	border: 1px solid black;
+    }
+    .heatMap td:nth-child(1) { background: #437DD4; }
+    .heatMap td:nth-child(2) { background: #FF4940; }
+&lt;/style&gt;
+&lt;div class=&#34;heatMap&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Command description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;git init&lt;/td&gt;
+&lt;td&gt;creating a new repository&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git status&lt;/td&gt;
+&lt;td&gt;view status of current files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add&lt;/td&gt;
+&lt;td&gt;adding changes and new files to the current directory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add file.py&lt;/td&gt;
+&lt;td&gt;adding file.py&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git .add&lt;/td&gt;
+&lt;td&gt;adding all changes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git commit&lt;/td&gt;
+&lt;td&gt;creating a new commit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git commit -m &amp;rsquo;text&#39;&lt;/td&gt;
+&lt;td&gt;creating a commit called text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git branch&lt;/td&gt;
+&lt;td&gt;shows a list of all branches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git branch -v&lt;/td&gt;
+&lt;td&gt;shows a list of branches and the latest commit in each&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git branch name&lt;/td&gt;
+&lt;td&gt;creates a new branch name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git branch -D name&lt;/td&gt;
+&lt;td&gt;deletes a branch name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git checkout&lt;/td&gt;
+&lt;td&gt;switching between recent commits&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git checkout file&lt;/td&gt;
+&lt;td&gt;revert file to last commit state&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git config&lt;/td&gt;
+&lt;td&gt;configuration and options git&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git config &amp;ndash;global user.name&lt;/td&gt;
+&lt;td&gt;shows username&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git config &amp;ndash;global user.name &amp;lsquo;New name&amp;rsquo;&lt;/td&gt;
+&lt;td&gt;changes username&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git config &amp;ndash;global user.email&lt;/td&gt;
+&lt;td&gt;shows the user&amp;rsquo;s email&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git config &amp;ndash;global user.email &amp;rsquo;&lt;a href=&#34;mailto:name@gmail.com&#34;&gt;name@gmail.com&lt;/a&gt;&#39;&lt;/td&gt;
+&lt;td&gt;changes the user&amp;rsquo;s email&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git push&lt;/td&gt;
+&lt;td&gt;uploading local commits to a remote repository&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git pull&lt;/td&gt;
+&lt;td&gt;downloads changes from the remote repository to the local one&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git clone&lt;/td&gt;
+&lt;td&gt;cloning a project from a remote repository&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&#39;dictionary&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Dictionary&lt;/b&gt;&lt;/h2&gt;
+&lt;h4&gt;Branch&lt;/h4&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A branch or copy of the project where you can make any changes, they will not affect the main project.&lt;/p&gt;
+&lt;h4&gt;Git&lt;/h4&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;How files and their versions are stored.&lt;/p&gt;
+&lt;h4&gt;Cloning&lt;/h4&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Copying a repository to a hard drive.&lt;/p&gt;
+&lt;h4&gt;Commit&lt;/h4&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set with changes (changed, new and added files) written to the local repository.&lt;/p&gt;
+&lt;h4&gt;Push&lt;/h4&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sending changes to the server.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

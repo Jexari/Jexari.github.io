@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System administrator | Yan L. Dolganov</title>
+    <link>https://jexari.github.io/tag/system-administrator/</link>
+      <atom:link href="https://jexari.github.io/tag/system-administrator/index.xml" rel="self" type="application/rss+xml" />
+    <description>System administrator</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2022 21:42:56 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>System administrator</title>
+      <link>https://jexari.github.io/tag/system-administrator/</link>
+    </image>
+    
+    <item>
+      <title>User management in Windows</title>
+      <link>https://jexari.github.io/post/user_management_windows/</link>
+      <pubDate>Sun, 27 Nov 2022 21:42:56 +0300</pubDate>
+      <guid>https://jexari.github.io/post/user_management_windows/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#Управление-учетными-записями-через-lusrmgrmsc&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Account management via lusrmgr.msc&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#управление-учетными-записями-через-cmd&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Account management via cmd&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Introduction&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;An account is a set of data about a user that is necessary to authenticate him and provide access to his personal data and settings. Thus, an account consists of a username and password (or other means of authentication). The password is often encrypted or hashed. An account can store a user&#39;s photo or other image, take into account the age of various statistical characteristics of the user&#39;s behavior in the system.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;It is not uncommon for several users to work on the same computer. On Linux, it is more convenient to manage users on the command line. In the Microsoft family of operating systems, this feature is also present, as is the GUI (Graphical User Interface).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Account management is one of the primary responsibilities of a system administrator. It is very convenient to combine users into groups, edit their access rights depending, for example, on their position in the company. This directly affects the security of the information system.&lt;/p&gt;
+&lt;h2 id=&#39;Управление-учетными-записями-через-lusrmgrmsc&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Account management via lusrmgr.msc&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Immediately after installing Windows, we start working with Administrator rights. These rights in the OS allow, for example, to create, modify, delete other accounts, perform any operations to configure the system.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The lusrmgr.msc snap-in is used to manage accounts (Fig. 1). We can also open it by entering the name in the &#34;Run&#34; command field, or in the internal system search.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;lusrmgr.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 1. lusrmgr.msc window&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;In order to create an account, you need to do the following:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Go to the &#34;Users&#34; folder (Fig. 2).&lt;/li&gt;
+&lt;li&gt;In the menu bar, select &#34;Action&#34;, then &#34;New User&#34;.&lt;/li&gt;
+&lt;li&gt;Be sure to fill in the &#34;User&#34; field, the rest if necessary (Fig. 3).&lt;/li&gt;&lt;/ol&gt;
+&lt;img align=&#34;middle&#34; src=&#34;users_in_os.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 2. OS users&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;user-creation.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 3. User creation&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user group is a collection of user accounts that have the same rights and security permissions. The user account must be a member of at least one user group.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Different users have different needs, the administrator can allocate the necessary permissions and prohibitions. If we have many users, then it is convenient to distribute rights not individually, but by user groups. Windows has several built-in groups: Administrators, Users, Power Users, Backup Operators, Guests, Remote Desktop Users, DHCP Administrators, DHCP Users, and WINS Users. We can also create our own group. For this:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Go to the &#34;Groups&#34; folder (Fig. 4).&lt;/li&gt;
+&lt;li&gt;In the menu bar, select &#34;Action&#34;, then &#34;Create Group&#34;.&lt;/li&gt;
+&lt;li&gt;Be sure to fill in the &#34;Group Name&#34; field, the rest if necessary (Fig. 5.1 - 5.2).&lt;/li&gt;&lt;/ol&gt;
+&lt;img align=&#34;middle&#34; src=&#34;list_os_all_users.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 4. List of all groups&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;groups_creation.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 5.1. Create a group&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_a_user_to_a_group.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 5.2. Adding users to a group&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;You can view which groups a user belongs to in the Users folder by right-clicking on the user, then selecting Properties, Group Memberships. If we go to the &#34;General&#34; tab, we can manage the user&#39;s password, and also, if necessary, disable the account (Fig. 6).&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;management_in_general.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 6. Management in the &#34;General&#34; tab&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The administrator can also set password time limits, for this you need to use the gpedit.msc snap-in. Next, go to &#34;Computer Configuration&#34;, &#34;Windows Configuration&#34;, &#34;Security Settings&#34;, &#34;Account Policy&#34;, &#34;Password Policy&#34; (Fig. 7).&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;changing_the_password_expiration_time.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 7. Changing the password expiration time&lt;/p&gt;
+&lt;h2 id=&#39;управление-учетными-записями-через-cmd&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Account management via cmd&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As mentioned earlier, we can manage accounts through the command line. To begin with, we will write the command whoami and whoami /user (Fig. 8). The first displays information about the current user, the second additionally shows the SID (security identifier). SID is a variable length data structure that identifies a user, group, domain, or computer account. The last 4 digits indicate the object&#39;s relative security identifier (RID). 3 sets of numbers before RID is just the SID.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;whoami_and_whoami_user.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 8. whoami and whoami /user&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;For further account management, we need the net user command. With it, we can:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;add an account (net user NAME PASSWORD /ADD) (Fig. 9.1);&lt;/li&gt;
+&lt;li&gt;add account password (net user NAME PASSWORD) (Fig. 9.4);&lt;/li&gt;
+&lt;li&gt;rename account (wmic useraccount where name=&#39;NAME&#39; rename ‘NEWNAME’) (Fig. 9.2);&lt;/li&gt;
+&lt;li&gt;view account information (net user NAME) (Fig. 9.3);&lt;/li&gt;
+&lt;li&gt;change account password (net user NAME NEW_PASSWORD);&lt;/li&gt;
+&lt;li&gt;disable account (net user NAME /active:no);&lt;/li&gt;
+&lt;li&gt;delete your account (net user NAME /delete) (Fig. 9.5).&lt;/li&gt;&lt;/ul&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 9.1. Adding an account&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 9.2. Adding an account&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_an_account_3.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 9.3. Adding an account&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;adding_a_password_to_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 9.4. Adding a password to an account&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;delition_an_account.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 9.5. Deleting an account&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;To work with groups, you must use the net localgroup command. For example, with it we can:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;list all local groups (net localgroup);&lt;/li&gt;
+&lt;li&gt;add local group (net localgroup GROUPNAME /add);&lt;/li&gt;
+&lt;li&gt;add existing user accounts to a group (net localgroup GROUPNAME USERNAME1 USERNAME2 /add /domain);&lt;/li&gt;
+&lt;li&gt;display a list of users in a local group (net localgroup GROUPNAME).&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Thus, having become familiar with the basics of user management in the Windows operating system, we can draw the following conclusions:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Creating an account, changing the account password, and many other actions can be performed both through various snap-ins and through the command line. In the second case, we can use, for example, the net user command. Also with group changes, they can also be done in the two ways described above.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;To ensure information security, it is necessary to sort their accounts into groups, where you can enter restrictions on their rights (for example, viewing certain folders).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

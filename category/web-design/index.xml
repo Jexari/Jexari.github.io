@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web design | Yan L. Dolganov</title>
+    <link>https://jexari.github.io/category/web-design/</link>
+      <atom:link href="https://jexari.github.io/category/web-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Web design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Nov 2022 17:47:07 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Web design</title>
+      <link>https://jexari.github.io/category/web-design/</link>
+    </image>
+    
+    <item>
+      <title>Microsoft FrontPage</title>
+      <link>https://jexari.github.io/post/frontpage/</link>
+      <pubDate>Wed, 30 Nov 2022 17:47:07 +0300</pubDate>
+      <guid>https://jexari.github.io/post/frontpage/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#general_information&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; General information&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#installation_frontpage&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Installation Frontpage&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#my_web_page&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; My Web page &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#outcome&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Conclusion &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;general_information&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. General information&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Web pages can be created in several ways - from scratch or based on some kind of template. Both of these approaches can be implemented in Microsoft FrontPage. This editor was one of the best of its time, allowing you to edit HTML code, as well as view all changes in direct view mode. This editor did not require knowledge of the basics of HTML.&lt;/p&gt;
+&lt;p&gt;Main features of the editor:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;create and save web pages&lt;/li&gt;
+&lt;li&gt;save web pages directly to the Web&lt;/li&gt;
+&lt;li&gt;view and administer web pages&lt;/li&gt;
+&lt;li&gt;create complex web page designs&lt;/li&gt;
+&lt;li&gt;use predefined HTML tags&lt;/li&gt;
+&lt;li&gt;use ready-made images from the software package, etc.&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;installation_frontpage&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Installation Frontpage&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Installation of the program is simple, available when installing Office 2003.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;installation_frontpage.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Installation Microsoft FrontPage&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;windows_menu_frontpage.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Microsoft FrontPage in Start Menu&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;frontpage_prog.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Interface FrontPage&lt;/p&gt;
+&lt;h2 id=&#39;my_web_page&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. My Web page&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I will not dwell on creating a web page in detail, since in fact we are working with the Microsoft Word interface. I will only show the final web page.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;my_web_page.jpg&#34;&gt;
+&lt;h2 id=&#39;outcome&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Obviously, it is impossible to create a site with a modern design on a program for Windows XP, but despite this, some sites written in FrontPage still work. The Microsoft Frontpage was replaced by Microsoft Expression Web and Microsoft SharePoint Designer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

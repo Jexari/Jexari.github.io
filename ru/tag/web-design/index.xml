@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web design | Ян Долганов</title>
+    <link>https://jexari.github.io/ru/tag/web-design/</link>
+      <atom:link href="https://jexari.github.io/ru/tag/web-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Web design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Wed, 30 Nov 2022 17:47:07 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Web design</title>
+      <link>https://jexari.github.io/ru/tag/web-design/</link>
+    </image>
+    
+    <item>
+      <title>Microsoft FrontPage</title>
+      <link>https://jexari.github.io/ru/post/frontpage/</link>
+      <pubDate>Wed, 30 Nov 2022 17:47:07 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/frontpage/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#general_information&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Общая информация&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#installation_frontpage&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Установка Frontpage&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#my_web_page&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Моя Web-страница &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#outcome&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Вывод &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;general_information&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Общая информация&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Web-страницы можно создавать несколькими способами - с нуля или на основе какого-то шаблона. Оба эти подхода можно реализовать в Microsoft FrontPage. Данный редактор был одним из лучших в свое время, позволял редактировать код HTML, а также просматривать все изменения в режиме непосредственного просмотра. Данный редактор не требовал знаний основ HTML.&lt;/p&gt;
+&lt;p&gt;Основные возможности редактора:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;создавать и сохранять web-страницы&lt;/li&gt;
+&lt;li&gt;сохранять web-страницы непосредственно в Web&lt;/li&gt;
+&lt;li&gt;просматривать и администрировать web-страницы&lt;/li&gt;
+&lt;li&gt;создавать сложный дизайн web-страниц&lt;/li&gt;
+&lt;li&gt;использовать готовые теги HTML&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;использовать готовые изображения из комплекта поставки программы и др.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;installation_frontpage&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Установка Frontpage&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Установка программы несложная, доступна при установке Office 2003.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;installation_frontpage.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Установка Microsoft FrontPage&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;windows_menu_frontpage.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Microsoft FrontPage в меню пуск&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;frontpage_prog.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Интерфейс FrontPage&lt;/p&gt;
+&lt;h2 id=&#39;my_web_page&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Моя Web-страница&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Останавливаться подробно на создании web-страницы я не буду, так как по сути мы работаем с интерфейсом Microsoft Word. Покажу только итоговую web-страницу.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;my_web_page.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Web-страница&lt;/p&gt;
+&lt;h2 id=&#39;outcome&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Вывод&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Очевидно, что создавать сайт с современным дизайном на программе для Windows XP - невозможно, но несмотря на это некоторые сайты, написанные на FrontPage, работают и сейчас. Заменой Microsoft Frontpage стали Microsoft Expression Web и Microsoft SharePoint Designer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

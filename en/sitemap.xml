@@ -34,7 +34,27 @@
       href="https://jexari.github.io/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/categories/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/categories/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/frontpage/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/frontpage/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/frontpage/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/"
@@ -42,6 +62,66 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/web-design/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/web-design/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/web-design/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/web-design/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/web-design/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/web-design/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/windows-xp/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/windows-xp/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/windows-xp/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/system-administrator/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/system-administrator/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/system-administrator/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/system-administrator/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/system-administrator/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/system-administrator/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/user_management_windows/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -54,94 +134,14 @@
       href="https://jexari.github.io/post/user_management_windows/"
     /></url>
   <url>
-    <loc></loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/tag/windows/</loc><lastmod>2022-11-27T21:42:56+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href=""
+      href="https://jexari.github.io/ru/tag/windows/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/extra-education/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/extra-education/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/extra-education/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/latex/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/latex/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/latex/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/my-pastime-in-summer/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/my-pastime-in-summer/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/my-pastime-in-summer/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/software-testing/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/software-testing/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/software-testing/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2022-06-17T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2022-06-01T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/python/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/python/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/python/</loc><lastmod>2022-06-01T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/python/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/python/"
+      href="https://jexari.github.io/tag/windows/"
     /></url>
   <url>
     <loc>https://jexari.github.io/project/my-project/</loc><lastmod>2022-05-28T23:10:53+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -164,6 +164,26 @@
       href="https://jexari.github.io/project/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/tag/git/</loc><lastmod>2022-05-07T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/git/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/git/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/git/</loc><lastmod>2022-05-07T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/git/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/git/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/post/git/</loc><lastmod>2022-05-07T18:44:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -172,86 +192,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/git/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/academic/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/academic/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/categories/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/categories/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/category/demo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/category/demo/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/getting-started/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/getting-started/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/%E5%BC%80%E6%BA%90/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/%E5%BC%80%E6%BA%90/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/category/%E6%95%99%E7%A8%8B/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/category/%E6%95%99%E7%A8%8B/"
     /></url>
   <url>
     <loc>https://jexari.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -294,6 +234,16 @@
       href="https://jexari.github.io/project/example/"
     /></url>
   <url>
+    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
     <loc>https://jexari.github.io/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -332,6 +282,16 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/publication/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
     /></url>
   <url>
     <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
