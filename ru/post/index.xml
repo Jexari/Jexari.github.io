@@ -5,12 +5,35 @@
     <link>https://jexari.github.io/ru/post/</link>
       <atom:link href="https://jexari.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Wed, 30 Nov 2022 17:47:07 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 01 Dec 2022 22:21:10 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jexari.github.io/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Словари в Python</title>
+      <link>https://jexari.github.io/ru/post/dictionaries_in_python/</link>
+      <pubDate>Thu, 01 Dec 2022 22:21:10 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/dictionaries_in_python/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В этой записи речь пойдет о таком типе данных, как словарь. Что это такое? Словарь - это структура данных, в которой информация храниться в виде «ключ — значение». Здесь я расскажу, как получить доступ к информации, хранящейся в словаре, и как редактировать эту информацию, расскажу об основных методах словарей и как их использовать.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Создадим 2 словаря, в одном хранится информация об оценках учеников, в другом список учащихся, кто ест в столовой (рис.1.1). Словарь прописывается в фигурных скобках. Он может как содержать изначальные данные (&lt;i&gt;students_marks&lt;/i&gt;), так и быть пустым (&lt;i&gt;student_who_eat_in_dining_room&lt;/i&gt;).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Как говорилось ранее, вся информация в словарях хранится в формате «ключ — значение». Если нам необходимо получить значение присвоенное определенному ключу, то мы можем сделать это напрямую или через метод &lt;i&gt;get()&lt;/i&gt;. В случае, если ключ введенный нами отсутствует, то метод &lt;i&gt;get()&lt;/i&gt; вернет нам &lt;i&gt;None&lt;/i&gt;, а вот обращение без него выдаст ошибку. Это важно учитывать при создании проектов, где точно не известно, есть ли ключ с таким именем в словаре.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Мы также можем добавлять новые ключи и значения, а также изменять значения уже имеющиеся в словаре. Все действия, описанные выше, и их результат можно увидеть на рис. 1.1-1.2. &lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;1_1.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 1.1. Листинг программы 1&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;1_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 1.2. Вывод программы 1&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Рассмотрим два других метода, а именно &lt;i&gt;keys()&lt;/i&gt; и &lt;i&gt;values()&lt;/i&gt;. Первый возвращает нам все ключи в словаре, второй все значения, типа &lt;i&gt;dict_keys&lt;/i&gt; и &lt;i&gt;dict_values&lt;/i&gt; соответственно. Если нам необходимо удалить пару из словаря возпользуемся &lt;i&gt;del&lt;/i&gt; или &lt;i&gt;pop ()&lt;/i&gt;. Для вывода всех пар «ключ — значение» нужен метод &lt;i&gt;items()&lt;/i&gt;.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;2_1.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 2.1. Листинг программы 2&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Рис. 2.2. Вывод программы 2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Для просмотра этих и иных программ на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Microsoft FrontPage</title>

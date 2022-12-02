@@ -33,6 +33,29 @@
     </item>
     
     <item>
+      <title>Dictionaries in Python</title>
+      <link>https://jexari.github.io/post/dictionaries_in_python/</link>
+      <pubDate>Thu, 01 Dec 2022 22:21:10 +0300</pubDate>
+      <guid>https://jexari.github.io/post/dictionaries_in_python/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In this entry, we will talk about such a data type as a dictionary. What it is? A dictionary is a data structure in which information is stored in a key-value format. Here I will explain how to access the information stored in a dictionary and how to edit this information, talk about the main methods of dictionaries and how to use them.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Let&#39;s create 2 dictionaries, one stores information about students&#39; grades, the other contains a list of students who eat in the canteen (Fig. 1.1). The dictionary is written in curly brackets. It can either contain initial data (&lt;i&gt;students_marks&lt;/i&gt;) or be empty (&lt;i&gt;student_who_eat_in_dining_room&lt;/i&gt;).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As mentioned earlier, all information in dictionaries is stored in the key-value format. If we need to get the value assigned to a particular key, we can do it directly or through the &lt;i&gt;get()&lt;/i&gt; method. If the key we entered is missing, then the &lt;i&gt;get()&lt;/i&gt; method will return &lt;i&gt;None&lt;/i&gt;, but the call without it will give an error. This is important to consider when creating projects where it is not known for sure whether a key with the same name exists in the dictionary.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;We can also add new keys and values, as well as change the values already in the dictionary. All the actions described above and their result can be seen in Fig. 1.1-1.2.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;1_1.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 1.1. Program listing 1&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;1_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 1.2. Program output 1&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Consider two other methods, namely &lt;i&gt;keys()&lt;/i&gt; and &lt;i&gt;values()&lt;/i&gt;. The first returns us all the keys in the dictionary, the second returns all the values, such as &lt;i&gt;dict_keys&lt;/i&gt; and &lt;i&gt;dict_values&lt;/i&gt; respectively. If we need to remove a pair from a dictionary, we can use &lt;i&gt;del&lt;/i&gt; or &lt;i&gt;pop ()&lt;/i&gt;. To display all key-value pairs, you need the &lt;i&gt;items()&lt;/i&gt; method.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;2_1.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 2.1. Program listing 2&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Figure. 2.2. Program output 2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;To view these and other Python programs, you can visit &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Microsoft FrontPage</title>
       <link>https://jexari.github.io/post/frontpage/</link>
       <pubDate>Wed, 30 Nov 2022 17:47:07 +0300</pubDate>
