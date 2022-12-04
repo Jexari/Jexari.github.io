@@ -5,12 +5,51 @@
     <link>https://jexari.github.io/tag/python/</link>
       <atom:link href="https://jexari.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 22:21:10 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2022 23:11:14 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://jexari.github.io/tag/python/</link>
     </image>
+    
+    <item>
+      <title>Kaufmann&#39;s NK-automaton</title>
+      <link>https://jexari.github.io/post/the_kaufmann_automaton/</link>
+      <pubDate>Sun, 04 Dec 2022 23:11:14 +0300</pubDate>
+      <guid>https://jexari.github.io/post/the_kaufmann_automaton/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#about_the_kaufmann_automaton&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; What is a Kaufmann&#39;s automaton and how does it work?&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#problem&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; The task formulation&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#solution&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; The solution of the problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;about_the_kaufmann_automaton&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. What is a Kaufmann&#39;s automaton and how does it work?&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The NK-automaton is a network of N Boolean logical elements. Each logic element has K inputs and one output. The signals at the inputs and outputs of the elements are binary (they take the values 0 or 1). The outputs of some elements go to the inputs of others, these connections are absolutely random, but the number of inputs K of each element is static. The logical elements are also chosen randomly.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Automaton are autonomous (there are no external inputs). The number of logical elements included in the automaton is assumed to be large, N&gt;1. The automaton functions in discrete time: t = 1,2,3,… The state of the automaton at each moment of time t is determined by the vector X(t) – the totality of the output signals of all logic elements.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In the process of functioning, the sequence of states converges to an attractor - a limit cycle. The sequence of states X(t) in this attractor can be considered as a “program” for the functioning of the automaton.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The number of attractors M and the typical attractor length L are important characteristics of NK-automaton.&lt;/p&gt;
+&lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The task formulation&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;set n=4, к=2&lt;/li&gt;
+&lt;li&gt;set initial vector (e.g. int v0[] = {1, 1, 0, 1, 0, 0})
+&lt;li&gt;set a matrix of connections, for example:
+&lt;p&gt;int n[1] = {0, 1, 0, 1, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[2] = {1, 0, 1, 0, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[3] = {0, 1, 0, 1, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[4] = {1, 0, 0, 0, 0, 1};&lt;/p&gt;
+&lt;p&gt;int n[5] = {0, 0, 0, 0, 1, 1};&lt;/p&gt;
+&lt;p&gt;int n[6] = {0, 0, 1, 0, 1, 0}; &lt;/li&gt;&lt;/p&gt;
+&lt;li&gt;It is also necessary to describe the logical elements.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;number of different attractors.&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
+For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;. 
+</description>
+    </item>
     
     <item>
       <title>Dictionaries in Python</title>

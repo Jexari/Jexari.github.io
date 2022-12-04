@@ -34,6 +34,46 @@
       href="https://jexari.github.io/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/post/the_kaufmann_automaton/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/the_kaufmann_automaton/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/the_kaufmann_automaton/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/python/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/categories/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -54,26 +94,6 @@
       href="https://jexari.github.io/post/dictionaries_in_python/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/python/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/python/"
-    /></url>
-  <url>
     <loc>https://jexari.github.io/category/python/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -82,16 +102,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/category/python/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/frontpage/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link

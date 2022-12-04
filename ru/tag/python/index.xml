@@ -5,12 +5,51 @@
     <link>https://jexari.github.io/ru/tag/python/</link>
       <atom:link href="https://jexari.github.io/ru/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 01 Dec 2022 22:21:10 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 04 Dec 2022 23:11:14 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://jexari.github.io/ru/tag/python/</link>
     </image>
+    
+    <item>
+      <title>NK-автоматы С. Кауффмана</title>
+      <link>https://jexari.github.io/ru/post/the_kaufmann_automaton/</link>
+      <pubDate>Sun, 04 Dec 2022 23:11:14 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/the_kaufmann_automaton/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#about_the_kaufmann_automaton&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Что такое автомат Кауффмана и как он работает?&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#problem&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Формулировка задачи&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#solution&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Решение &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;about_the_kaufmann_automaton&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Что такое автомат Кауффмана и как он работает?&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NK-автомат является сетью из N булевых логических элементов. Каждый логический элемент имеет K входов и один выход. Сигналы на входах и выходах элементов бинарны (принимают значения 0 либо 1). Выходы одних элементов поступают на входы других, эти связи абсолютно случайны, но число входов K каждого элемента статично. Логические же элементы также выбираются случайно.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Автоматы автономны (внешние входы отсутствуют). Число логических элементов, входящих в автомат, предполагается большим, N&gt;1. Автомат функционирует в дискретном времени: t = 1,2,3,… Состояние автомата в каждый момент времени t определяется вектором X(t) – совокупностью выходных сигналов всех логических элементов.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;В процессе функционирования последовательность состояний сходится к аттрактору – предельному циклу. Последовательность состояний X(t) в этом аттракторе может рассматриваться как “программа” функционирования автомата.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Число аттракторов M и типичная длина аттрактора L – важные характеристики NK-автоматов.&lt;/p&gt;
+&lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Формулировка задачи&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Входные данные:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;задать n=4, к=2&lt;/li&gt;
+&lt;li&gt;задать начальный вектор (напр. int v0[] = {1, 1, 0, 1, 0, 0})
+&lt;li&gt;задать матрицу связей, например:
+&lt;p&gt;int n[1] = {0, 1, 0, 1, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[2] = {1, 0, 1, 0, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[3] = {0, 1, 0, 1, 0, 0};&lt;/p&gt;
+&lt;p&gt;int n[4] = {1, 0, 0, 0, 0, 1};&lt;/p&gt;
+&lt;p&gt;int n[5] = {0, 0, 0, 0, 1, 1};&lt;/p&gt;
+&lt;p&gt;int n[6] = {0, 0, 1, 0, 1, 0}; &lt;/li&gt;&lt;/p&gt;
+&lt;li&gt;Также необходимо описать логические элементы.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Выходные данные:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;количество различных аттракторов.&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Решение&lt;/b&gt;&lt;/h2&gt;
+Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;. 
+</description>
+    </item>
     
     <item>
       <title>Словари в Python</title>
