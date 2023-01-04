@@ -5,12 +5,81 @@
     <link>https://jexari.github.io/tag/python/</link>
       <atom:link href="https://jexari.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2022 23:11:14 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Dec 2022 13:08:49 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://jexari.github.io/tag/python/</link>
     </image>
+    
+    <item>
+      <title>15 Puzzle</title>
+      <link>https://jexari.github.io/post/tags_game/</link>
+      <pubDate>Mon, 05 Dec 2022 13:08:49 +0300</pubDate>
+      <guid>https://jexari.github.io/post/tags_game/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#игра_в_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; 15 puzzle&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#формулировка_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; The mathematics of permutations&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#формулировка_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Task Formulation&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#решение_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; The solution of the problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;игра_в_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. 15 puzzle&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;In 1878, Noah Chapman invented the game of 15 puzzle. The puzzle consists of 15 identical square tiles in a square box. Each such element is numbered. The box has a size of 4x4 tiles (1 square remains empty). There may also be other variations of this game 3x3, 5x5 and others. The goal of the game is simple - arrange the tiles in ascending order by moving them inside the box.&lt;/p&gt;
+&lt;h2 id=&#39;математика_перестановок&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The mathematics of permutations&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;The number of possible initial positions of the game is n!&lt;/p&gt;
+&lt;style&gt;
+    .heatMap {
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    td, th {
+    	border: 1px solid black;
+    }
+    .heatMap td:nth-child(1) { background: #98FB98; }
+    .heatMap td:nth-child(2) { background: #B0E0E6; }
+&lt;/style&gt;
+&lt;div class=&#34;heatMap&#34; style=&#34;text-align: center;&#34;&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Size&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;The number of initial positions&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2x2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2x4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40 320&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3x3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;362 880&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;p align=&#34;justify&#34;&gt;In exactly half of all possible initial positions of the 15 puzzle, it is impossible to bring them to an assembled form. &lt;a href=&#34;https://mathworld.wolfram.com/15Puzzle.html&#34; target = &#34;_blank&#34;&gt;Read more here.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#39;формулировка_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Given 2 matrices: initial and final. Implement a solution to the problem (performing &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;a depth-first search&lt;/a&gt;), applying &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;heuristic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#39;решение_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
+For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;. 
+</description>
+    </item>
     
     <item>
       <title>Kaufmann&#39;s NK-automaton</title>

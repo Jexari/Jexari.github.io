@@ -5,12 +5,81 @@
     <link>https://jexari.github.io/ru/post/</link>
       <atom:link href="https://jexari.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 04 Dec 2022 23:11:14 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 05 Dec 2022 13:08:49 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jexari.github.io/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Пятнашки</title>
+      <link>https://jexari.github.io/ru/post/tags_game/</link>
+      <pubDate>Mon, 05 Dec 2022 13:08:49 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/tags_game/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#игра_в_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Игра в 15&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#формулировка_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Математика перестановок&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#формулировка_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Формулировка задачи&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#решение_задачи_15&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Решение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;игра_в_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Игра в 15&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;В 1878 году Ноем Чепмэном была придумана игра пятнашки (такен). Головоломка состоит из 15 одинаковых квадратных костяшек, лежащих в квадратной коробке. Каждый такой элемент пронумерован. Коробка же имеет размер 4x4 костяшек (1 квадратик остается пустым). Также могут встречаться и другие вариации этой игры 3x3, 5x5 и другие. Цель игры проста - расположить костяшки по возрастанию номеров, двигая их внутри коробки.&lt;/p&gt;
+&lt;h2 id=&#39;математика_перестановок&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Математика перестановок&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Количество возможных начальных положений пятнашек равно n!&lt;/p&gt;
+&lt;style&gt;
+    .heatMap {
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    td, th {
+    	border: 1px solid black;
+    }
+    .heatMap td:nth-child(1) { background: #98FB98; }
+    .heatMap td:nth-child(2) { background: #B0E0E6; }
+&lt;/style&gt;
+&lt;div class=&#34;heatMap&#34; style=&#34;text-align: center;&#34;&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Размер&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Число начальных положений&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2x2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2x4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40 320&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3x3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;362 880&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;p align=&#34;justify&#34;&gt;Ровно в половине из всех возможных начальных положений пятнашек невозможно привести к собранному виду. &lt;a href=&#34;https://mathworld.wolfram.com/15Puzzle.html&#34; target = &#34;_blank&#34;&gt;Подробнее здесь.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#39;формулировка_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Формулировка задачи&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Дано 2 матрицы: изначальная и конечная. Реализовать решение задачи (осуществляя &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;поиск в глубину&lt;/a&gt;), применяя &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;эвристику&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#39;решение_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Решение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NK-автоматы С. Кауффмана</title>
@@ -47,7 +116,7 @@
 &lt;p&gt;Выходные данные:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;количество различных аттракторов.&lt;/li&gt;&lt;/ul&gt;
 &lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Решение&lt;/b&gt;&lt;/h2&gt;
-Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;. 
+&lt;p align=&#34;justify&#34;&gt;Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -34,17 +34,7 @@
       href="https://jexari.github.io/ru/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/post/the_kaufmann_automaton/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/the_kaufmann_automaton/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/the_kaufmann_automaton/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/"
@@ -54,7 +44,7 @@
       href="https://jexari.github.io/ru/post/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/tag/python/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/tag/python/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tag/python/"
@@ -64,7 +54,7 @@
       href="https://jexari.github.io/ru/tag/python/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tags/"
@@ -72,6 +62,26 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/tags_game/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/tags_game/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/tags_game/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/the_kaufmann_automaton/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/the_kaufmann_automaton/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/the_kaufmann_automaton/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
