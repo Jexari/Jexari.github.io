@@ -64,12 +64,12 @@
   
     
   
-  <meta name="description" content="The task of creating the Kaufmann&#39;s automaton (Python)." />
+  <meta name="description" content="The task of recognizing the letters O, C, X (Python)." />
 
   
-    <link rel="alternate" hreflang="ru" href="https://jexari.github.io/ru/post/the_kaufmann_automaton/" />
+    <link rel="alternate" hreflang="ru" href="https://jexari.github.io/ru/post/recognition/" />
   
-  <link rel="alternate" hreflang="en-us" href="https://jexari.github.io/post/the_kaufmann_automaton/" />
+  <link rel="alternate" hreflang="en-us" href="https://jexari.github.io/post/recognition/" />
 
   
   
@@ -284,7 +284,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://jexari.github.io/post/the_kaufmann_automaton/" />
+  <link rel="canonical" href="https://jexari.github.io/post/recognition/" />
 
   
   
@@ -310,18 +310,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Ian L. Dolganov" />
-  <meta property="og:url" content="https://jexari.github.io/post/the_kaufmann_automaton/" />
-  <meta property="og:title" content="Kaufmann&#39;s NK-automaton | Ian L. Dolganov" />
-  <meta property="og:description" content="The task of creating the Kaufmann&#39;s automaton (Python)." /><meta property="og:image" content="https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://jexari.github.io/post/recognition/" />
+  <meta property="og:title" content="Pattern recognition | Ian L. Dolganov" />
+  <meta property="og:description" content="The task of recognizing the letters O, C, X (Python)." /><meta property="og:image" content="https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-12-04T23:11:14&#43;03:00"
+        content="2023-02-17T18:14:49&#43;03:00"
       />
     
-    <meta property="article:modified_time" content="2022-12-04T23:11:14&#43;03:00">
+    <meta property="article:modified_time" content="2023-02-17T18:14:49&#43;03:00">
   
 
   
@@ -345,12 +345,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jexari.github.io/post/the_kaufmann_automaton/"
+    "@id": "https://jexari.github.io/post/recognition/"
   },
-  "headline": "Kaufmann's NK-automaton",
+  "headline": "Pattern recognition",
   
-  "datePublished": "2022-12-04T23:11:14+03:00",
-  "dateModified": "2022-12-04T23:11:14+03:00",
+  "datePublished": "2023-02-17T18:14:49+03:00",
+  "dateModified": "2023-02-17T18:14:49+03:00",
   
   "author": {
     "@type": "Person",
@@ -365,7 +365,7 @@
       "url": "https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The task of creating the Kaufmann's automaton (Python)."
+  "description": "The task of recognizing the letters O, C, X (Python)."
 }
 </script>
 
@@ -381,11 +381,11 @@
 
 
 
-  <title>Kaufmann&#39;s NK-automaton | Ian L. Dolganov</title>
+  <title>Pattern recognition | Ian L. Dolganov</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8bf6f827a7eae476bd2612cbea9e7351" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b231fea8e6178dfde092f80024223cd2" >
 
   
   
@@ -796,7 +796,7 @@
               <span>English</span>
             </div>
             
-            <a class="dropdown-item" href="https://jexari.github.io/ru/post/the_kaufmann_automaton/">
+            <a class="dropdown-item" href="https://jexari.github.io/ru/post/recognition/">
               <span>Русский</span>
             </a>
             
@@ -839,7 +839,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Kaufmann&#39;s NK-automaton</h1>
+  <h1>Pattern recognition</h1>
 
   
 
@@ -858,7 +858,7 @@
     
       
     
-    Dec 4, 2022
+    Feb 17, 2023
   </span>
   
 
@@ -867,7 +867,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    1 min read
   </span>
   
 
@@ -899,33 +899,15 @@
 <summary class="font-weight-bold">Content</summary>
 <nav id="TableOfContents" class="nav flex-column">
 <ul>
-<li class="nav-item"><a href="#about_the_kaufmann_automaton" class="nav-link"><span class="section-num">1</span> What is a Kaufmann's automaton and how does it work?</a></li>
-<li class="nav-item"><a href="#problem" class="nav-link"><span class="section-num">2</span> The task formulation</a></li>
-<li class="nav-item"><a href="#solution" class="nav-link"><span class="section-num">3</span> The solution of the problem</a></li>
+<li class="nav-item"><a href="#problem" class="nav-link"><span class="section-num">1</span> Task Formulation</a></li>
+<li class="nav-item"><a href="#solution" class="nav-link"><span class="section-num">2</span> The solution of the problem </a></li>
 </ul>
 </nav>
 </details>
-<h2 id='about_the_kaufmann_automaton'><span class="section-num"><b>1</span>. What is a Kaufmann's automaton and how does it work?</b></h2>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The NK-automaton is a network of N Boolean logical elements. Each logic element has K inputs and one output. The signals at the inputs and outputs of the elements are binary (they take the values 0 or 1). The outputs of some elements go to the inputs of others, these connections are absolutely random, but the number of inputs K of each element is static. The logical elements are also chosen randomly.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automaton are autonomous (there are no external inputs). The number of logical elements included in the automaton is assumed to be large, N>1. The automaton functions in discrete time: t = 1,2,3,… The state of the automaton at each moment of time t is determined by the vector X(t) – the totality of the output signals of all logic elements.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the process of functioning, the sequence of states converges to an attractor - a limit cycle. The sequence of states X(t) in this attractor can be considered as a “program” for the functioning of the automaton.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of attractors M and the typical attractor length L are important characteristics of NK-automaton.</p>
-<h2 id='problem'><span class="section-num"><b>2</span>. The task formulation</b></h2>
-<p>Input:</p>
-<ul><li>set n=4, к=2</li>
-<li>set initial vector (e.g. int v0[] = {1, 1, 0, 1, 0, 0})
-<li>set a matrix of connections, for example:
-<p>int n[1] = {0, 1, 0, 1, 0, 0};</p>
-<p>int n[2] = {1, 0, 1, 0, 0, 0};</p>
-<p>int n[3] = {0, 1, 0, 1, 0, 0};</p>
-<p>int n[4] = {1, 0, 0, 0, 0, 1};</p>
-<p>int n[5] = {0, 0, 0, 0, 1, 1};</p>
-<p>int n[6] = {0, 0, 1, 0, 1, 0}; </li></p>
-<li>It is also necessary to describe the logical elements.</li></ul>
-<p>Output:</p>
-<ul><li>number of different attractors.</li></ul>
-<h2 id='solution'><span class="section-num"><b>3</span>. The solution of the problem</b></h2>
-For a Python solution, you can visit <a href="https://github.com/Jexari/intelligent-systems" target = "_blank">my repository</a>. 
+<h2 id='problem'><span class="section-num"><b>1</span>. Task Formulation</b></h2>
+<p>The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.</p>
+<h2 id='solution'><span class="section-num"><b>2</span>. The solution of the problem</b></h2>
+<p align="justify">For a Python solution, you can visit <a href="https://github.com/Jexari/intelligent-systems" target = "_blank">my repository</a>.</p>
 
     </div>
 
@@ -953,7 +935,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/post/the_kaufmann_automaton/&amp;text=Kaufmann&amp;#39;s%20NK-automaton" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/post/recognition/&amp;text=Pattern%20recognition" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -966,7 +948,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/post/the_kaufmann_automaton/&amp;t=Kaufmann&amp;#39;s%20NK-automaton" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/post/recognition/&amp;t=Pattern%20recognition" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -979,7 +961,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="mailto:?subject=Kaufmann&amp;#39;s%20NK-automaton&amp;body=https://jexari.github.io/post/the_kaufmann_automaton/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Pattern%20recognition&amp;body=https://jexari.github.io/post/recognition/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -992,7 +974,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/post/the_kaufmann_automaton/&amp;title=Kaufmann&amp;#39;s%20NK-automaton" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/post/recognition/&amp;title=Pattern%20recognition" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1005,7 +987,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="whatsapp://send?text=Kaufmann&amp;#39;s%20NK-automaton%20https://jexari.github.io/post/the_kaufmann_automaton/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Pattern%20recognition%20https://jexari.github.io/post/recognition/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1018,7 +1000,7 @@ For a Python solution, you can visit <a href="https://github.com/Jexari/intellig
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/post/the_kaufmann_automaton/&amp;title=Kaufmann&amp;#39;s%20NK-automaton" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/post/recognition/&amp;title=Pattern%20recognition" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

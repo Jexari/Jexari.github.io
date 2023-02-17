@@ -14,16 +14,6 @@
       href="https://jexari.github.io/talk/example-talk/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/event/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/event/"
-    /></url>
-  <url>
     <loc>https://jexari.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -34,17 +24,27 @@
       href="https://jexari.github.io/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/post/tags_game/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://jexari.github.io/ru/post/tags_game/"
+      href="https://jexari.github.io/ru/event/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://jexari.github.io/post/tags_game/"
+      href="https://jexari.github.io/event/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/post/recognition/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/recognition/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/recognition/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/"
@@ -54,7 +54,7 @@
       href="https://jexari.github.io/post/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/tag/python/"
@@ -64,7 +64,7 @@
       href="https://jexari.github.io/tag/python/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/tags/"
@@ -72,6 +72,16 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/tags_game/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/tags_game/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/tags_game/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/the_kaufmann_automaton/</loc><lastmod>2022-12-04T23:11:14+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -314,6 +324,16 @@
       href="https://jexari.github.io/publication/example/"
     /></url>
   <url>
+    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
     <loc>https://jexari.github.io/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -332,16 +352,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/publication/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
     /></url>
   <url>
     <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link

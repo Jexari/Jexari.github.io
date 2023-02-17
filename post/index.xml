@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Yan L. Dolganov</title>
+    <title>Posts | Ian L. Dolganov</title>
     <link>https://jexari.github.io/post/</link>
       <atom:link href="https://jexari.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Dec 2022 13:08:49 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Feb 2023 18:14:49 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jexari.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Pattern recognition</title>
+      <link>https://jexari.github.io/post/recognition/</link>
+      <pubDate>Fri, 17 Feb 2023 18:14:49 +0300</pubDate>
+      <guid>https://jexari.github.io/post/recognition/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#problem&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Task Formulation&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#solution&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; The solution of the problem &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.&lt;/p&gt;
+&lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>15 Puzzle</title>
