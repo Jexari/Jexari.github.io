@@ -5,12 +5,78 @@
     <link>https://jexari.github.io/post/</link>
       <atom:link href="https://jexari.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Feb 2023 18:14:49 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Feb 2023 20:38:19 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jexari.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Monetization in games</title>
+      <link>https://jexari.github.io/post/monetization_of_games/</link>
+      <pubDate>Sat, 25 Feb 2023 20:38:19 +0300</pubDate>
+      <guid>https://jexari.github.io/post/monetization_of_games/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#methods_of_monetization&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Methods of monetization&lt;/a&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#inapp_purchases&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; In-app purchases &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#advertising&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Advertising&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#subscription&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Subscription system&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#preorder&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Pre-order and crowdfunding&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#marketplaces&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Marketplaces &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#premium_games&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;6&lt;/span&gt; Premium games &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#types_of_players&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Types of players&lt;/a&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#social_proof&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Social proof &lt;/a&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#choice_paralysis&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Choice paralysis &lt;/a&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;6&lt;/span&gt; Conclusion&lt;/a&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;b&gt;1. Introduction&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Game development has always been a rather time-consuming and expensive process. In our world, enthusiasm can infect a team only at the initial stage of the project (and even then not always), then financial injections into the project will be needed. Here we are faced with monetization. Monetization is a type of process that a video game publisher can use to generate revenue from a video game product. Its competent study will allow not only to recoup the invested funds, but also to profit from the project.&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;1.jpg&#34;&gt;
+&lt;p align=&#34;justify&#34;&gt;The pattern in the picture above is quite simple, you release a game, then pay for it and get some income that you invest in the company and prepare a new game. This is the cycle without which the work of any project is impossible.&lt;/p&gt;
+&lt;h2 id=&#39;methods_of_monetization&#39;&gt;&lt;b&gt;2. Methods of monetization&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Here we come to the issue of making money on video games. Mankind has come up with many ways to make money on the development of dopamine in players. One of the first can be considered a fee for arcade machines. Quite a lot of time has passed since then, gaming halls are a thing of the past and almost every home has its own computer or other device that can run games. The methods of monetization have also evolved, here are the main ones:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p id=&#39;inapp_purchases&#39;&gt;In-app purchases&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Usually, when using this type, the in-game store has additional products that the user buys at will.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p id=&#39;advertising&#39;&gt;Advertising&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The most obvious form of monetization is in-game advertising. This is a great way to make money, but it&#39;s worth noting that users who pay money expect ad-free access. There are several main types of advertising content in games: banner ads (a static banner in part of the screen), full-screen ads (text-graphic ads that cover the background of the game), video ads, game ads (a mini-game in which you can perform primitive actions).&lt;/p&gt; 
+&lt;p align=&#34;justify&#34;&gt;What to choose? It primarily depends on the type of game. For example, in shooters, it is better to forego full-screen ads and banner ads and choose video ads that will open between game sessions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p id=&#39;subscription&#39;&gt;Subscription system&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The user pays a certain amount once a month / year and gets access to the game for this period. Works well with trial access to the game. During this time, the user will feel the possibilities of the game.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Pros: profit is predictable and stable.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Cons: it is necessary to constantly maintain and update the content, to maintain its uniqueness.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p id=&#39;preorder&#39;&gt;Pre-order and crowdfunding&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;If developers make games for fun, then you can support them through voluntary donations. As a result, we get a product that has no ads, no micropayments.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p id=&#39;marketplaces&#39;&gt;Marketplaces&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Typically, income comes as a percentage of sales of in-game items between users. Works great if the audience of the game is large and the game has a lot of things to exchange.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p id=&#39;premium_games&#39;&gt;Premium games&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Perhaps the oldest type of monetization, but still quite popular. The scheme is simple: the user pays money and receives the product. This type is most often used by large brands, as their name guarantees quality. Sooner or later, a successful paid game will be copied and released for a more affordable price.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Sometimes these games may also combine additional in-game purchases or payment for separate content that is not included in the price of the game itself.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#39;types_of_players&#39;&gt;&lt;b&gt;3. Types of players&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;If the user can deposit money in the game, then it will be useful for us to get acquainted with the types of such payers. Traditionally, there are 3 types of players according to the size of donations: fry or minnows (pay small amounts), dolphins (pay more) and whales (pay huge amounts). In 2015, there was a &lt;a href=&#34;https://www.gamesindustry.biz/its-all-about-the-players&#34; target = &#34;_blank&#34;&gt;research&lt;/a&gt; on this topic. It was revealed that half of all donators are fry, 40% are dolphins, and 10% are whales. And here we see that these 10% of whales provide 80% of all income. And that half of the fry at the exit gives 1% of the total profit. From this we can conclude that our task is to use our tools to make fry into dolphins, dolphins into whales, and keep the whales, because in fact it is the whales that generate income from the game.&lt;/p&gt; 
+&lt;img align=&#34;middle&#34; src=&#34;3.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Distribution of users by groups&lt;/p&gt;
+&lt;img align=&#34;middle&#34; src=&#34;4.jpg&#34;&gt;
+&lt;p align=&#34;middle&#34;&gt;Percentage of income from each group&lt;/p&gt;
+&lt;h2 id=&#39;social_proof&#39;&gt;&lt;b&gt;4. Social proof&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Social proof is one of the triggers in marketing that encourages the player to make purchases based on the opinions of others. One example of this technique can be called reviews about the game. It is more pleasant for the user to see when choosing a game not 4, but 5 stars. Or, for example, a notification about the purchase of in-game content by someone. It is not necessary that users know each other, they can be in the same clan or even just in the general chat of the game.&lt;/p&gt;
+&lt;h2 id=&#39;choice_paralysis&#39;&gt;&lt;b&gt;5. Choice paralysis&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Choice paralysis is the inability of a person to choose one offer from many. That is, if there are 25 products in the game store, then it will be more difficult for the user to choose something than when choosing from 5. Why is this happening? The point is that the player feels the risk of losing something. After all, he wants to choose the best at the moment. And in these conditions, many prefer to abandon the choice altogether. This should be taken into account when developing an in-game store.&lt;/p&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;b&gt;6. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Competent monetization can not only pay off the project, but also bring significant income to your company. It is important to carefully study the market before the final choice of how to make a profit.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pattern recognition</title>
@@ -27,7 +93,7 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.&lt;/p&gt;
 &lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -96,7 +162,7 @@
 &lt;/div&gt;
 &lt;p align=&#34;justify&#34;&gt;In exactly half of all possible initial positions of the 15 puzzle, it is impossible to bring them to an assembled form. &lt;a href=&#34;https://mathworld.wolfram.com/15Puzzle.html&#34; target = &#34;_blank&#34;&gt;Read more here.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#39;формулировка_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Given 2 matrices: initial and final. Implement a solution to the problem (performing &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;a depth-first search&lt;/a&gt;), applying &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;heuristic&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Given 2 matrices: initial and final. Implement a solution to the problem (performing &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;a depth-first search&lt;/a&gt;), applying &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;heuristic&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#39;решение_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
 For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;. 
 </description>
@@ -160,7 +226,7 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 2.2. Program output 2&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;To view these and other Python programs, you can visit &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;To view these and other Python programs, you can visit &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

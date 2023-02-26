@@ -27,7 +27,7 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Формулировка задачи&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;В программе описаны 3 класса, каждый из которых представлен 3-мя объектами. На вход подаются другие объекты, записанные в массивах. Необходимо распознать, какой элемент отображен во входящих массивах к какому элементу расстояние ближе.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;В программе описаны 3 класса, каждый из которых представлен 3-мя объектами. На вход подаются другие объекты, записанные в массивах. Необходимо распознать, какой элемент отображен во входящих массивах к какому элементу расстояние ближе.&lt;/p&gt;
 &lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Решение&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -96,7 +96,7 @@
 &lt;/div&gt;
 &lt;p align=&#34;justify&#34;&gt;Ровно в половине из всех возможных начальных положений пятнашек невозможно привести к собранному виду. &lt;a href=&#34;https://mathworld.wolfram.com/15Puzzle.html&#34; target = &#34;_blank&#34;&gt;Подробнее здесь.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#39;формулировка_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Формулировка задачи&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Дано 2 матрицы: изначальная и конечная. Реализовать решение задачи (осуществляя &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;поиск в глубину&lt;/a&gt;), применяя &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;эвристику&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Дано 2 матрицы: изначальная и конечная. Реализовать решение задачи (осуществляя &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;поиск в глубину&lt;/a&gt;), применяя &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;эвристику&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#39;решение_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Решение&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;Для просмотра решения на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -160,7 +160,7 @@
 &lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Рис. 2.2. Вывод программы 2&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Для просмотра этих и иных программ на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для просмотра этих и иных программ на языке Python вы можете посетить &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;мой репозиторий&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

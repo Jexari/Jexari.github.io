@@ -34,6 +34,66 @@
       href="https://jexari.github.io/event/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/categories/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/categories/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/gamedev/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/gamedev/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/gamedev/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/gamedev/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/gamedev/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/gamedev/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/monetization_of_games/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/monetization_of_games/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/monetization_of_games/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/post/recognition/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -44,16 +104,6 @@
       href="https://jexari.github.io/post/recognition/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /></url>
-  <url>
     <loc>https://jexari.github.io/tag/python/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -62,16 +112,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tag/python/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/tags_game/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -92,16 +132,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/the_kaufmann_automaton/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/categories/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/categories/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/dictionaries_in_python/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link

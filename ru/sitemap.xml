@@ -34,7 +34,37 @@
       href="https://jexari.github.io/ru/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tag/gamedev/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/gamedev/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/gamedev/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/category/gamedev/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/gamedev/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/gamedev/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/"
@@ -42,6 +72,26 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/monetization_of_games/</loc><lastmod>2023-02-25T20:38:19+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/monetization_of_games/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/monetization_of_games/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/tag/python/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -52,16 +102,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/tag/python/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/post/recognition/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -92,16 +132,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/the_kaufmann_automaton/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/category/python/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link

@@ -27,7 +27,7 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The program describes 3 classes, each of which is represented by 3 objects. Other objects written in arrays are given as input. It is necessary to recognize which element is displayed in the input arrays to which element the distance is closer.&lt;/p&gt;
 &lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -96,7 +96,7 @@
 &lt;/div&gt;
 &lt;p align=&#34;justify&#34;&gt;In exactly half of all possible initial positions of the 15 puzzle, it is impossible to bring them to an assembled form. &lt;a href=&#34;https://mathworld.wolfram.com/15Puzzle.html&#34; target = &#34;_blank&#34;&gt;Read more here.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#39;формулировка_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Task Formulation&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Given 2 matrices: initial and final. Implement a solution to the problem (performing &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;a depth-first search&lt;/a&gt;), applying &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;heuristic&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Given 2 matrices: initial and final. Implement a solution to the problem (performing &lt;a href=&#34;https://en.wikipedia.org/wiki/Depth-first_search&#34; target = &#34;_blank&#34;&gt;a depth-first search&lt;/a&gt;), applying &lt;a href=&#34;https://ru.wikipedia.org/wiki/Эвристический_алгоритм&#34; target = &#34;_blank&#34;&gt;heuristic&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#39;решение_задачи_15&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. The solution of the problem&lt;/b&gt;&lt;/h2&gt;
 For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/intelligent-systems&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;. 
 </description>
@@ -160,7 +160,7 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 2.2. Program output 2&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;To view these and other Python programs, you can visit &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;To view these and other Python programs, you can visit &lt;a href=&#34;https://github.com/Jexari/python_for_site&#34; target = &#34;_blank&#34;&gt;my repository&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
