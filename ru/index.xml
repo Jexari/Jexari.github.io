@@ -33,6 +33,72 @@
     </item>
     
     <item>
+      <title>Жанры компьютерных игр</title>
+      <link>https://jexari.github.io/ru/post/game_genres/</link>
+      <pubDate>Thu, 02 Mar 2023 20:55:47 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/game_genres/</guid>
+      <description>&lt;h1&gt;Жанры игр:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Действие (Action, Эншн, Экшен)
+&lt;ul&gt;
+&lt;li&gt;Platformer&lt;/li&gt;
+&lt;li&gt;Shooter&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Arena shooter&lt;/li&gt;
+&lt;li&gt;Scroll shooter&lt;/li&gt;
+&lt;li&gt;3D shooter&lt;/li&gt;
+&lt;li&gt;Rail shooter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Fighting&lt;/li&gt;
+&lt;li&gt;Beat ’em up&lt;/li&gt;
+&lt;li&gt;Rhythm games&lt;/li&gt;
+&lt;li&gt;Quick time&lt;/li&gt;
+&lt;li&gt;Выживание&lt;/li&gt;
+&lt;li&gt;Стелс-экшн&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Симулятор (Simulation, Симуляция)
+&lt;ul&gt;
+&lt;li&gt;Авиасимулятор&lt;/li&gt;
+&lt;li&gt;Автосимулятор&lt;/li&gt;
+&lt;li&gt;Космосимулятор&lt;/li&gt;
+&lt;li&gt;Симулятор жизни&lt;/li&gt;
+&lt;li&gt;Политический симулятор&lt;/li&gt;
+&lt;li&gt;Другие симуляторы&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Приключения (Adventure)
+&lt;ul&gt;
+&lt;li&gt;Text adventure&lt;/li&gt;
+&lt;li&gt;Graphic adventure&lt;/li&gt;
+&lt;li&gt;Сhoose your own adventure&lt;/li&gt;
+&lt;li&gt;Визуальная новелла&lt;/li&gt;
+&lt;li&gt;Интерактивное кино&lt;/li&gt;
+&lt;li&gt;3D в реальном времени&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Стратегия
+&lt;ul&gt;
+&lt;li&gt;4X&lt;/li&gt;
+&lt;li&gt;Стратегии реального времени (RTS)&lt;/li&gt;
+&lt;li&gt;Wargame&lt;/li&gt;
+&lt;li&gt;Экономическая стратегия&lt;/li&gt;
+&lt;li&gt;Другие стратегии&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Головоломка (Puzzle)&lt;/li&gt;	
+&lt;li&gt;Ролевая игра (Role-playing Games)
+&lt;ul&gt;
+&lt;li&gt;Action-RPG&lt;/li&gt;
+&lt;li&gt;MMORPG&lt;/li&gt;
+&lt;li&gt;Roguelike&lt;/li&gt;
+&lt;li&gt;Тактический RPG&lt;/li&gt;
+&lt;li&gt;RPG с открытым миром&lt;/li&gt;
+&lt;li&gt;JRPG&lt;/li&gt;
+&lt;li&gt;Партийные RPG от первого лица&lt;/li&gt;
+&lt;li&gt;Гача-игры&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Смешанные жанры&lt;/li&gt;&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Монетизации в играх</title>
       <link>https://jexari.github.io/ru/post/monetization_of_games/</link>
       <pubDate>Sat, 25 Feb 2023 20:38:19 +0300</pubDate>

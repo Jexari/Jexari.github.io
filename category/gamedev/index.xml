@@ -5,12 +5,78 @@
     <link>https://jexari.github.io/category/gamedev/</link>
       <atom:link href="https://jexari.github.io/category/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <description>GameDev</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Feb 2023 20:38:19 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Mar 2023 20:55:47 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>GameDev</title>
       <link>https://jexari.github.io/category/gamedev/</link>
     </image>
+    
+    <item>
+      <title>List of video game genres</title>
+      <link>https://jexari.github.io/post/game_genres/</link>
+      <pubDate>Thu, 02 Mar 2023 20:55:47 +0300</pubDate>
+      <guid>https://jexari.github.io/post/game_genres/</guid>
+      <description>&lt;h1&gt;Game genres:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Action
+&lt;ul&gt;
+&lt;li&gt;Platformer&lt;/li&gt;
+&lt;li&gt;Shooter&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Arena shooter&lt;/li&gt;
+&lt;li&gt;Scroll shooter&lt;/li&gt;
+&lt;li&gt;3D shooter&lt;/li&gt;
+&lt;li&gt;Rail shooter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Fighting&lt;/li&gt;
+&lt;li&gt;Beat ’em up&lt;/li&gt;
+&lt;li&gt;Rhythm games&lt;/li&gt;
+&lt;li&gt;Quick time&lt;/li&gt;
+&lt;li&gt;Survival&lt;/li&gt;
+&lt;li&gt;Stealth action&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Simulator
+&lt;ul&gt;
+&lt;li&gt;Flight simulator&lt;/li&gt;
+&lt;li&gt;Car simulator&lt;/li&gt;
+&lt;li&gt;Space simulator&lt;/li&gt;
+&lt;li&gt;Life simulator&lt;/li&gt;
+&lt;li&gt;Political simulator&lt;/li&gt;
+&lt;li&gt;Other simulators&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Adventure
+&lt;ul&gt;
+&lt;li&gt;Text adventure&lt;/li&gt;
+&lt;li&gt;Graphic adventure&lt;/li&gt;
+&lt;li&gt;Сhoose your own adventure&lt;/li&gt;
+&lt;li&gt;Visual novel&lt;/li&gt;
+&lt;li&gt;Interactive cinema&lt;/li&gt;
+&lt;li&gt;3D real time&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Strategy
+&lt;ul&gt;
+&lt;li&gt;4X&lt;/li&gt;
+&lt;li&gt;Real time strategy&lt;/li&gt;
+&lt;li&gt;Wargame&lt;/li&gt;
+&lt;li&gt;Economic strategy&lt;/li&gt;
+&lt;li&gt;Other strategies&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Puzzle&lt;/li&gt;	
+&lt;li&gt;Role-playing Games
+&lt;ul&gt;
+&lt;li&gt;Action-RPG&lt;/li&gt;
+&lt;li&gt;MMORPG&lt;/li&gt;
+&lt;li&gt;Roguelike&lt;/li&gt;
+&lt;li&gt;Tactical RPG&lt;/li&gt;
+&lt;li&gt;Open world RPG&lt;/li&gt;
+&lt;li&gt;JRPG&lt;/li&gt;
+&lt;li&gt;First Person Party RPGs&lt;/li&gt;
+&lt;li&gt;Gacha games&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Mixed genres&lt;/li&gt;&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Monetization in games</title>
