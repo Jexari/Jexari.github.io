@@ -28,13 +28,13 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;about_git&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Что такое Git и для чего он нужен?&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Для чего нужен &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt;, и что вообще такое система контроля версий? Система контроля версий – это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определенной версии. Проще говоря, в случае изменения файла будет отмечен файл и место изменения, также можно отменить введенные ранее изменения файла, увидеть, кто последний менял что-то и вызвал проблему и когда, и многое другое. Если вы сломали что-то или потеряли файлы, это спокойно можно исправить.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Одной из таких систем является Git. На данный момент она наиболее распространена по ряду причин:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для чего нужен &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt;, и что вообще такое система контроля версий? Система контроля версий – это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определенной версии. Проще говоря, в случае изменения файла будет отмечен файл и место изменения, также можно отменить введенные ранее изменения файла, увидеть, кто последний менял что-то и вызвал проблему и когда, и многое другое. Если вы сломали что-то или потеряли файлы, это спокойно можно исправить.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Одной из таких систем является Git. На данный момент она наиболее распространена по ряду причин:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Бесплатная и с открытым кодом&lt;/li&gt;
 &lt;li&gt;Быстрая&lt;/li&gt;
 &lt;li&gt;Простое ветвление&lt;/li&gt;
 &lt;li&gt;Резервное копирование&lt;/li&gt;&lt;/ul&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Для git-репозиториев предоставляются хостинги, например: GitHub, Codebase, Bitbucket, GitLab и др.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для git-репозиториев предоставляются хостинги, например: GitHub, Codebase, Bitbucket, GitLab и др.&lt;/p&gt;
 &lt;h2 id=&#39;main_commands&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Основные команды:&lt;/b&gt;&lt;/h2&gt;
 &lt;style&gt;
     .heatMap {
@@ -149,15 +149,15 @@
 &lt;/div&gt;
 &lt;h2 id=&#39;dictionary&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Словарь&lt;/b&gt;&lt;/h2&gt;
 &lt;h4&gt;Бранч&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ветка или копия проекта, в которую можно вносить любые изменения, они не повлияют на основной проект.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Ветка или копия проекта, в которую можно вносить любые изменения, они не повлияют на основной проект.&lt;/p&gt;
 &lt;h4&gt;Гит&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Способ хранения файлов и их версий.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Способ хранения файлов и их версий.&lt;/p&gt;
 &lt;h4&gt;Клонирование&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Копирование репозитория на жесткий диск.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Копирование репозитория на жесткий диск.&lt;/p&gt;
 &lt;h4&gt;Коммит&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Набор с изменениями (измененными, новыми и добавленными файлами), записанный в локальный репозиторий.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Набор с изменениями (измененными, новыми и добавленными файлами), записанный в локальный репозиторий.&lt;/p&gt;
 &lt;h4&gt;Пуш&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Отправка изменений на сервер.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Отправка изменений на сервер.&lt;/p&gt;
 </description>
     </item>
     

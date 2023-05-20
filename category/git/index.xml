@@ -28,13 +28,13 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;about_git&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. What is Git and what is it for?&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;What is &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt; for, and what is a version control system anyway? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;One such system is Git. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;What is &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt; for, and what is a version control system anyway? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;One such system is Git. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Free and open source&lt;/li&gt;
 &lt;li&gt;Fast&lt;/li&gt;
 &lt;li&gt;Simple branching&lt;/li&gt;
 &lt;li&gt;Backup&lt;/li&gt;&lt;/ul&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab, etc.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab, etc.&lt;/p&gt;
 &lt;h2 id=&#39;main_commands&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Basic commands:&lt;/b&gt;&lt;/h2&gt;
 &lt;style&gt;
     .heatMap {
@@ -149,15 +149,15 @@
 &lt;/div&gt;
 &lt;h2 id=&#39;dictionary&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Dictionary&lt;/b&gt;&lt;/h2&gt;
 &lt;h4&gt;Branch&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A branch or copy of the project where you can make any changes, they will not affect the main project.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;A branch or copy of the project where you can make any changes, they will not affect the main project.&lt;/p&gt;
 &lt;h4&gt;Git&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;How files and their versions are stored.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;How files and their versions are stored.&lt;/p&gt;
 &lt;h4&gt;Cloning&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Copying a repository to a hard drive.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Copying a repository to a hard drive.&lt;/p&gt;
 &lt;h4&gt;Commit&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set with changes (changed, new and added files) written to the local repository.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Set with changes (changed, new and added files) written to the local repository.&lt;/p&gt;
 &lt;h4&gt;Push&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sending changes to the server.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Sending changes to the server.&lt;/p&gt;
 </description>
     </item>
     

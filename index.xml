@@ -33,6 +33,37 @@
     </item>
     
     <item>
+      <title>Li-Fi technology</title>
+      <link>https://jexari.github.io/post/li-fi/</link>
+      <pubDate>Sat, 20 May 2023 14:42:51 +0300</pubDate>
+      <guid>https://jexari.github.io/post/li-fi/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#history_of_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; History of Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#wi-fi_or_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Wi-Fi or Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#other_technologies_and_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Other wireless technologies and Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Introduction&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Li-Fi is a bidirectional high—speed wireless technology that uses light waves to transfer data between devices. It is based on LEDs that can quickly turn on and off, forming bit sequences. Li-Fi refers to Visible light communication (VLC) technologies.&lt;/p&gt;
+&lt;h2 id=&#39;history_of_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. History of Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;The pioneer in the use of the term Li-Fi is Harald Haas. He delivered it during a TED Global talk in 2011. Harald Haas is also the co-founder of &lt;a href=&#34;https://www.purelifi.com/&#34; target = &#34;_blank&#34;&gt;pureLiFi&lt;/a&gt;. The VLC technology itself, which I mentioned above, was shown to the world in 2012. In 2018, Li-Fi technology was tested at the BMW plant in Germany. At the moment, Li-Fi is under development, and not all devices can work with this technology. However, many companies are already interested in promoting Li-Fi. &lt;/p&gt;
+&lt;h2 id=&#39;wi-fi_or_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Wi-Fi or Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;In comparison with Wi-Fi, Li-Fi transmits data at a higher speed, since the transmission speed is limited by the speed of switching on and off the LEDs. Thus, Li-Fi can reach speeds of up to 224 Gbps, which is several times faster than the bandwidth of the Wi-Fi standard. A more secure connection is also an advantage. Li-Fi does not penetrate walls, which makes data transmission more secure from interception.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;But this technology also has disadvantages. For example, the coverage distance is less than 10 meters, while Wi-Fi has about 32 meters. In addition, constantly flashing LEDs can cause eye strain.&lt;/p&gt;
+&lt;h2 id=&#39;other_technologies_and_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Other wireless technologies and Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Already, wireless technologies such as 5G and Wi-Fi 6 can compete for Li-Fi. They have a similar data transfer rate and operate over long distances in a wide frequency range. Nevertheless, for example, it is preferable to use Li-Fi for medical equipment, because the security is still higher for VLC connections.&lt;/p&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;5&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Despite all the limitations, Li-Fi has a wide range of applications and can be used in production, hospitals, schools, transport, homes, restaurants, hotels. This technology may soon improve the quality of data transmission and communication in general, and will undoubtedly attract more and more attention in the near future. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>List of video game genres</title>
       <link>https://jexari.github.io/post/game_genres/</link>
       <pubDate>Thu, 02 Mar 2023 20:55:47 +0300</pubDate>
@@ -270,10 +301,10 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;about_the_kaufmann_automaton&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. What is a Kaufmann&#39;s automaton and how does it work?&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The NK-automaton is a network of N Boolean logical elements. Each logic element has K inputs and one output. The signals at the inputs and outputs of the elements are binary (they take the values 0 or 1). The outputs of some elements go to the inputs of others, these connections are absolutely random, but the number of inputs K of each element is static. The logical elements are also chosen randomly.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Automaton are autonomous (there are no external inputs). The number of logical elements included in the automaton is assumed to be large, N&gt;1. The automaton functions in discrete time: t = 1,2,3,… The state of the automaton at each moment of time t is determined by the vector X(t) – the totality of the output signals of all logic elements.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In the process of functioning, the sequence of states converges to an attractor - a limit cycle. The sequence of states X(t) in this attractor can be considered as a “program” for the functioning of the automaton.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The number of attractors M and the typical attractor length L are important characteristics of NK-automaton.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The NK-automaton is a network of N Boolean logical elements. Each logic element has K inputs and one output. The signals at the inputs and outputs of the elements are binary (they take the values 0 or 1). The outputs of some elements go to the inputs of others, these connections are absolutely random, but the number of inputs K of each element is static. The logical elements are also chosen randomly.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Automaton are autonomous (there are no external inputs). The number of logical elements included in the automaton is assumed to be large, N&gt;1. The automaton functions in discrete time: t = 1,2,3,… The state of the automaton at each moment of time t is determined by the vector X(t) – the totality of the output signals of all logic elements.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;In the process of functioning, the sequence of states converges to an attractor - a limit cycle. The sequence of states X(t) in this attractor can be considered as a “program” for the functioning of the automaton.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The number of attractors M and the typical attractor length L are important characteristics of NK-automaton.&lt;/p&gt;
 &lt;h2 id=&#39;problem&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. The task formulation&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;Input:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;set n=4, к=2&lt;/li&gt;
@@ -298,15 +329,15 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
       <link>https://jexari.github.io/post/dictionaries_in_python/</link>
       <pubDate>Thu, 01 Dec 2022 22:21:10 +0300</pubDate>
       <guid>https://jexari.github.io/post/dictionaries_in_python/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In this entry, we will talk about such a data type as a dictionary. What it is? A dictionary is a data structure in which information is stored in a key-value format. Here I will explain how to access the information stored in a dictionary and how to edit this information, talk about the main methods of dictionaries and how to use them.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Let&#39;s create 2 dictionaries, one stores information about students&#39; grades, the other contains a list of students who eat in the canteen (Fig. 1.1). The dictionary is written in curly brackets. It can either contain initial data (&lt;i&gt;students_marks&lt;/i&gt;) or be empty (&lt;i&gt;student_who_eat_in_dining_room&lt;/i&gt;).&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As mentioned earlier, all information in dictionaries is stored in the key-value format. If we need to get the value assigned to a particular key, we can do it directly or through the &lt;i&gt;get()&lt;/i&gt; method. If the key we entered is missing, then the &lt;i&gt;get()&lt;/i&gt; method will return &lt;i&gt;None&lt;/i&gt;, but the call without it will give an error. This is important to consider when creating projects where it is not known for sure whether a key with the same name exists in the dictionary.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;We can also add new keys and values, as well as change the values already in the dictionary. All the actions described above and their result can be seen in Fig. 1.1-1.2.&lt;/p&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt;In this entry, we will talk about such a data type as a dictionary. What it is? A dictionary is a data structure in which information is stored in a key-value format. Here I will explain how to access the information stored in a dictionary and how to edit this information, talk about the main methods of dictionaries and how to use them.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Let&#39;s create 2 dictionaries, one stores information about students&#39; grades, the other contains a list of students who eat in the canteen (Fig. 1.1). The dictionary is written in curly brackets. It can either contain initial data (&lt;i&gt;students_marks&lt;/i&gt;) or be empty (&lt;i&gt;student_who_eat_in_dining_room&lt;/i&gt;).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;As mentioned earlier, all information in dictionaries is stored in the key-value format. If we need to get the value assigned to a particular key, we can do it directly or through the &lt;i&gt;get()&lt;/i&gt; method. If the key we entered is missing, then the &lt;i&gt;get()&lt;/i&gt; method will return &lt;i&gt;None&lt;/i&gt;, but the call without it will give an error. This is important to consider when creating projects where it is not known for sure whether a key with the same name exists in the dictionary.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;We can also add new keys and values, as well as change the values already in the dictionary. All the actions described above and their result can be seen in Fig. 1.1-1.2.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;1_1.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 1.1. Program listing 1&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;1_2.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 1.2. Program output 1&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Consider two other methods, namely &lt;i&gt;keys()&lt;/i&gt; and &lt;i&gt;values()&lt;/i&gt;. The first returns us all the keys in the dictionary, the second returns all the values, such as &lt;i&gt;dict_keys&lt;/i&gt; and &lt;i&gt;dict_values&lt;/i&gt; respectively. If we need to remove a pair from a dictionary, we can use &lt;i&gt;del&lt;/i&gt; or &lt;i&gt;pop ()&lt;/i&gt;. To display all key-value pairs, you need the &lt;i&gt;items()&lt;/i&gt; method.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Consider two other methods, namely &lt;i&gt;keys()&lt;/i&gt; and &lt;i&gt;values()&lt;/i&gt;. The first returns us all the keys in the dictionary, the second returns all the values, such as &lt;i&gt;dict_keys&lt;/i&gt; and &lt;i&gt;dict_values&lt;/i&gt; respectively. If we need to remove a pair from a dictionary, we can use &lt;i&gt;del&lt;/i&gt; or &lt;i&gt;pop ()&lt;/i&gt;. To display all key-value pairs, you need the &lt;i&gt;items()&lt;/i&gt; method.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;2_1.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 2.1. Program listing 2&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;2_2.jpg&#34;&gt;
@@ -333,7 +364,7 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;general_information&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. General information&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Web pages can be created in several ways - from scratch or based on some kind of template. Both of these approaches can be implemented in Microsoft FrontPage. This editor was one of the best of its time, allowing you to edit HTML code, as well as view all changes in direct view mode. This editor did not require knowledge of the basics of HTML.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Web pages can be created in several ways - from scratch or based on some kind of template. Both of these approaches can be implemented in Microsoft FrontPage. This editor was one of the best of its time, allowing you to edit HTML code, as well as view all changes in direct view mode. This editor did not require knowledge of the basics of HTML.&lt;/p&gt;
 &lt;p&gt;Main features of the editor:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;create and save web pages&lt;/li&gt;
 &lt;li&gt;save web pages directly to the Web&lt;/li&gt;
@@ -342,7 +373,7 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;li&gt;use predefined HTML tags&lt;/li&gt;
 &lt;li&gt;use ready-made images from the software package, etc.&lt;/li&gt;&lt;/ul&gt;
 &lt;h2 id=&#39;installation_frontpage&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Installation Frontpage&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Installation of the program is simple, available when installing Office 2003.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Installation of the program is simple, available when installing Office 2003.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;installation_frontpage.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Installation Microsoft FrontPage&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;windows_menu_frontpage.jpg&#34;&gt;
@@ -350,10 +381,10 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;img align=&#34;middle&#34; src=&#34;frontpage_prog.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Interface FrontPage&lt;/p&gt;
 &lt;h2 id=&#39;my_web_page&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. My Web page&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I will not dwell on creating a web page in detail, since in fact we are working with the Microsoft Word interface. I will only show the final web page.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;I will not dwell on creating a web page in detail, since in fact we are working with the Microsoft Word interface. I will only show the final web page.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;my_web_page.jpg&#34;&gt;
 &lt;h2 id=&#39;outcome&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Obviously, it is impossible to create a site with a modern design on a program for Windows XP, but despite this, some sites written in FrontPage still work. The Microsoft Frontpage was replaced by Microsoft Expression Web and Microsoft SharePoint Designer.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Obviously, it is impossible to create a site with a modern design on a program for Windows XP, but despite this, some sites written in FrontPage still work. The Microsoft Frontpage was replaced by Microsoft Expression Web and Microsoft SharePoint Designer.&lt;/p&gt;
 </description>
     </item>
     
@@ -374,12 +405,12 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Introduction&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;An account is a set of data about a user that is necessary to authenticate him and provide access to his personal data and settings. Thus, an account consists of a username and password (or other means of authentication). The password is often encrypted or hashed. An account can store a user&#39;s photo or other image, take into account the age of various statistical characteristics of the user&#39;s behavior in the system.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;It is not uncommon for several users to work on the same computer. On Linux, it is more convenient to manage users on the command line. In the Microsoft family of operating systems, this feature is also present, as is the GUI (Graphical User Interface).&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Account management is one of the primary responsibilities of a system administrator. It is very convenient to combine users into groups, edit their access rights depending, for example, on their position in the company. This directly affects the security of the information system.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;An account is a set of data about a user that is necessary to authenticate him and provide access to his personal data and settings. Thus, an account consists of a username and password (or other means of authentication). The password is often encrypted or hashed. An account can store a user&#39;s photo or other image, take into account the age of various statistical characteristics of the user&#39;s behavior in the system.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;It is not uncommon for several users to work on the same computer. On Linux, it is more convenient to manage users on the command line. In the Microsoft family of operating systems, this feature is also present, as is the GUI (Graphical User Interface).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Account management is one of the primary responsibilities of a system administrator. It is very convenient to combine users into groups, edit their access rights depending, for example, on their position in the company. This directly affects the security of the information system.&lt;/p&gt;
 &lt;h2 id=&#39;Управление-учетными-записями-через-lusrmgrmsc&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Account management via lusrmgr.msc&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Immediately after installing Windows, we start working with Administrator rights. These rights in the OS allow, for example, to create, modify, delete other accounts, perform any operations to configure the system.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The lusrmgr.msc snap-in is used to manage accounts (Fig. 1). We can also open it by entering the name in the &#34;Run&#34; command field, or in the internal system search.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Immediately after installing Windows, we start working with Administrator rights. These rights in the OS allow, for example, to create, modify, delete other accounts, perform any operations to configure the system.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The lusrmgr.msc snap-in is used to manage accounts (Fig. 1). We can also open it by entering the name in the &#34;Run&#34; command field, or in the internal system search.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;lusrmgr.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 1. lusrmgr.msc window&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;In order to create an account, you need to do the following:&lt;/p&gt;
@@ -390,8 +421,8 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;p align=&#34;middle&#34;&gt;Figure. 2. OS users&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;user-creation.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 3. User creation&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user group is a collection of user accounts that have the same rights and security permissions. The user account must be a member of at least one user group.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Different users have different needs, the administrator can allocate the necessary permissions and prohibitions. If we have many users, then it is convenient to distribute rights not individually, but by user groups. Windows has several built-in groups: Administrators, Users, Power Users, Backup Operators, Guests, Remote Desktop Users, DHCP Administrators, DHCP Users, and WINS Users. We can also create our own group. For this:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;A user group is a collection of user accounts that have the same rights and security permissions. The user account must be a member of at least one user group.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Different users have different needs, the administrator can allocate the necessary permissions and prohibitions. If we have many users, then it is convenient to distribute rights not individually, but by user groups. Windows has several built-in groups: Administrators, Users, Power Users, Backup Operators, Guests, Remote Desktop Users, DHCP Administrators, DHCP Users, and WINS Users. We can also create our own group. For this:&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;Go to the &#34;Groups&#34; folder (Fig. 4).&lt;/li&gt;
 &lt;li&gt;In the menu bar, select &#34;Action&#34;, then &#34;Create Group&#34;.&lt;/li&gt;
 &lt;li&gt;Be sure to fill in the &#34;Group Name&#34; field, the rest if necessary (Fig. 5.1 - 5.2).&lt;/li&gt;&lt;/ol&gt;
@@ -401,14 +432,14 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;p align=&#34;middle&#34;&gt;Figure. 5.1. Create a group&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;adding_a_user_to_a_group.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 5.2. Adding users to a group&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;You can view which groups a user belongs to in the Users folder by right-clicking on the user, then selecting Properties, Group Memberships. If we go to the &#34;General&#34; tab, we can manage the user&#39;s password, and also, if necessary, disable the account (Fig. 6).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;You can view which groups a user belongs to in the Users folder by right-clicking on the user, then selecting Properties, Group Memberships. If we go to the &#34;General&#34; tab, we can manage the user&#39;s password, and also, if necessary, disable the account (Fig. 6).&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;management_in_general.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 6. Management in the &#34;General&#34; tab&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The administrator can also set password time limits, for this you need to use the gpedit.msc snap-in. Next, go to &#34;Computer Configuration&#34;, &#34;Windows Configuration&#34;, &#34;Security Settings&#34;, &#34;Account Policy&#34;, &#34;Password Policy&#34; (Fig. 7).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The administrator can also set password time limits, for this you need to use the gpedit.msc snap-in. Next, go to &#34;Computer Configuration&#34;, &#34;Windows Configuration&#34;, &#34;Security Settings&#34;, &#34;Account Policy&#34;, &#34;Password Policy&#34; (Fig. 7).&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;changing_the_password_expiration_time.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 7. Changing the password expiration time&lt;/p&gt;
 &lt;h2 id=&#39;управление-учетными-записями-через-cmd&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Account management via cmd&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As mentioned earlier, we can manage accounts through the command line. To begin with, we will write the command whoami and whoami /user (Fig. 8). The first displays information about the current user, the second additionally shows the SID (security identifier). SID is a variable length data structure that identifies a user, group, domain, or computer account. The last 4 digits indicate the object&#39;s relative security identifier (RID). 3 sets of numbers before RID is just the SID.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;As mentioned earlier, we can manage accounts through the command line. To begin with, we will write the command whoami and whoami /user (Fig. 8). The first displays information about the current user, the second additionally shows the SID (security identifier). SID is a variable length data structure that identifies a user, group, domain, or computer account. The last 4 digits indicate the object&#39;s relative security identifier (RID). 3 sets of numbers before RID is just the SID.&lt;/p&gt;
 &lt;img align=&#34;middle&#34; src=&#34;whoami_and_whoami_user.jpg&#34;&gt;
 &lt;p align=&#34;middle&#34;&gt;Figure. 8. whoami and whoami /user&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;For further account management, we need the net user command. With it, we can:&lt;/p&gt;
@@ -435,9 +466,9 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;li&gt;add existing user accounts to a group (net localgroup GROUPNAME USERNAME1 USERNAME2 /add /domain);&lt;/li&gt;
 &lt;li&gt;display a list of users in a local group (net localgroup GROUPNAME).&lt;/li&gt;&lt;/ul&gt;
 &lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Thus, having become familiar with the basics of user management in the Windows operating system, we can draw the following conclusions:&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Creating an account, changing the account password, and many other actions can be performed both through various snap-ins and through the command line. In the second case, we can use, for example, the net user command. Also with group changes, they can also be done in the two ways described above.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;To ensure information security, it is necessary to sort their accounts into groups, where you can enter restrictions on their rights (for example, viewing certain folders).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Thus, having become familiar with the basics of user management in the Windows operating system, we can draw the following conclusions:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Creating an account, changing the account password, and many other actions can be performed both through various snap-ins and through the command line. In the second case, we can use, for example, the net user command. Also with group changes, they can also be done in the two ways described above.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;To ensure information security, it is necessary to sort their accounts into groups, where you can enter restrictions on their rights (for example, viewing certain folders).&lt;/p&gt;
 </description>
     </item>
     
@@ -465,13 +496,13 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;/nav&gt;
 &lt;/details&gt;
 &lt;h2 id=&#39;about_git&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. What is Git and what is it for?&lt;/b&gt;&lt;/h2&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;What is &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt; for, and what is a version control system anyway? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;One such system is Git. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;What is &lt;a href=&#34;https://git-scm.com/&#34; target = &#34;_blank&#34;&gt;Git&lt;/a&gt; for, and what is a version control system anyway? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. Simply put, in case of a file change, the file and the place of the change will be marked, you can also undo the previously entered file changes, see who last changed something and caused the problem and when, and much more. If you break something or lose files, you can easily fix it.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;One such system is Git. At the moment, it is the most common for a number of reasons:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Free and open source&lt;/li&gt;
 &lt;li&gt;Fast&lt;/li&gt;
 &lt;li&gt;Simple branching&lt;/li&gt;
 &lt;li&gt;Backup&lt;/li&gt;&lt;/ul&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab, etc.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Hostings are provided for git repositories, for example: GitHub, Codebase, Bitbucket, GitLab, etc.&lt;/p&gt;
 &lt;h2 id=&#39;main_commands&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Basic commands:&lt;/b&gt;&lt;/h2&gt;
 &lt;style&gt;
     .heatMap {
@@ -586,15 +617,15 @@ For a Python solution, you can visit &lt;a href=&#34;https://github.com/Jexari/i
 &lt;/div&gt;
 &lt;h2 id=&#39;dictionary&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Dictionary&lt;/b&gt;&lt;/h2&gt;
 &lt;h4&gt;Branch&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A branch or copy of the project where you can make any changes, they will not affect the main project.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;A branch or copy of the project where you can make any changes, they will not affect the main project.&lt;/p&gt;
 &lt;h4&gt;Git&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;How files and their versions are stored.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;How files and their versions are stored.&lt;/p&gt;
 &lt;h4&gt;Cloning&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Copying a repository to a hard drive.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Copying a repository to a hard drive.&lt;/p&gt;
 &lt;h4&gt;Commit&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set with changes (changed, new and added files) written to the local repository.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Set with changes (changed, new and added files) written to the local repository.&lt;/p&gt;
 &lt;h4&gt;Push&lt;/h4&gt;
-&lt;p align=&#34;justify&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sending changes to the server.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Sending changes to the server.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologies | Ян Долганов</title>
+    <link>https://jexari.github.io/ru/category/technologies/</link>
+      <atom:link href="https://jexari.github.io/ru/category/technologies/index.xml" rel="self" type="application/rss+xml" />
+    <description>Technologies</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sat, 20 May 2023 14:42:51 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Technologies</title>
+      <link>https://jexari.github.io/ru/category/technologies/</link>
+    </image>
+    
+    <item>
+      <title>Технология Li-Fi</title>
+      <link>https://jexari.github.io/ru/post/li-fi/</link>
+      <pubDate>Sat, 20 May 2023 14:42:51 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/li-fi/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Введение&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#history_of_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; История Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#wi-fi_or_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Wi-Fi или Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#other_technologies_and_li-fi&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Другие беспроводные технологии и Li-Fi&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Заключение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Введение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Li-Fi — это двунаправленная высокоскоростная беспроводная технология, которая использует световые волны для передачи данных между устройствами. Она основана на светодиодах, которые могут быстро включаться и выключаться, формируя битовые последовательности. Li-Fi относится к технологиям Visible light communication (VLC). &lt;/p&gt;
+&lt;h2 id=&#39;history_of_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. История Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Пионером в использовании термина Li-Fi является Харальд Хаас. Он произнес его во время выступления на TED Global в 2011 году. Харальд Хаас также является соучредителем &lt;a href=&#34;https://www.purelifi.com/&#34; target = &#34;_blank&#34;&gt;pureLiFi&lt;/a&gt;. Сама технология VLC, о которой я упоминал выше была показана миру в 2012. В 2018 году в Германии на заводе BMW была протестирована технология Li-Fi. На данный момент Li-Fi находится в стадии развития, и не все устройства могут работать с этой технологией. Однако уже сейчас многие компании заинтересованы в продвижении Li-Fi. &lt;/p&gt;
+&lt;h2 id=&#39;wi-fi_or_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Wi-Fi или Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;В сравнении с Wi-Fi, Li-Fi передает данные на более высокой скорости, так как скорость передачи ограничивается скоростью включения и выключения светодиодов. Таким образом, Li-Fi может достичь скорости до 224 Гбит/с, что в разы быстрее, чем пропускная способность стандарта Wi-Fi. Также преимуществом является более безопасное соединение. Li-Fi не проникает сквозь стены, что делает передачу данные более защищенной от перехвата.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Но у данной технологии есть и минусы. Например, расстояние покрытия составляет менее 10 метров, в то время как у Wi-Fi около 32 метров. Кроме того, постоянно мигающие светодиоды могут вызвать напряжение глаз.&lt;/p&gt;
+&lt;h2 id=&#39;other_technologies_and_li-fi&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Другие беспроводные технологии и Li-Fi&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Уже сейчас такие беспроводные технологии как 5G и Wi-Fi 6 могут составить конкуренцию для Li-Fi. Они имеют похожую скорость передачи данных и работают на больших расстояниях в широком диапазоне частот. Тем не менее, например, для медицинского оборудования предпочтительней использования Li-Fi, ведь безопасность всё равно выше у VLC соединения.&lt;/p&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;5&lt;/span&gt;. Заключение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Несмотря на все ограничения, Li-Fi имеет широкий спектр применения и может использоваться на производстве, в больницах, школах, транспорте, дома, ресторанах, отелях. Эта технология уже в скором времени может улучшить качество передачи данных и связи в целом, и несомненно будет привлекать все больше внимания в ближайшее время. &lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

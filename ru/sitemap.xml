@@ -34,7 +34,7 @@
       href="https://jexari.github.io/ru/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/categories/"
@@ -42,6 +42,56 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/categories/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tag/technologies/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/technologies/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/technologies/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/category/technologies/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/technologies/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/technologies/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/li-fi/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/li-fi/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/li-fi/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/tag/gamedev/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -62,26 +112,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/category/gamedev/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/post/game_genres/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
