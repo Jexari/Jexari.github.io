@@ -34,6 +34,56 @@
       href="https://jexari.github.io/event/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/python/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/technologies/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/technologies/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/technologies/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/spaghetti_code/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/spaghetti_code/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/spaghetti_code/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/categories/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -52,36 +102,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/li-fi/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/technologies/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/technologies/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/technologies/"
     /></url>
   <url>
     <loc>https://jexari.github.io/category/technologies/</loc><lastmod>2023-05-20T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -142,16 +162,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/recognition/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tag/python/</loc><lastmod>2023-02-17T18:14:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/python/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tag/python/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/tags_game/</loc><lastmod>2022-12-05T13:08:49+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link

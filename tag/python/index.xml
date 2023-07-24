@@ -5,12 +5,77 @@
     <link>https://jexari.github.io/tag/python/</link>
       <atom:link href="https://jexari.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Feb 2023 18:14:49 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jul 2023 14:42:51 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://jexari.github.io/tag/python/</link>
     </image>
+    
+    <item>
+      <title>The spaghetti code and how to avoid it</title>
+      <link>https://jexari.github.io/post/spaghetti_code/</link>
+      <pubDate>Mon, 24 Jul 2023 14:42:51 +0300</pubDate>
+      <guid>https://jexari.github.io/post/spaghetti_code/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#temp&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Definition of &#34;spaghetti code&#34;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#problems&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Problems Caused by Spaghetti Code&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#solution&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; How to Avoid Spaghetti Code&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Introduction&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Programming is a creative process that encompasses many aspects, including the design, implementation, and maintenance of software. An important part of this process is writing clean, structured, and maintainable code. However, depending on the complexity of the project and the level of experience of the developer, the code can become confusing and difficult to understand. This code state is often referred to as &#34;spaghetti code&#34;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&#34;Spaghetti code&#34; is a term that is used in the programming field to refer to code that is complex in structure, disorganized, and difficult to maintain and understand.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;In this article, we will dive into a detailed study of the &#34;spaghetti code&#34; problem. We&#39;ll start by defining the term, discuss the problems that &#34;spaghetti code&#34; can cause, and look at ways to avoid and fix this problem. This article is for both experienced programmers who want to improve their coding skills and practices, and beginners who want to avoid common programming mistakes.&lt;/p&gt;
+&lt;h2 id=&#39;temp&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Definition of &#34;spaghetti code&#34;&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;As already mentioned, spaghetti code is code that is difficult to understand, change and maintain. There are a number of specific characteristics that are often associated with it.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Complex and confusing structure: Spaghetti code is often characterized by a lack of a clear and consistent structure. Code can &#34;jump&#34; from one part of the program to another, creating a confusing flow of execution. This structure makes it hard to understand how the code works and makes it hard to debug and change.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Tightly related and interdependent components: In spaghetti code, different parts of the code are often closely related and interdependent. This means that changing one part of the code can affect other parts of the program. It also makes it difficult to test the code, since changes in one part of the code can have unexpected consequences in other parts of the program.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Difficulty to make changes: Due to the tightly coupled components and the lack of structure, spaghetti code is usually difficult to change. Developers can take a long time to understand how the code works before they can make any changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Lack of documentation: Spaghetti code is often accompanied by little or no documentation, making it even more difficult to understand how it works. It also makes it difficult to share code with other developers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Scalability issues: Due to the complexity of the structure and the tight coupling of components, spaghetti code is usually difficult to scale. Adding new features or extending existing ones can be a complex and time-consuming task.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&#34;justify&#34;&gt;All of these characteristics make spaghetti code problematic both for the developers who work on the code and for the organizations that maintain and use the software being developed.&lt;/p&gt;
+&lt;h2 id=&#39;problems&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Problems Caused by Spaghetti Code&lt;/b&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Debugging and Support&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;One of the main problems with spaghetti code is the difficulty of debugging and maintaining it. Due to the lack of a clear structure and non-linear flow of execution, identifying and eliminating errors becomes much more difficult.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Performance&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Spaghetti code can have a negative impact on program performance. Suboptimal algorithms and excessive complexity lead to computation of program execution time and resource usage.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Increasing project costs&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The consequence of the above problems is an increase in project costs. Making changes to spaghetti code takes more time, leading to higher development and support costs.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#39;solution&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. How to Avoid Spaghetti Code&lt;/b&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;SOLID principles&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The SOLID principles are fundamental design principles for object-oriented programming that were formulated and summarized by Robert Martin. These principles are valued for helping to create cleaner, more modular, and maintainable code, making it more scalable and flexible. Following these principles can help you avoid creating spaghetti code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Single Responsibility Principle (SRP): According to this principle, each class or module in a program should have only one responsibility. This makes the code easier to understand and change, since changes in one part of the system are less likely to affect other parts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Open-Closed Principle (OCP): This principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that new features should be added through the creation of new code, rather than changing existing ones.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Liskov Substitution Principle (LSP): According to this principle, objects in a program should be replaceable with instances of their subtypes without changing the correctness of the program. This highlights the importance of honoring the contracts and obligations defined in the base types.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Interface Segregation Principle (ISP): This principle states that clients should not depend on interfaces they do not use. This means that large, &#34;fat&#34; interfaces should be broken down into smaller, more specific interfaces so that clients only have the dependencies they really need.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Dependency Inversion Principle (DIP): According to this principle, dependencies on concrete implementations should be replaced with dependencies on abstractions. This contributes to the flexibility and versatility of the code.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Following these principles allows developers to create more organized and maintainable code, reducing the likelihood of spaghetti code. It takes some experience and understanding, but in the long run it makes the project easier to work with and maintain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Refactoring&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Refactoring is the process of changing the internal structure of a program or code to improve its readability, maintainability, extensibility, performance, and/or bug fixes, without changing the external behavior of the program. Regular code refactoring is also a key element in the fight against spaghetti code.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Using Tests&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Software testing allows you to check the correct operation of the code and identify errors. The use of tests also simplifies the process of refactoring and modifying the code.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Design patterns&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Design patterns are repeatable solutions to common problems in software design. They are specific patterns or architectural approaches that help developers build systems that are flexible, maintainable, and extensible.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;5&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Spaghetti code is a serious problem that can negatively impact software development and support. But by applying SOLID principles, regular refactoring, using tests and design patterns, you can significantly reduce the likelihood of spaghetti code and simplify the software development process.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pattern recognition</title>
