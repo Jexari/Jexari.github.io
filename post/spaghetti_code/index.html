@@ -1,0 +1,1405 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ian L. Dolganov" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Article for experienced and novice programmers" />
+
+  
+    <link rel="alternate" hreflang="ru" href="https://jexari.github.io/ru/post/spaghetti_code/" />
+  
+  <link rel="alternate" hreflang="en-us" href="https://jexari.github.io/post/spaghetti_code/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://jexari.github.io/post/spaghetti_code/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Ian L. Dolganov" />
+  <meta property="og:url" content="https://jexari.github.io/post/spaghetti_code/" />
+  <meta property="og:title" content="The spaghetti code and how to avoid it | Ian L. Dolganov" />
+  <meta property="og:description" content="Article for experienced and novice programmers" /><meta property="og:image" content="https://jexari.github.io/post/spaghetti_code/featured.jpg" />
+    <meta property="twitter:image" content="https://jexari.github.io/post/spaghetti_code/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-07-24T14:42:51&#43;03:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-07-24T14:42:51&#43;03:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jexari.github.io/post/spaghetti_code/"
+  },
+  "headline": "The spaghetti code and how to avoid it",
+  
+  "image": [
+    "https://jexari.github.io/post/spaghetti_code/featured.jpg"
+  ],
+  
+  "datePublished": "2023-07-24T14:42:51+03:00",
+  "dateModified": "2023-07-24T14:42:51+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ian L. Dolganov"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian L. Dolganov",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Article for experienced and novice programmers"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>The spaghetti code and how to avoid it | Ian L. Dolganov</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="85f004e989e7e73dd480366ec2283d8a" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Ian L. Dolganov</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Ian L. Dolganov</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://jexari.github.io/ru/post/spaghetti_code/">
+              <span>Русский</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>The spaghetti code and how to avoid it</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 24, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <details class="toc-inpage d-print-none  " open="">
+<summary class="font-weight-bold">Content</summary>
+<nav id="TableOfContents" class="nav flex-column">
+<ul>
+<li class="nav-item"><a href="#introduction" class="nav-link"><span class="section-num">1</span> Introduction</a></li>
+<li class="nav-item"><a href="#temp" class="nav-link"><span class="section-num">2</span> Definition of "spaghetti code"</a></li>
+<li class="nav-item"><a href="#problems" class="nav-link"><span class="section-num">3</span> Problems Caused by Spaghetti Code</a></li>
+<li class="nav-item"><a href="#solution" class="nav-link"><span class="section-num">4</span> How to Avoid Spaghetti Code</a></li>
+<li class="nav-item"><a href="#conclusion" class="nav-link"><span class="section-num">5</span> Conclusion</a></li>
+</ul>
+</nav>
+</details>
+<h2 id='introduction'><span class="section-num"><b>1</span>. Introduction</b></h2>
+<p align="justify">Programming is a creative process that encompasses many aspects, including the design, implementation, and maintenance of software. An important part of this process is writing clean, structured, and maintainable code. However, depending on the complexity of the project and the level of experience of the developer, the code can become confusing and difficult to understand. This code state is often referred to as "spaghetti code".</p>
+<p align="justify">"Spaghetti code" is a term that is used in the programming field to refer to code that is complex in structure, disorganized, and difficult to maintain and understand.</p>
+<p align="justify">In this article, we will dive into a detailed study of the "spaghetti code" problem. We'll start by defining the term, discuss the problems that "spaghetti code" can cause, and look at ways to avoid and fix this problem. This article is for both experienced programmers who want to improve their coding skills and practices, and beginners who want to avoid common programming mistakes.</p>
+<h2 id='temp'><span class="section-num"><b>2</span>. Definition of "spaghetti code"</b></h2>
+<p align="justify">As already mentioned, spaghetti code is code that is difficult to understand, change and maintain. There are a number of specific characteristics that are often associated with it.</p>
+<ol>
+<li><p align="justify">Complex and confusing structure: Spaghetti code is often characterized by a lack of a clear and consistent structure. Code can "jump" from one part of the program to another, creating a confusing flow of execution. This structure makes it hard to understand how the code works and makes it hard to debug and change.</p></li>
+<li><p align="justify">Tightly related and interdependent components: In spaghetti code, different parts of the code are often closely related and interdependent. This means that changing one part of the code can affect other parts of the program. It also makes it difficult to test the code, since changes in one part of the code can have unexpected consequences in other parts of the program.</p></li>
+<li><p align="justify">Difficulty to make changes: Due to the tightly coupled components and the lack of structure, spaghetti code is usually difficult to change. Developers can take a long time to understand how the code works before they can make any changes.</p></li>
+<li><p align="justify">Lack of documentation: Spaghetti code is often accompanied by little or no documentation, making it even more difficult to understand how it works. It also makes it difficult to share code with other developers.</p></li>
+<li><p align="justify">Scalability issues: Due to the complexity of the structure and the tight coupling of components, spaghetti code is usually difficult to scale. Adding new features or extending existing ones can be a complex and time-consuming task.</p></li>
+</ol>
+<p align="justify">All of these characteristics make spaghetti code problematic both for the developers who work on the code and for the organizations that maintain and use the software being developed.</p>
+<h2 id='problems'><span class="section-num"><b>3</span>. Problems Caused by Spaghetti Code</b></h2>
+<ul>
+<li><p align="justify">Debugging and Support</p>
+<p align="justify">One of the main problems with spaghetti code is the difficulty of debugging and maintaining it. Due to the lack of a clear structure and non-linear flow of execution, identifying and eliminating errors becomes much more difficult.</p></li>
+<li><p align="justify">Performance</p>
+<p align="justify">Spaghetti code can have a negative impact on program performance. Suboptimal algorithms and excessive complexity lead to computation of program execution time and resource usage.</p></li>
+<li><p align="justify">Increasing project costs</p>
+<p align="justify">The consequence of the above problems is an increase in project costs. Making changes to spaghetti code takes more time, leading to higher development and support costs.</p></li>
+</ul>
+<h2 id='solution'><span class="section-num"><b>4</span>. How to Avoid Spaghetti Code</b></h2>
+<ol>
+<li><p align="justify">SOLID principles</p>
+<p align="justify">The SOLID principles are fundamental design principles for object-oriented programming that were formulated and summarized by Robert Martin. These principles are valued for helping to create cleaner, more modular, and maintainable code, making it more scalable and flexible. Following these principles can help you avoid creating spaghetti code.</p>
+<ul>
+<li><p align="justify">Single Responsibility Principle (SRP): According to this principle, each class or module in a program should have only one responsibility. This makes the code easier to understand and change, since changes in one part of the system are less likely to affect other parts.</p></li>
+<li><p align="justify">Open-Closed Principle (OCP): This principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that new features should be added through the creation of new code, rather than changing existing ones.</p></li>
+<li><p align="justify">Liskov Substitution Principle (LSP): According to this principle, objects in a program should be replaceable with instances of their subtypes without changing the correctness of the program. This highlights the importance of honoring the contracts and obligations defined in the base types.</p></li>
+<li><p align="justify">Interface Segregation Principle (ISP): This principle states that clients should not depend on interfaces they do not use. This means that large, "fat" interfaces should be broken down into smaller, more specific interfaces so that clients only have the dependencies they really need.</p></li>
+<li><p align="justify">Dependency Inversion Principle (DIP): According to this principle, dependencies on concrete implementations should be replaced with dependencies on abstractions. This contributes to the flexibility and versatility of the code.</p></li>
+</ul>
+<p align="justify">Following these principles allows developers to create more organized and maintainable code, reducing the likelihood of spaghetti code. It takes some experience and understanding, but in the long run it makes the project easier to work with and maintain.</p>
+</li>
+<li><p align="justify">Refactoring</p>
+<p align="justify">Refactoring is the process of changing the internal structure of a program or code to improve its readability, maintainability, extensibility, performance, and/or bug fixes, without changing the external behavior of the program. Regular code refactoring is also a key element in the fight against spaghetti code.</p></li>
+<li><p align="justify">Using Tests</p>
+<p align="justify">Software testing allows you to check the correct operation of the code and identify errors. The use of tests also simplifies the process of refactoring and modifying the code.</p></li>
+<li><p align="justify">Design patterns</p>
+<p align="justify">Design patterns are repeatable solutions to common problems in software design. They are specific patterns or architectural approaches that help developers build systems that are flexible, maintainable, and extensible.</p></li>
+</ol>
+<h2 id='conclusion'><span class="section-num"><b>5</span>. Conclusion</b></h2>
+<p align="justify">Spaghetti code is a serious problem that can negatively impact software development and support. But by applying SOLID principles, regular refactoring, using tests and design patterns, you can significantly reduce the likelihood of spaghetti code and simplify the software development process.</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/technologies/">Technologies</a>
+  
+  <a class="badge badge-light" href="/tag/python/">Python</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/post/spaghetti_code/&amp;text=The%20spaghetti%20code%20and%20how%20to%20avoid%20it" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/post/spaghetti_code/&amp;t=The%20spaghetti%20code%20and%20how%20to%20avoid%20it" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20spaghetti%20code%20and%20how%20to%20avoid%20it&amp;body=https://jexari.github.io/post/spaghetti_code/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/post/spaghetti_code/&amp;title=The%20spaghetti%20code%20and%20how%20to%20avoid%20it" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=The%20spaghetti%20code%20and%20how%20to%20avoid%20it%20https://jexari.github.io/post/spaghetti_code/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/post/spaghetti_code/&amp;title=The%20spaghetti%20code%20and%20how%20to%20avoid%20it" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jexari.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu5d9f8465d618e6e2e93104ea262a9a34_7739324_270x270_fill_q75_lanczos_center.jpg" alt="Ian L. Dolganov"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jexari.github.io/">Ian L. Dolganov</a></h5>
+      <h6 class="card-subtitle">Student of Applied Informatics</h6>
+      <p class="card-text">My research interests are in OS administration and various programming languages.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://tlgg.ru/peterowens" target="_blank" rel="noopener">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Jexari" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.youtube.com/channel/UCZSAjD6fjaulH49S8VsIzfQ" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
