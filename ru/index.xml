@@ -33,6 +33,77 @@
     </item>
     
     <item>
+      <title>Почему LibreOffice лучше Microsoft Office?</title>
+      <link>https://jexari.github.io/ru/post/libre_office_or_ms_office/</link>
+      <pubDate>Wed, 23 Jul 2025 16:00:32 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/libre_office_or_ms_office/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#introduction&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Введение&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#different_office_packages&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; Сравнение разных офисных пакетов&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#about_me&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; Почему я остался на LibreOffice&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#conclusion&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; Заключение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;introduction&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Введение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Многие мои друзья и знакомые пользуются Microsoft Office. До 2023 года я и сам активно использовал этот офисный пакет, пока не решил, ради эксперимента, полностью перейти на LibreOffice. И, признаться, был приятно удивлён.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;В своём блоге я хочу поговорить о плюсах и минусах главного конкурента Microsoft Office, рассмотреть другие аналоги офисных пакетов, а так же поделиться своим опытом использования приложения от The Document Foundation.&lt;/p&gt;
+&lt;h2 id=&#39;different_office_packages&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. Сравнение разных офисных пакетов&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Начнём с общего обзора: какие офисные пакеты сегодня наиболее популярны и чем LibreOffice отличается от них.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Microsoft Office&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Итак, Microsoft Office и его преемник Microsoft 365 — самая распространённая платформа. Десктопная версия предоставляет «вечную» лицензию с фиксированной покупкой, а вот Microsoft 365 — это уже облачная подписка с регулярной оплатой. Обе версии популярны в корпоративной среде, образовании и среди частных пользователей.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Плюсы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Пожалуй, лучшая совместимость с форматами .docx, .xlsx, .pptx;&lt;/li&gt;
+&lt;li&gt;Обширная экосистема, в которую входит и почта (Outlook), и преемник Skype (Teams), и, конечно же, облачное хранилище (OneDrive);&lt;/li&gt;
+&lt;li&gt;Знакомый всем интерфейс — интуитивно понятный, что позволяет легко начать работу именно в Microsoft Office.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Минусы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Высокая цена. Чем больше приложений входит в пакет, тем выше цена;&lt;/li&gt;
+&lt;li&gt;Для кого-то перегруженный интерфейс;&lt;/li&gt;
+&lt;li&gt;Относительная зависимость от аккаунта Microsoft (не так ощутима в десктопной версии);&lt;/li&gt;
+&lt;li&gt;В версии 365 — ограничение офлайн-работы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Документы Google&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Бесплатный софт, работающий через браузер — отсюда и главная проблема. С другой стороны, установка на ПК не требуется. &lt;strong&gt;Крайне ограниченный функционал&lt;/strong&gt;, низкая совместимость с форматами Microsoft при сложной вёрстке, а также полная зависимость от сервисов Google и их политики. Отлично подходит для совместной работы в реальном времени, но не как основное решение.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; WPS Office&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Офисный пакет от китайской компании Kingsoft. Много рекламы и ограничений в бесплатной версии, &lt;strong&gt;закрытый исходный код&lt;/strong&gt;, возникают вопросы по приватности и безопасности данных. Из плюсов — совместимость с форматами Microsoft, наличие мобильных приложений.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; OnlyOffice&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Офисный пакет с открытым исходным кодом и веб-интерфейсом, ориентированный на совместную работу. Может быть установлен локально или использоваться в облаке. Поддерживает форматы Microsoft Office. &lt;strong&gt;Главный минус — ограниченный набор функций по сравнению с LibreOffice или Microsoft Office.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; LibreOffice&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Свободный офисный пакет, наследник проекта OpenOffice. Поддерживает множество форматов, включая MS Office и ODF.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Плюсы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Бесплатен навсегда и без рекламы;&lt;/li&gt;
+&lt;li&gt;Полноценный функционал без доплат;&lt;/li&gt;
+&lt;li&gt;Поддержка открытых форматов;&lt;/li&gt;
+&lt;li&gt;Работает оффлайн;&lt;/li&gt;
+&lt;li&gt;Идеален для образовательных и государственных учреждений;&lt;/li&gt;
+&lt;li&gt;Устанавливается на Windows, Linux, macOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Минусы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Интерфейс может показаться «устаревшим» после Microsoft Office;&lt;/li&gt;
+&lt;li&gt;Не всегда идеально открывает сложные документы с макросами;&lt;/li&gt;
+&lt;li&gt;Меньше интеграции с облачными сервисами (что, однако, может быть и плюсом).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#39;about_me&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Почему я остался на LibreOffice&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Если кратко, то в LibreOffice есть всё то же, что и в Microsoft Office. В Writer (аналог Word) интерфейс может показаться менее «современным», но он логичен, стабилен и не перегружен лишним. Кроме того, панели инструментов можно настраивать под себя: включить классический вид, ленточный интерфейс или компактные панели — всё под контролем пользователя.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Чуть хуже обстоят дела в Calc (аналог Excel). Он не уступает в базовых и даже во многих продвинутых задачах. Поддержка формул, условного форматирования, диаграмм, фильтрации и даже макросов делает его серьёзным инструментом. Однако некоторые макросы Excel (особенно написанные на VBA) могут не работать «в лоб». Но на фоне его преимуществ — меньший объём установки и более высокая скорость работы — эти недостатки отходят на второй план.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Для подготовки презентаций я использовал Impress. Да, в нём меньше эффектов и шаблонов, чем в PowerPoint, но для деловых, академических и образовательных задач его более чем достаточно. Презентации сохраняются в формате .odp, но при необходимости можно экспортировать в .pptx — и наоборот.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;И, конечно, самое главное преимущество LibreOffice — он работает на многих операционных системах. Для меня, как пользователя Linux и Windows, это фактор номер один при выборе офисного пакета.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Стоит также обсудить вызовы, с которыми сталкиваются те, кто хочет отказаться от Microsoft Office. Вам придётся подгонять форматирование при открытии документов в формате .docx, особенно если они содержат сложную вёрстку или таблицы. У меня, например, часто возникали проблемы с отображением изображений. В таких случаях можно рассмотреть переход на открытый формат ODF (.odt).&lt;/p&gt;
+&lt;h2 id=&#39;about_me&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Вывод&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;LibreOffice — это не просто «бесплатная альтернатива» Microsoft Office. Это зрелый, надёжный и универсальный инструмент для повседневной работы с документами, таблицами и презентациями. Он даёт свободу, защищает данные, не требует постоянной оплаты и при этом предлагает полный функционал. Главное — он подконтролен пользователю, а не крупной корпорации. Если вы ещё не пробовали LibreOffice, я рекомендую хотя бы установить его и посмотреть на практике. Возможно, как и у меня, у вас это начнётся как эксперимент — а закончится осознанным переходом.&lt;/p&gt;
+&lt;p&gt;Скачать LibreOffice можно с официального сайта — &lt;a href=&#34;https://www.libreoffice.org&#34;&gt;нажмите для перехода&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Программа для работы кассира</title>
       <link>https://jexari.github.io/ru/project/cashier_program/</link>
       <pubDate>Tue, 01 Jul 2025 16:48:16 +0300</pubDate>
