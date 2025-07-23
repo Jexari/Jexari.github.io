@@ -36,16 +36,16 @@
 &lt;p align=&#34;justify&#34;&gt;So, Microsoft Office and its successor Microsoft 365 are the most common platform. The desktop version provides a &#34;perpetual&#34; license with a fixed purchase, but Microsoft 365 is a cloud subscription with a regular payment. Both versions are popular in the corporate environment, education, and among private users.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Pros:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Probably the best compatibility with .docx, .xlsx, .pptx formats;&lt;/li&gt;
-&lt;li&gt;A vast ecosystem that includes mail (Outlook), and the successor to Skype (Teams), and, of course, cloud storage (OneDrive);&lt;/li&gt;
-&lt;li&gt;A familiar interface - intuitive, which makes it easy to start working in Microsoft Office.&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Probably the best compatibility with .docx, .xlsx, .pptx formats;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;A vast ecosystem that includes mail (Outlook), and the successor to Skype (Teams), and, of course, cloud storage (OneDrive);&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;A familiar interface - intuitive, which makes it easy to start working in Microsoft Office.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p align=&#34;justify&#34;&gt;Cons:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;High price. The more applications included in the package, the higher the price;&lt;/li&gt;
-&lt;li&gt;For some, the interface is overloaded;&lt;/li&gt;
-&lt;li&gt;Relative dependence on a Microsoft account (not so noticeable in the desktop version);&lt;/li&gt;
-&lt;li&gt;In version 365 - limited offline work.&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;High price. The more applications included in the package, the higher the price;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;For some, the interface is overloaded;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Relative dependence on a Microsoft account (not so noticeable in the desktop version);&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;In version 365 - limited offline work.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Google Docs&lt;/strong&gt;&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Free software that works through a browser - hence the main problem. On the other hand, no installation on a PC is required. &lt;strong&gt;Extremely limited functionality&lt;/strong&gt;, low compatibility with Microsoft formats for complex layout, as well as complete dependence on Google services and their policies. Great for real-time collaboration, but not as a primary solution.&lt;/p&gt;
@@ -57,18 +57,18 @@
 &lt;p align=&#34;justify&#34;&gt;A free office suite, the successor to the OpenOffice project. Supports many formats, including MS Office and ODF.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Pros:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Free forever and without ads;&lt;/li&gt;
-&lt;li&gt;Full functionality without additional charges;&lt;/li&gt;
-&lt;li&gt;Support for open formats;&lt;/li&gt;
-&lt;li&gt;Works offline;&lt;/li&gt;
-&lt;li&gt;Ideal for educational and government institutions;&lt;/li&gt;
-&lt;li&gt;Installed on Windows, Linux, macOS.&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Free forever and without ads;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Full functionality without additional charges;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Support for open formats;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Works offline;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Ideal for educational and government institutions;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Installed on Windows, Linux, macOS.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p align=&#34;justify&#34;&gt;Cons:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The interface may seem &#34;outdated&#34; after Microsoft Office;&lt;/li&gt;
-&lt;li&gt;Does not always open complex documents with macros perfectly;&lt;/li&gt;
-&lt;li&gt;Less integration with cloud services (which, however, can be a plus).&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The interface may seem &#34;outdated&#34; after Microsoft Office;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Does not always open complex documents with macros perfectly;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Less integration with cloud services (which, however, can be a plus).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#39;about_me&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. Why I stayed with LibreOffice&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;In short, LibreOffice has everything that Microsoft Office has. Writer (analogous to Word) may have a less “modern” interface, but it is logical, stable, and not overloaded with unnecessary things. In addition, toolbars can be customized: enable classic view, ribbon interface, or compact panels — everything is under the user’s control.&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;p align=&#34;justify&#34;&gt;It&#39;s also worth discussing the challenges faced by those considering moving away from Microsoft Office. You&#39;ll have to adjust the formatting when opening .docx documents, especially if they contain complex layout or tables. I, for example, often had problems displaying images. In such cases, you might want to consider switching to the open ODF (.odt) format.&lt;/p&gt;
 &lt;h2 id=&#39;about_me&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;LibreOffice is not just a “free alternative” to Microsoft Office. It is a mature, reliable and versatile tool for everyday work with documents, spreadsheets and presentations. It gives freedom, protects data, does not require constant payment and at the same time offers full functionality. The main thing is that it is under the control of the user, not a large corporation. If you have not tried LibreOffice yet, I recommend at least installing it and seeing it in practice. Perhaps, like me, for you it will start as an experiment - and end with a conscious transition.&lt;/p&gt;
-&lt;p&gt;You can download LibreOffice from the official website - &lt;a href=&#34;https://www.libreoffice.org&#34;&gt;click to go&lt;/a&gt;.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;You can download LibreOffice from the official website - &lt;a href=&#34;https://www.libreoffice.org&#34;&gt;click to go&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
