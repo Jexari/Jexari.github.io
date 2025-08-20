@@ -34,6 +34,26 @@
       href="https://jexari.github.io/event/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/project/malware_blocker/</loc><lastmod>2025-08-19T21:03:22+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/project/malware_blocker/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/project/malware_blocker/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/project/</loc><lastmod>2025-08-19T21:03:22+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/project/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/project/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/categories/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -104,16 +124,6 @@
       href="https://jexari.github.io/project/cashier_program/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/project/</loc><lastmod>2025-07-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/project/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/project/"
-    /></url>
-  <url>
     <loc>https://jexari.github.io/tag/python/</loc><lastmod>2025-07-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -122,6 +132,16 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tag/python/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/python/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/python/"
     /></url>
   <url>
     <loc>https://jexari.github.io/tag/technologies/</loc><lastmod>2023-07-24T14:42:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -242,16 +262,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/dictionaries_in_python/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/category/python/</loc><lastmod>2022-12-01T22:21:10+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/category/python/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/category/python/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/frontpage/</loc><lastmod>2022-11-30T17:47:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link

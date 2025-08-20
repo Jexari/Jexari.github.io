@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Malware_blocker</title>
+      <link>https://jexari.github.io/ru/project/malware_blocker/</link>
+      <pubDate>Tue, 19 Aug 2025 21:03:22 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/project/malware_blocker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Почему LibreOffice лучше Microsoft Office?</title>
       <link>https://jexari.github.io/ru/post/libre_office_or_ms_office/</link>
       <pubDate>Wed, 23 Jul 2025 16:00:32 +0300</pubDate>
@@ -97,7 +105,7 @@
 &lt;p align=&#34;justify&#34;&gt;Для подготовки презентаций я использовал Impress. Да, в нём меньше эффектов и шаблонов, чем в PowerPoint, но для деловых, академических и образовательных задач его более чем достаточно. Презентации сохраняются в формате .odp, но при необходимости можно экспортировать в .pptx — и наоборот.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;И, конечно, самое главное преимущество LibreOffice — он работает на многих операционных системах. Для меня, как пользователя Linux и Windows, это фактор номер один при выборе офисного пакета.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Стоит также обсудить вызовы, с которыми сталкиваются те, кто хочет отказаться от Microsoft Office. Вам придётся подгонять форматирование при открытии документов в формате .docx, особенно если они содержат сложную вёрстку или таблицы. У меня, например, часто возникали проблемы с отображением изображений. В таких случаях можно рассмотреть переход на открытый формат ODF (.odt).&lt;/p&gt;
-&lt;h2 id=&#39;about_me&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Вывод&lt;/b&gt;&lt;/h2&gt;
+&lt;h2 id=&#39;conclusion&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. Вывод&lt;/b&gt;&lt;/h2&gt;
 &lt;p align=&#34;justify&#34;&gt;LibreOffice — это не просто «бесплатная альтернатива» Microsoft Office. Это зрелый, надёжный и универсальный инструмент для повседневной работы с документами, таблицами и презентациями. Он даёт свободу, защищает данные, не требует постоянной оплаты и при этом предлагает полный функционал. Главное — он подконтролен пользователю, а не крупной корпорации. Если вы ещё не пробовали LibreOffice, я рекомендую хотя бы установить его и посмотреть на практике. Возможно, как и у меня, у вас это начнётся как эксперимент — а закончится осознанным переходом.&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Скачать LibreOffice можно с официального сайта — &lt;a href=&#34;https://www.libreoffice.org&#34;&gt;нажмите для перехода&lt;/a&gt;.&lt;/p&gt;
 </description>
