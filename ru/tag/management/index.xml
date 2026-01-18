@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management | Ян Долганов</title>
+    <link>https://jexari.github.io/ru/tag/management/</link>
+      <atom:link href="https://jexari.github.io/ru/tag/management/index.xml" rel="self" type="application/rss+xml" />
+    <description>Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 18 Jan 2026 16:50:07 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Management</title>
+      <link>https://jexari.github.io/ru/tag/management/</link>
+    </image>
+    
+    <item>
+      <title>Три кита стратегического планирования</title>
+      <link>https://jexari.github.io/ru/post/three_whales/</link>
+      <pubDate>Sun, 18 Jan 2026 16:50:07 +0300</pubDate>
+      <guid>https://jexari.github.io/ru/post/three_whales/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Содержание&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#intr&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Введение&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#swot&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; SWOT-анализ: Честный аудит &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#abc&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; ABC-анализ: Наводим порядок в ресурсах &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#pest&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; PEST-анализ: Взгляд на горизонт &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#outcome_swot_abc_pest&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Заключение &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;intr&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Введение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;В условиях нестабильного рынка интуитивное управление — это путь в никуда. Чтобы бизнес оставался на плаву и рос, руководителю нужны четкие инструменты оценки реальности. Разберем три фундаментальных метода, которые в связке дают полную картину состояния компании.&lt;/p&gt;
+&lt;h2 id=&#39;swot&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. SWOT-анализ: Честный аудит&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Этот анализ даёт чёткое понимание сильных и слабых сторон, а также позволяет учитывать угрозы и возможности. Аббревиатура SWOT образована от сокращения слов по заглавным буквам:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Strengths — преимущества, сильные стороны, уникальные характеристики.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Weaknesses — недостатки, слабые стороны, которые тормозят проект.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Opportunities — то, что способно улучшить положение в проекте.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Threats — потенциальная опасность, из-за которой проект может пострадать.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Пример экспресс SWOT-анализа.&lt;/b&gt;&lt;/p&gt;
+&lt;table class=&#34;swot&#34; width=&#34;100%&#34; style=&#34;table-layout: fixed; border-collapse: collapse;&#34;&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;strengths&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;S — Strengths (Сильные стороны)&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Уникальный продукт&lt;/li&gt;
+                    &lt;li&gt;Высокая лояльность клиентов&lt;/li&gt;
+                    &lt;li&gt;Квалифицированная команда&lt;/li&gt;
+                &lt;/ul&gt;
+        &lt;/td&gt;
+        &lt;td class=&#34;weaknesses&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;W — Weaknesses (Слабые стороны)&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Ограниченный бюджет&lt;/li&gt;
+                    &lt;li&gt;Слабая узнаваемость бренда&lt;/li&gt;
+                    &lt;li&gt;Зависимость от одного поставщика&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;opportunities&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;O — Opportunities (Возможности)&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Выход на новые рынки&lt;/li&gt;
+                    &lt;li&gt;Внедрение новых технологий&lt;/li&gt;
+                    &lt;li&gt;Ослабление конкурентов&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;td class=&#34;threats&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;T — Threats (Угрозы)&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Изменение законодательства&lt;/li&gt;
+                    &lt;li&gt;Рост цен на сырье&lt;/li&gt;
+                    &lt;li&gt;Появление сильных демпингующих игроков&lt;/li&gt;
+                &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Как провести SWOT-анализ?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 1. Осознать, что помогает, а что мешает. Необходимо записать это в 2 столбца.&lt;/p&gt;
+&lt;table class=&#34;swot_2&#34; width=&#34;100%&#34; style=&#34;table-layout: fixed; border-collapse: collapse;&#34;&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;h&#34;&gt;
+        &lt;span class=&#34;help&#34;&gt;Что мне (нам) помогает?&lt;/span&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/td&gt;
+        &lt;td class=&#34;n_h&#34;&gt;
+        &lt;span class=&#34;n_help&#34;&gt;Что мне (нам) мешает?&lt;/span&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 2. По каждому полученному пункту задаём вопрос: &#34;Можно ли повлиять на это?&#34; Если это зависит от вас, то это внутреннее свойство, а если нет, то внешнее явление.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 3. По итогам SWOT-анализа необходимо сделать следующее:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;усиливать сильные стороны и использовать их в первую очередь&lt;/li&gt;
+&lt;li&gt;компенсировать слабые стороны&lt;/li&gt;
+&lt;li&gt;использовать все открывшиеся возможности&lt;/li&gt;
+&lt;li&gt;уменьшать воздействие угроз&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Стоит отдельно уделить внимание связке: сильные стороны + возможности, а также слабые стороны + угрозы.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Преимущества SWOT-анализа:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Метод не имеет границ применения — он одинаково эффективен как для оценки запуска стартапа или конкретного продукта, так и для анализа экономики целых регионов и государств.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Аналитик сам определяет фокус исследования. Систему можно «настроить» под узкую задачу (например, оценить только логистический потенциал компании) или провести комплексный аудит.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Инструмент подходит как для «быстрого среза» текущей ситуации (здесь и сейчас), так и для формирования долгосрочной стратегии на годы вперед.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Для работы с методикой не требуется специфическая квалификация или дорогостоящее ПО. Базовый анализ может провести любой руководитель, обладающий логикой и знанием своего дела.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Ограничения и недостатки:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Часто анализ превращается в простой список факторов. Без глубокой проработки связей между ними (например, как конкретная сила поможет нейтрализовать конкретную угрозу) ценность метода снижается.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Анализ фиксирует положение дел в конкретный момент. В условиях быстроменяющегося рынка результаты могут быстро потерять актуальность, так как метод плохо отражает динамику изменений.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Результаты обычно носят описательный (качественный) характер. Если для принятия решения вам нужны графики, расчеты и жесткие метрики, SWOT придется дополнять другими инструментами.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Итоговая картина сильно зависит от личного мнения, кругозора и даже настроения эксперта. Человеческий фактор может привести к искажению реальности.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Чтобы анализ не был «взятым из головы», требуется сбор и фильтрация огромного объема данных из разных сфер, что может быть трудозатратными процессами.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Использовать данный анализ можно не только в бизнесе или политике. С помощью него можно определиться в выборе профессии и помочь в карьерном росте, выявить истинные ценности человека и составить для него план развития.&lt;/p&gt;
+&lt;h2 id=&#39;abc&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. ABC-анализ: Наводим порядок в ресурсах&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Используя данный анализ, мы можем увидеть, продажа какой продукции оборачивается прибылью, а какие позиции являются убыточными.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Метод разделяет ресурсы (товары, клиентов, запасы) на три категории:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Категория А: Самые ценные позиции. Обычно это 20% ассортимента, которые дают 80% прибыли. Их нельзя терять, за ними нужен строгий контроль.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Категория B: «Середнячки». Около 30% ассортимента и 15% прибыли. Обеспечивают стабильность.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Категория C: «Хвост». 50% ассортимента, которые приносят всего 5% прибыли. Часто это неликвид, который замораживает ваши деньги.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Как провести ABC-анализ?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 1. Необходимо выгрузить данные за определенный период (месяц, квартал или год). Обычно это таблица из двух колонок:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Наименование позиции.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Значение показателя (например, сумма продаж в рублях).&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 2. Список позиций выстраивается от большего к меньшему. Сверху оказываются самые прибыльные товары или «денежные» клиенты, снизу — самые незначительные.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 3. Для каждого элемента вычисляется его процентный вклад в общую сумму.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 4. На основе накопленной доли позиции разделяются на три категории.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Что делать с результатами?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Группа А: Обеспечить постоянное наличие на складе, лучший сервис для этих клиентов, максимальное внимание.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Группа B: Поддерживать стабильность, искать способы перевода в группу А.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Группа C: Рассмотреть возможность вывода из ассортимента, сократить запасы, минимизировать время на обслуживание.&lt;/p&gt;
+&lt;h2 id=&#39;pest&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. PEST-анализ: Взгляд на горизонт&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;PEST-анализ — это инструмент стратегического управления, который помогает понять, какие внешние силы влияют на организацию, даже если она не может на них повлиять напрямую. Аббревиатура PEST расшифровывается как Political (политические), Economic (экономические), Social (социальные), Technological (технологические) факторы. В более современных версиях добавляют ещё Environmental (экологические) и Legal (правовые), образуя модель PESTEL.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Главная цель PEST-анализа — не просто перечислить внешние факторы, а определить, какие из них создают угрозы, а какие — возможности. Это не прогноз и не статистика — это фильтр восприятия окружающей среды через стратегическую оптику: «Что это значит для нас?»&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Как провести PEST-анализ?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 1. Соберите команду и выпишите все факторы по каждой из четырех букв, которые могут коснуться вашего бизнеса в ближайшие 3–5 лет.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 2. Не все факторы одинаково важны. Оцените каждый пункт по шкале от 1 до 3, где:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1 — почти не влияет;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2 — влияет умеренно;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3 — критическое влияние.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 3. Насколько вероятно, что этот фактор сработает? Используйте шкалу от 0 до 1 (например, 0.8 — очень вероятно, 0.2 — маловероятно).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Шаг 4. Перемножьте влияние на вероятность. Полученные значения покажут вам, на чем сфокусировать внимание в первую очередь.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Главная ошибка при PEST-анализе&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Многие компании ограничиваются простым перечислением фактов: «Инфляция 10%» или «Приняли новый закон».&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Важно: PEST-анализ заканчивается не списком факторов, а ответом на вопрос: «Что мы будем делать, если это произойдет?».&lt;/p&gt;
+&lt;h2 id=&#39;outcome_swot_abc_pest&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;5&lt;/span&gt;. Заключение&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;В данной статье мы разобрали три фундаментальных инструмента, которые часто воспринимаются как сухая теория из учебников. Однако на практике SWOT, ABC и PEST — это «приборы» на панели управления вашим бизнесом. Без них вы летите в тумане, опираясь только на интуицию.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Подведем итог: как эти методы работают в синергии?&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;PEST-анализ задает контекст. Он отвечает на вопрос: «В каком мире мы работаем и к каким штормам на горизонте нам готовиться?»&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;SWOT-анализ определяет позицию. Он честно говорит: «Какие у нас есть козыри и где мы рискуем проиграть?»&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;ABC-анализ расставляет приоритеты. Он указывает: «На что именно нам тратить время и деньги прямо сейчас, чтобы получить максимальный результат?»&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;С чего начать?&lt;/b&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Не стоит пытаться внедрить всё за один день. Начните с малого!&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Проведите ABC-анализ продаж за последний квартал — это даст быстрый результат в виде высвобожденных ресурсов.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Соберите команду на час и набросайте SWOT-матрицу — это поможет синхронизировать видение проблем внутри коллектива.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Раз в полгода заглядывайте в PEST, чтобы корректировать курс в зависимости от внешних изменений.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&#34;justify&#34;&gt;Главная ценность анализа — не в заполненных таблицах, а в решениях, которые вы принимаете на их основе. Помните: любая стратегия ценна лишь в той мере, в какой она воплощается в конкретные шаги.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

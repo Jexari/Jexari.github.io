@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management | Ian L. Dolganov</title>
+    <link>https://jexari.github.io/category/management/</link>
+      <atom:link href="https://jexari.github.io/category/management/index.xml" rel="self" type="application/rss+xml" />
+    <description>Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Jan 2026 16:50:07 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
+      <title>Management</title>
+      <link>https://jexari.github.io/category/management/</link>
+    </image>
+    
+    <item>
+      <title>Three pillars of strategic planning</title>
+      <link>https://jexari.github.io/post/three_whales/</link>
+      <pubDate>Sun, 18 Jan 2026 16:50:07 +0300</pubDate>
+      <guid>https://jexari.github.io/post/three_whales/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open=&#34;&#34;&gt;
+&lt;summary class=&#34;font-weight-bold&#34;&gt;Content&lt;/summary&gt;
+&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#intr&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;1&lt;/span&gt; Introduction &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#swot&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;2&lt;/span&gt; SWOT Analysis: Honest Audit &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#abc&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;3&lt;/span&gt; ABC Analysis: Putting Resources in Order &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#pest&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;4&lt;/span&gt; PEST Analysis: Looking to the Horizon &lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;#outcome_swot_abc_pest&#34; class=&#34;nav-link&#34;&gt;&lt;span class=&#34;section-num&#34;&gt;5&lt;/span&gt; Conclusion &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+&lt;h2 id=&#39;intr&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;1&lt;/span&gt;. Introduction&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;In a volatile market, intuitive management is a dead end. For a business to stay afloat and grow, managers need clear tools to assess reality. Let&#39;s explore three fundamental methods that, when combined, provide a complete picture of the company&#39;s state.&lt;/p&gt;
+&lt;h2 id=&#39;swot&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;2&lt;/span&gt;. SWOT Analysis: Honest Audit&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;This analysis provides a clear understanding of strengths and weaknesses and allows one to consider threats and opportunities. The acronym SWOT is derived from the abbreviation of the words in capital letters:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Strengths – advantages, strengths, unique characteristics.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Weaknesses — shortcomings or weaknesses that hinder a project.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Opportunities — things that can improve the situation in a project.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Threats — potential dangers that can cause harm to the project.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Example of a quick SWOT analysis.&lt;/b&gt;&lt;/p&gt;
+&lt;table class=&#34;swot&#34; width=&#34;100%&#34; style=&#34;table-layout: fixed; border-collapse: collapse;&#34;&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;strengths&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;S — Strengths&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Unique product&lt;/li&gt;
+                    &lt;li&gt;High customer loyalty&lt;/li&gt;
+                    &lt;li&gt;Qualified team&lt;/li&gt;
+                &lt;/ul&gt;
+        &lt;/td&gt;
+        &lt;td class=&#34;weaknesses&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;W — Weaknesses&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Limited budget&lt;/li&gt;
+                    &lt;li&gt;Weak brand recognition&lt;/li&gt;
+                    &lt;li&gt;Dependent on a single supplier&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;opportunities&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;O — Opportunities&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Entering new markets&lt;/li&gt;
+                    &lt;li&gt;Implementing new technologies&lt;/li&gt;
+                    &lt;li&gt;Weakening competitors&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;td class=&#34;threats&#34;&gt;
+                &lt;span class=&#34;swot-title&#34;&gt;T — Threats&lt;/span&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Changes in legislation&lt;/li&gt;
+                    &lt;li&gt;Rising raw material prices&lt;/li&gt;
+                    &lt;li&gt;Emergence of powerful dumping players&lt;/li&gt;
+                &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;How to conduct a SWOT analysis?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 1. Identify what helps and what hinders you. Write this down in two columns.&lt;/p&gt;
+&lt;table class=&#34;swot_2&#34; width=&#34;100%&#34; style=&#34;table-layout: fixed; border-collapse: collapse;&#34;&gt;
+    &lt;tr&gt;
+        &lt;td class=&#34;h&#34;&gt;
+        &lt;span class=&#34;help&#34;&gt;What help me (us)?&lt;/span&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/td&gt;
+        &lt;td class=&#34;n_h&#34;&gt;
+        &lt;span class=&#34;n_help&#34;&gt;What stop me (us)?&lt;/span&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                    &lt;li&gt;...&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 2. For each point we receive, ask the question: &#34;Can this be influenced?&#34; If it depends on you, then it is an internal property, and if not, then it is an external phenomenon.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 3. Based on the results of the SWOT analysis, you need to do the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;build on strengths and use them first&lt;/li&gt;
+&lt;li&gt;compensate for weaknesses&lt;/li&gt;
+&lt;li&gt;take advantage of all the opportunities that open up&lt;/li&gt;
+&lt;li&gt;reduce the impact of threats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;It is worth paying special attention to the connection: strengths + opportunities, as well as weaknesses + threats.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Benefits of SWOT Analysis:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The method has no limits to its application—it is equally effective for evaluating the launch of a startup or a specific product, as well as for analyzing the economies of entire regions and countries.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The analyst determines the focus of the study. The system can be customized for a specific task (for example, assessing only a company&#39;s logistics potential) or conduct a comprehensive audit.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The tool is suitable both for a &#34;quick snapshot&#34; of the current situation (here and now), and for forming a long-term strategy for years to come.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Working with the method does not require specific qualifications or expensive software. A basic analysis can be carried out by any manager with logic and knowledge of their business.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Limitations and disadvantages:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Often, analysis devolves into a simple list of factors. Without a deep understanding of the connections between them (for example, how a specific force will help neutralize a specific threat), the method&#39;s value is diminished.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Analysis captures the state of affairs at a specific moment. In a rapidly changing market, the results can quickly become irrelevant, as the method poorly reflects the dynamics of change.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The results are usually descriptive (qualitative). If you need graphs, calculations, and hard metrics to make decisions, SWOT will need to be supplemented with other tools.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The final picture depends heavily on the personal opinion, outlook, and even mood of the expert. The human factor can lead to a distortion of reality.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;To ensure that the analysis isn&#39;t just &#34;pulled from the top of your head,&#34; it requires collecting and filtering a huge amount of data from various fields, which can be a labor-intensive process.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;This analysis can be used not only in business or politics. It can help you choose a profession and advance your career, identify your true values, and create a development plan for you.&lt;/p&gt;
+&lt;h2 id=&#39;abc&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;3&lt;/span&gt;. ABC Analysis: Putting Resources in Order &lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;Using this analysis, we can see which products are profitable and which items are unprofitable.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The method divides resources (goods, customers, stocks) into three categories:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Category A: The most valuable positions. Typically it is 20% of the product range that generates 80% of the profit. They must not be lost; they need strict control.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Category B: “Medium”. About 30% of the range and 15% of the profit. They provide stability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Category C: &#34;Tail&#34; items. The 50% of the product range, which account for only 5% of profit. Often, it&#39;s illiquid assets that tie up your money.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;How to conduct an ABC analysis?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 1. You need to download data for a specific period (month, quarter, or year). This is usually a two-column table:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Position name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;The value of the indicator (for example, the amount of sales in euros).&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 2. The list of items is arranged from highest to lowest. The most profitable products or “money” clients are at the top, and the least profitable ones are at the bottom.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 3. For each element, its percentage contribution to the total is calculated.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 4: Based on the accumulated share, positions are divided into three categories.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;What to do with the results?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Group A: Ensure constant availability, provide the best service to these customers, and provide maximum attention.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Group B: Maintain stability, seek ways to transition to Group A.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Group C: Consider discontinuing, reduce inventory, and minimize service time.&lt;/p&gt;
+&lt;h2 id=&#39;pest&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;4&lt;/span&gt;. PEST Analysis: Looking to the Horizon &lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;PEST analysis is a strategic management tool that helps understand the external forces that influence an organization, even if it can&#39;t directly influence them. The acronym PEST stands for Political, Economic, Social, and Technological factors. More modern versions also add &#34;Environmental&#34; and &#34;Legal,&#34; creating the PESTEL model.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;The main goal of a PEST analysis is not simply to list external factors, but to determine which ones pose threats and which ones pose opportunities. It&#39;s not a forecast or statistics—it&#39;s a filter for perceiving the environment through a strategic lens: &#34;What does this mean for us?&#34;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;How to conduct a PEST analysis?&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 1. Gather your team and list all the factors under each of the four letters that could affect your business in the next 3-5 years.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 2. Not all factors are equally important. Rate each item on a scale of 1 to 3, where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1 — almost no impact;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2 — moderate impact;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3 — critical impact.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 3. How likely is this factor to work? Use a scale from 0 to 1 (e.g., 0.8 is very likely, 0.2 is unlikely).&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Step 4. Multiply the impact by the likelihood. The resulting values will show you where to focus first.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;The main mistake in PEST analysis&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Many companies limit themselves to a simple list of facts: &#34;Inflation is 10%&#34; or &#34;A new law was passed.&#34;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Important: A PEST analysis does not end with a list of factors, but with an answer to the question: &#34;What will we do if this happens?&#34;&lt;/p&gt;
+&lt;h2 id=&#39;outcome_swot_abc_pest&#39;&gt;&lt;span class=&#34;section-num&#34;&gt;&lt;b&gt;5&lt;/span&gt;. Conclusion&lt;/b&gt;&lt;/h2&gt;
+&lt;p align=&#34;justify&#34;&gt;In this article, we&#39;ve covered three fundamental tools that are often perceived as dry textbook theory. However, in practice, SWOT, ABC and PEST are “gadgets” on your business’s control panel. Without them, you&#39;re flying in the dark, relying solely on intuition.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Let&#39;s summarize: how do these methods work synergistically?&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;PEST analysis sets the context. It answers the question: &#34;What world are we operating in, and what storms should we prepare for on the horizon?&#34;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;SWOT analysis defines a position. He asks honestly: &#34;What are our strengths and weaknesses, and where are we at risk of losing?&#34;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;ABC analysis prioritizes. He points out: “What exactly should we spend our time and money on right now to get the maximum result?”&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;&lt;b&gt;Where to start?&lt;/b&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Don&#39;t try to implement everything in one day. Start small!&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Conduct an ABC analysis of sales for the last quarter – this will yield quick results in the form of freed-up resources.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Gather your team for an hour and draw up a SWOT matrix – this will help align your team&#39;s understanding of the issues.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p align=&#34;justify&#34;&gt;Review the PEST matrix every six months to adjust course based on external changes.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&#34;justify&#34;&gt;The main value of analysis lies not in the completed tables, but in the decisions you make based on them. Remember: any strategy is only valuable to the extent that it is translated into concrete steps.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
