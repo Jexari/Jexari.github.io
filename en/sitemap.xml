@@ -34,6 +34,66 @@
       href="https://jexari.github.io/event/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/categories/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/categories/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tag/management/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/management/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/management/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/category/management/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/management/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/management/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/tags/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/three_whales/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/three_whales/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/three_whales/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/project/malware_blocker/</loc><lastmod>2025-08-19T21:03:22+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -54,16 +114,6 @@
       href="https://jexari.github.io/project/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/categories/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/categories/"
-    /></url>
-  <url>
     <loc>https://jexari.github.io/tag/libreoffice/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -82,26 +132,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/category/libreoffice/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/tags/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
     /></url>
   <url>
     <loc>https://jexari.github.io/post/libre_office_or_ms_office/</loc><lastmod>2025-07-23T16:00:32+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
