@@ -34,6 +34,26 @@
       href="https://jexari.github.io/event/"
     /></url>
   <url>
+    <loc>https://jexari.github.io/post/books_2025_spring_summer/</loc><lastmod>2026-03-01T19:41:06+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/books_2025_spring_summer/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/books_2025_spring_summer/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/post/</loc><lastmod>2026-03-01T19:41:06+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/"
+    /></url>
+  <url>
     <loc>https://jexari.github.io/categories/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -62,16 +82,6 @@
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/category/management/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/post/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/post/"
     /></url>
   <url>
     <loc>https://jexari.github.io/tags/</loc><lastmod>2026-01-18T16:50:07+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
