@@ -5,7 +5,7 @@
     <link>https://jexari.github.io/tag/python/</link>
       <atom:link href="https://jexari.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 16:48:16 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 16:48:16 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
@@ -15,25 +15,25 @@
     <item>
       <title>Cashier&#39;s work program</title>
       <link>https://jexari.github.io/project/cashier_program/</link>
-      <pubDate>Tue, 01 Jul 2025 16:48:16 +0300</pubDate>
+      <pubDate>Mon, 01 Jun 2026 16:48:16 +0300</pubDate>
       <guid>https://jexari.github.io/project/cashier_program/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Jexari/Program-for-the-cashier&#34;&gt;You can click here to view the program.&lt;/a&gt;&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;The cashier program includes a database that stores information about cashiers, products and their bar codes. It provides automation of sales processes and allows cashiers to quickly and efficiently perform transactions at the checkout. With the help of the database, the cashier can easily search for information about products, which significantly speeds up the process of making purchases. Each product has a unique bar code that links it to information about the price, availability in stock and other characteristics. The database also stores data about cashiers, which allows you to track their work, as well as keep records of sales, ensuring the accuracy and transparency of financial transactions. The program has an imitation of a cash drawer. Accounting of deposits and withdrawals of funds is kept.&lt;/p&gt;
 &lt;p&gt;Project plan:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;By September 1, 2025:
+&lt;li&gt;By September 1, 2026:
 &lt;ul&gt;
 &lt;li&gt;create a database with barcodes and a database with order numbers;&lt;/li&gt;
 &lt;li&gt;register the ability to select a cashier before selling.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;By November 1, 2025:
+&lt;li&gt;By November 1, 2026:
 &lt;ul&gt;
 &lt;li&gt;organize the recording of cash register opening, sales, cash register closing;&lt;/li&gt;
 &lt;li&gt;write an accounting of money in the cash drawer.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;By January 1,2026:
+&lt;li&gt;By January 1,2027:
 &lt;ul&gt;
 &lt;li&gt;register the ability to sell by order number;&lt;/li&gt;
 &lt;li&gt;protection from unauthorized access;&lt;/li&gt;

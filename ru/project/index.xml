@@ -5,7 +5,7 @@
     <link>https://jexari.github.io/ru/project/</link>
       <atom:link href="https://jexari.github.io/ru/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Tue, 19 Aug 2025 21:03:22 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 01 Jun 2026 16:48:16 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu8079827bf8ba6556542529f13902f8f8_5736_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,35 +13,27 @@
     </image>
     
     <item>
-      <title>Malware_blocker</title>
-      <link>https://jexari.github.io/ru/project/malware_blocker/</link>
-      <pubDate>Tue, 19 Aug 2025 21:03:22 +0300</pubDate>
-      <guid>https://jexari.github.io/ru/project/malware_blocker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Программа для работы кассира</title>
       <link>https://jexari.github.io/ru/project/cashier_program/</link>
-      <pubDate>Tue, 01 Jul 2025 16:48:16 +0300</pubDate>
+      <pubDate>Mon, 01 Jun 2026 16:48:16 +0300</pubDate>
       <guid>https://jexari.github.io/ru/project/cashier_program/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Jexari/Program-for-the-cashier&#34;&gt;Вы можете нажать сюда для просмотра программы.&lt;/a&gt;&lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;Программа для работы кассира включает в себя базу данных, в которой хранятся сведения о кассирах, товарах и их штриховых кодах. Она обеспечивает автоматизацию процессов продаж и позволяет кассирам быстро и эффективно выполнять операции на кассе. С помощью базы данных кассир может легко искать информацию о товарах, что значительно ускоряет процесс оформления покупок. Каждый товар имеет уникальный штрих-код, который связывает его с информацией о цене, наличии на складе и других характеристиках. В базе данных также сохраняются данные о кассирах, что позволяет отслеживать их работу, а также вести учет продаж, обеспечивая точность и прозрачность финансовых операций. В программе есть имитация кассового ящика. Ведется учет внесения и изъятия денежных средств.&lt;/p&gt;
 &lt;p&gt;План проекта:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;До 01.09.2025:
+&lt;li&gt;До 01.09.2026:
 &lt;ul&gt;
 &lt;li&gt;создать базу данных со штриховыми кодами и базу данных с номерами заказа;&lt;/li&gt;
 &lt;li&gt;прописать возможность выбора кассира перед продажей.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;До 01.11.2025:
+&lt;li&gt;До 01.11.2026:
 &lt;ul&gt;
 &lt;li&gt;организовать запись открытия кассы, продаж, закрытия кассы;&lt;/li&gt;
 &lt;li&gt;написать учёт денег в кассовом ящике.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;До 01.01.2026:
+&lt;li&gt;До 01.01.2027:
 &lt;ul&gt;
 &lt;li&gt;прописать возможность продажи по номеру заказа;&lt;/li&gt;
 &lt;li&gt;защита от несанкционированного доступа;&lt;/li&gt;
