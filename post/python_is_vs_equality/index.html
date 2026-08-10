@@ -851,6 +851,16 @@
 
   
   
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Ian L. Dolganov</span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -899,7 +909,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p align="justify">In Python, you can encounter both the `==` operator and `is` when comparing values.</p>
+      <p align="justify">In Python, you can encounter both the <em>==</em> operator and <em>is</em> when comparing values.</p>
 <p align="justify">Consider a simple example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
@@ -909,7 +919,7 @@
 </span></span></code></pre></div><p align="justify">Result:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
 </span></span><span class="line"><span class="cl">False
-</span></span></code></pre></div><p align="justify">The lists `a` and `b` contain the same values, so the expression `a == b` returns `True`. At the same time, the lists themselves were created separately. They are two different objects, so `a is b` returns `False`.</p>
+</span></span></code></pre></div><p align="justify">The lists <em>a</em> and <em>b</em> contain the same values, so the expression <em>a == b</em> returns <em>True</em>. At the same time, the lists themselves were created separately. They are two different objects, so <em>a is b</em> returns <em>False</em>.</p>
 <p align="justify">If we modify the example as follows:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
@@ -919,20 +929,20 @@
 </span></span></code></pre></div><p align="justify">then the result will be different:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
 </span></span><span class="line"><span class="cl">True
-</span></span></code></pre></div><p align="justify">In this case, no new list was created for `b`. The variable `b` was assigned a reference to the same object that `a` already refers to.</p>
-<p align="justify">You can also check this using the `id()` function:</p>
+</span></span></code></pre></div><p align="justify">In this case, no new list was created for <em>b</em>. The variable <em>b</em> was assigned a reference to the same object that <em>a</em> already refers to.</p>
+<p align="justify">You can also check this using the <em>id()</em> function:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
-</span></span></code></pre></div><p align="justify">The `id` values will be the same.</p>
+</span></span></code></pre></div><p align="justify">The <em>id</em> values will be the same.</p>
 <blockquote>
 <p><code>==</code> answers the question: “Do the objects have the same values?”</p>
 <p><code>is</code> answers the question: “Is this the same object?”</p>
 </blockquote>
 <h2 id="when-to-use-">When to Use <code>==</code></h2>
-<p align="justify">In most ordinary comparisons, the `==` operator is the one you need.</p>
+<p align="justify">In most ordinary comparisons, the <em>==</em> operator is the one you need.</p>
 <p align="justify">For example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
 </span></span><span class="line"><span class="cl">
@@ -951,13 +961,13 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Lists are equal&#34;</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">Here, we are interested in the contents of the objects, not where exactly they are located in memory.</p>
 <h2 id="when-to-use-is">When to Use <code>is</code></h2>
-<p align="justify">`is` makes sense in cases where you need to check object identity.</p>
-<p align="justify">The most common example is `None`:</p>
+<p align="justify"><em>is</em> makes sense in cases where you need to check object identity.</p>
+<p align="justify">The most common example is <em>None</em>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="kc">None</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;No result&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p align="justify">For the opposite check, `is not` is used:</p>
+</span></span></code></pre></div><p align="justify">For the opposite check, <em>is not</em> is used:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">This is the form that is usually used in Python code instead of:</p>
@@ -971,7 +981,7 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="ow">is</span> <span class="n">b</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">And get:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
-</span></span></code></pre></div><p align="justify">After this, it may seem that `is` is perfectly suitable for comparing numbers.</p>
+</span></span></code></pre></div><p align="justify">After this, it may seem that <em>is</em> is perfectly suitable for comparing numbers.</p>
 <p align="justify">However, you should not rely on this behavior. Python may reuse some objects that have already been created. This applies, for example, to some integers and strings.</p>
 <p align="justify">Therefore, writing:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="n">number</span> <span class="ow">is</span> <span class="mi">10</span><span class="p">:</span>
@@ -1099,6 +1109,7 @@
 
   
   
+    
 
 
 
@@ -1229,6 +1240,7 @@
   </div>
 
 
+  
 
 
 

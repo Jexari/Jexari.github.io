@@ -851,6 +851,16 @@
 
   
   
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Долганов Ян Львович</span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -899,7 +909,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p align="justify">В Python для сравнения можно встретить как оператор `==`, так и `is`.</p>
+      <p align="justify">В Python для сравнения можно встретить как оператор <em>==</em>, так и <em>is</em>.</p>
 <p align="justify">Рассмотрим простой пример:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
@@ -909,7 +919,7 @@
 </span></span></code></pre></div><p align="justify">Результат:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
 </span></span><span class="line"><span class="cl">False
-</span></span></code></pre></div><p align="justify">Списки `a` и `b` содержат одинаковые значения, поэтому выражение `a == b` возвращает `True`. При этом сами списки были созданы отдельно. Это два разных объекта, поэтому `a is b` возвращает `False`.</p>
+</span></span></code></pre></div><p align="justify">Списки <em>a</em> и <em>b</em> содержат одинаковые значения, поэтому выражение <em>a == b</em> возвращает <em>True</em>. При этом сами списки были созданы отдельно. Это два разных объекта, поэтому <em>a is b</em> возвращает <em>False</em>.</p>
 <p align="justify">Если изменить пример следующим образом:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
@@ -919,20 +929,20 @@
 </span></span></code></pre></div><p align="justify">то результат будет уже другим:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
 </span></span><span class="line"><span class="cl">True
-</span></span></code></pre></div><p align="justify">В данном случае новый список для `b` не создавался. Переменной `b` была присвоена ссылка на тот же объект, на который уже ссылается `a`.</p>
-<p align="justify">Можно проверить это и с помощью функции `id()`:</p>
+</span></span></code></pre></div><p align="justify">В данном случае новый список для <em>b</em> не создавался. Переменной <em>b</em> была присвоена ссылка на тот же объект, на который уже ссылается <em>a</em>.</p>
+<p align="justify">Можно проверить это и с помощью функции <em>id()</em>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
-</span></span></code></pre></div><p align="justify">Значения `id` будут одинаковыми.</p>
+</span></span></code></pre></div><p align="justify">Значения <em>id</em> будут одинаковыми.</p>
 <blockquote>
 <p><code>==</code> отвечает на вопрос: «Одинаковые ли у объектов значения?»</p>
 <p><code>is</code> отвечает на вопрос: «Это один и тот же объект?»</p>
 </blockquote>
 <h2 id="когда-использовать-">Когда использовать <code>==</code></h2>
-<p align="justify">В большинстве обычных сравнений нужен именно оператор `==`.</p>
+<p align="justify">В большинстве обычных сравнений нужен именно оператор <em>==</em>.</p>
 <p align="justify">Например:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
 </span></span><span class="line"><span class="cl">
@@ -951,13 +961,13 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Списки равны&#34;</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">Здесь нас интересует содержимое объектов, а не то, где именно они находятся в памяти.</p>
 <h2 id="когда-использовать-is">Когда использовать <code>is</code></h2>
-<p align="justify">`is` имеет смысл в тех случаях, когда необходимо проверить идентичность объекта.</p>
-<p align="justify">Наиболее распространённый пример — `None`:</p>
+<p align="justify"><em>is</em> имеет смысл в тех случаях, когда необходимо проверить идентичность объекта.</p>
+<p align="justify">Наиболее распространённый пример — <em>None</em>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="kc">None</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Результата нет&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p align="justify">Для обратной проверки используется `is not`:</p>
+</span></span></code></pre></div><p align="justify">Для обратной проверки используется <em>is not</em>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">Именно такой вариант обычно используется в Python-коде вместо:</p>
@@ -971,7 +981,7 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="ow">is</span> <span class="n">b</span><span class="p">)</span>
 </span></span></code></pre></div><p align="justify">И получить:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">True
-</span></span></code></pre></div><p align="justify">После этого может показаться, что `is` вполне подходит для сравнения чисел.</p>
+</span></span></code></pre></div><p align="justify">После этого может показаться, что <em>is</em> вполне подходит для сравнения чисел.</p>
 <p align="justify">Однако полагаться на такое поведение не нужно. Python может повторно использовать некоторые уже созданные объекты. Это относится, например, к некоторым целым числам и строкам.</p>
 <p align="justify">Поэтому писать:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="n">number</span> <span class="ow">is</span> <span class="mi">10</span><span class="p">:</span>
@@ -1099,6 +1109,7 @@
 
   
   
+    
 
 
 
@@ -1229,6 +1240,7 @@
   </div>
 
 
+  
 
 
 
