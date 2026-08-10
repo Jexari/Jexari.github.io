@@ -573,29 +573,23 @@
       <pubDate>Mon, 01 Jun 2026 16:48:16 +0300</pubDate>
       <guid>https://jexari.github.io/project/cashier_program/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Jexari/Program-for-the-cashier&#34;&gt;You can click here to view the program.&lt;/a&gt;&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;The cashier program includes a database that stores information about cashiers, products and their bar codes. It provides automation of sales processes and allows cashiers to quickly and efficiently perform transactions at the checkout. With the help of the database, the cashier can easily search for information about products, which significantly speeds up the process of making purchases. Each product has a unique bar code that links it to information about the price, availability in stock and other characteristics. The database also stores data about cashiers, which allows you to track their work, as well as keep records of sales, ensuring the accuracy and transparency of financial transactions. The program has an imitation of a cash drawer. Accounting of deposits and withdrawals of funds is kept.&lt;/p&gt;
-&lt;p&gt;Project plan:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;By September 1, 2026:
-&lt;ul&gt;
-&lt;li&gt;create a database with barcodes and a database with order numbers;&lt;/li&gt;
-&lt;li&gt;register the ability to select a cashier before selling.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;By November 1, 2026:
-&lt;ul&gt;
-&lt;li&gt;organize the recording of cash register opening, sales, cash register closing;&lt;/li&gt;
-&lt;li&gt;write an accounting of money in the cash drawer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;By January 1,2027:
-&lt;ul&gt;
-&lt;li&gt;register the ability to sell by order number;&lt;/li&gt;
-&lt;li&gt;protection from unauthorized access;&lt;/li&gt;
-&lt;li&gt;final editing of the GUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Release the final version of the project on March 1, 2026.&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&#34;justify&#34;&gt; &lt;strong&gt;Program for the Cashier&lt;/strong&gt; is an educational cash register application developed in Python using Tkinter. The project is designed to automate the main operations of a cashier: opening and closing shifts, searching for products by barcode, processing sales, accounting for money in the cash drawer, and saving the history of operations. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Product information is stored in the editable &lt;code&gt;codes.ods&lt;/code&gt; file. A barcode, name, and price are specified for each product. The cashier can scan or enter a barcode, after which the program finds the corresponding product and adds it to the current sale. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Information about completed sales and cash register shifts is stored in the &lt;code&gt;orders.db&lt;/code&gt; database. Each sale is linked to the cashier and the open shift, while completed orders are automatically assigned numbers in the &lt;code&gt;ORD-000001&lt;/code&gt; format. &lt;/p&gt;
+&lt;h3&gt;Working with Cash Register Shifts&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; Before starting work, the user selects a cashier and opens a cash register shift. When opening the shift, the initial amount of money in the cash drawer is specified. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; During the shift, the program records sales and allows manual cash deposits or withdrawals to be registered. When closing the cash register, the actual counted amount is entered. The program calculates the expected balance and saves any possible discrepancy. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; If the application was closed before the shift was completed, the unclosed shift is automatically restored the next time the program is launched. &lt;/p&gt;
+&lt;h3&gt;Data Storage and Control&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; An SHA-256 checksum is used to verify the integrity of the financial database. When the program starts, the contents of &lt;code&gt;orders.db&lt;/code&gt; are compared with the saved checksum from &lt;code&gt;orders.db.sha256&lt;/code&gt;. After a normal data modification, the checksum is updated automatically. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; The main actions of the program are recorded in the &lt;code&gt;cash_register.log&lt;/code&gt; file: application startup and shutdown, opening and closing shifts, scanning products, processing sales, depositing and withdrawing cash, checking database integrity, and any errors that occur. The log can be opened directly from the program interface in read-only mode. &lt;/p&gt;
+&lt;h3&gt;Main Features&lt;/h3&gt;
+&lt;ul&gt; &lt;li&gt;selecting a cashier before starting work;&lt;/li&gt; &lt;li&gt;opening and closing a cash register shift;&lt;/li&gt; &lt;li&gt;searching for products by barcode;&lt;/li&gt; &lt;li&gt;processing and saving sales;&lt;/li&gt; &lt;li&gt;automatic order numbering;&lt;/li&gt; &lt;li&gt;accounting for cash in the cash drawer;&lt;/li&gt; &lt;li&gt;depositing and withdrawing money;&lt;/li&gt; &lt;li&gt;calculating the expected and actual cash balance;&lt;/li&gt; &lt;li&gt;restoring an unclosed shift after restarting the program;&lt;/li&gt; &lt;li&gt;maintaining an activity log;&lt;/li&gt; &lt;li&gt;checking database integrity using SHA-256;&lt;/li&gt; &lt;li&gt;building a standalone Windows application.&lt;/li&gt; &lt;/ul&gt;
+&lt;h3&gt;Technologies&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; The project is written in &lt;strong&gt;Python&lt;/strong&gt;. The graphical user interface is created using &lt;strong&gt;Tkinter&lt;/strong&gt;. An &lt;strong&gt;ODS&lt;/strong&gt; spreadsheet is used to store product data, while operations and information about cash register shifts are stored in a local database. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; For Windows, the program can be built as a separate &lt;code&gt;CashRegister.exe&lt;/code&gt; using PyInstaller. The application can be launched without a console window, while working files are created and stored next to the executable file. &lt;/p&gt;
+&lt;h3&gt;Project Goal&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; The main goal of the project is to develop a standalone desktop application that simulates the operation of a cashier workstation and to implement, in practice, working with a graphical user interface, local data storage, cash register shifts, operation logging, and data integrity control. &lt;/p&gt;
 </description>
     </item>
     

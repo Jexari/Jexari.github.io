@@ -4,18 +4,32 @@
   
   
   <url>
-    <loc>https://jexari.github.io/es/project/cashier_program/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://jexari.github.io/project/cashier_program/"
+      href=""
     /><xhtml:link
       rel="alternate"
       hreflang="ru"
-      href="https://jexari.github.io/ru/project/cashier_program/"
+      href=""
     /><xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://jexari.github.io/es/project/cashier_program/"
+      href=""
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/es/categories/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/categories/"
     /></url>
   <url>
     <loc>https://jexari.github.io/es/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -30,6 +44,34 @@
       rel="alternate"
       hreflang="es"
       href="https://jexari.github.io/es/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href=""
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/es/project/cashier_program/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/project/cashier_program/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/project/cashier_program/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/project/cashier_program/"
     /></url>
   <url>
     <loc>https://jexari.github.io/es/project/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -58,6 +100,20 @@
       rel="alternate"
       hreflang="es"
       href="https://jexari.github.io/es/tag/python/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/es/category/python/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/category/python/"
     /></url>
   <url>
     <loc>https://jexari.github.io/es/tags/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -100,48 +156,6 @@
       rel="alternate"
       hreflang="es"
       href="https://jexari.github.io/es/slides/example/"
-    /></url>
-  <url>
-    <loc></loc><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href=""
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/es/categories/</loc><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://jexari.github.io/es/categories/"
-    /></url>
-  <url>
-    <loc></loc><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href=""
     /></url>
   <url>
     <loc>https://jexari.github.io/es/publication_types/</loc><changefreq>weekly</changefreq><xhtml:link

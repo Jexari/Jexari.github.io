@@ -13,34 +13,28 @@
     </image>
     
     <item>
-      <title>Cashier&#39;s work program</title>
+      <title>Programa para el cajero</title>
       <link>https://jexari.github.io/es/project/cashier_program/</link>
       <pubDate>Mon, 01 Jun 2026 16:48:16 +0300</pubDate>
       <guid>https://jexari.github.io/es/project/cashier_program/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Jexari/Program-for-the-cashier&#34;&gt;You can click here to view the program.&lt;/a&gt;&lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;The cashier program includes a database that stores information about cashiers, products and their bar codes. It provides automation of sales processes and allows cashiers to quickly and efficiently perform transactions at the checkout. With the help of the database, the cashier can easily search for information about products, which significantly speeds up the process of making purchases. Each product has a unique bar code that links it to information about the price, availability in stock and other characteristics. The database also stores data about cashiers, which allows you to track their work, as well as keep records of sales, ensuring the accuracy and transparency of financial transactions. The program has an imitation of a cash drawer. Accounting of deposits and withdrawals of funds is kept.&lt;/p&gt;
-&lt;p&gt;Project plan:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;By September 1, 2026:
-&lt;ul&gt;
-&lt;li&gt;create a database with barcodes and a database with order numbers;&lt;/li&gt;
-&lt;li&gt;register the ability to select a cashier before selling.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;By November 1, 2026:
-&lt;ul&gt;
-&lt;li&gt;organize the recording of cash register opening, sales, cash register closing;&lt;/li&gt;
-&lt;li&gt;write an accounting of money in the cash drawer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;By January 1,2027:
-&lt;ul&gt;
-&lt;li&gt;register the ability to sell by order number;&lt;/li&gt;
-&lt;li&gt;protection from unauthorized access;&lt;/li&gt;
-&lt;li&gt;final editing of the GUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Release the final version of the project on March 1, 2026.&lt;/li&gt;&lt;/ul&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Jexari/Program-for-the-cashier&#34;&gt;Puede hacer clic aquí para ver el programa.&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; &lt;strong&gt;Programa para el cajero&lt;/strong&gt; es una aplicación educativa de caja registradora desarrollada en Python utilizando Tkinter. El proyecto está diseñado para automatizar las principales operaciones de un cajero: apertura y cierre de turnos, búsqueda de productos mediante código de barras, realización de ventas, control del dinero en el cajón de efectivo y almacenamiento del historial de operaciones. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; La información sobre los productos se almacena en el archivo editable &lt;code&gt;codes.ods&lt;/code&gt;. Para cada producto se especifican el código de barras, el nombre y el precio. El cajero puede escanear o introducir un código de barras, tras lo cual el programa encuentra el producto correspondiente y lo añade a la venta actual. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; La información sobre las ventas completadas y los turnos de caja se almacena en la base de datos &lt;code&gt;orders.db&lt;/code&gt;. Cada venta está vinculada al cajero y al turno abierto, mientras que a los pedidos completados se les asignan automáticamente números con el formato &lt;code&gt;ORD-000001&lt;/code&gt;. &lt;/p&gt;
+&lt;h3&gt;Trabajo con los turnos de caja&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; Antes de comenzar a trabajar, el usuario selecciona un cajero y abre un turno de caja. Al abrir el turno, se especifica el saldo inicial de dinero en el cajón de efectivo. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Durante el turno, el programa registra las ventas y permite registrar manualmente ingresos o retiradas de efectivo. Al cerrar la caja, se introduce la cantidad real contada. El programa calcula el saldo esperado y guarda cualquier posible diferencia. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Si la aplicación se cerró antes de finalizar el turno, el turno no cerrado se restaura automáticamente la próxima vez que se inicia el programa. &lt;/p&gt;
+&lt;h3&gt;Almacenamiento y control de datos&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; Para verificar la integridad de la base de datos financiera se utiliza una suma de comprobación SHA-256. Al iniciar el programa, el contenido de &lt;code&gt;orders.db&lt;/code&gt; se compara con la suma de comprobación guardada en &lt;code&gt;orders.db.sha256&lt;/code&gt;. Después de una modificación normal de los datos, la suma de comprobación se actualiza automáticamente. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Las principales acciones del programa se registran en el archivo &lt;code&gt;cash_register.log&lt;/code&gt;: inicio y cierre de la aplicación, apertura y cierre de turnos, escaneo de productos, realización de ventas, ingresos y retiradas de efectivo, comprobación de la integridad de la base de datos y los errores que se produzcan. El registro puede abrirse directamente desde la interfaz del programa en modo de solo lectura. &lt;/p&gt;
+&lt;h3&gt;Características principales&lt;/h3&gt;
+&lt;ul&gt; &lt;li&gt;selección del cajero antes de comenzar a trabajar;&lt;/li&gt; &lt;li&gt;apertura y cierre del turno de caja;&lt;/li&gt; &lt;li&gt;búsqueda de productos mediante código de barras;&lt;/li&gt; &lt;li&gt;realización y almacenamiento de ventas;&lt;/li&gt; &lt;li&gt;numeración automática de pedidos;&lt;/li&gt; &lt;li&gt;control del efectivo en el cajón de caja;&lt;/li&gt; &lt;li&gt;ingreso y retirada de dinero;&lt;/li&gt; &lt;li&gt;cálculo del saldo esperado y real de la caja;&lt;/li&gt; &lt;li&gt;restauración de un turno no cerrado después de reiniciar el programa;&lt;/li&gt; &lt;li&gt;mantenimiento de un registro de acciones;&lt;/li&gt; &lt;li&gt;comprobación de la integridad de la base de datos mediante SHA-256;&lt;/li&gt; &lt;li&gt;creación de una aplicación autónoma para Windows.&lt;/li&gt; &lt;/ul&gt;
+&lt;h3&gt;Tecnologías&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; El proyecto está escrito en &lt;strong&gt;Python&lt;/strong&gt;. La interfaz gráfica de usuario está creada utilizando &lt;strong&gt;Tkinter&lt;/strong&gt;. Para almacenar los datos de los productos se utiliza una hoja de cálculo &lt;strong&gt;ODS&lt;/strong&gt;, mientras que las operaciones y la información sobre los turnos de caja se almacenan en una base de datos local. &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt; Para Windows está prevista la creación del programa como un archivo independiente &lt;code&gt;CashRegister.exe&lt;/code&gt; mediante PyInstaller. La aplicación puede iniciarse sin una ventana de consola, mientras que los archivos de trabajo se crean y almacenan junto al archivo ejecutable. &lt;/p&gt;
+&lt;h3&gt;Objetivo del proyecto&lt;/h3&gt;
+&lt;p align=&#34;justify&#34;&gt; El objetivo principal del proyecto es desarrollar una aplicación de escritorio independiente que simule el funcionamiento de un puesto de trabajo de caja y poner en práctica el trabajo con una interfaz gráfica de usuario, el almacenamiento local de datos, los turnos de caja, el registro de operaciones y el control de la integridad de los datos. &lt;/p&gt;
 </description>
     </item>
     
