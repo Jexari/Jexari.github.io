@@ -48,12 +48,12 @@
   <url>
     <loc>https://jexari.github.io/es/tag/python/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tag/python/"
-    /><xhtml:link
-      rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tag/python/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/python/"
     /><xhtml:link
       rel="alternate"
       hreflang="es"
@@ -62,12 +62,12 @@
   <url>
     <loc>https://jexari.github.io/es/tags/</loc><lastmod>2026-06-01T16:48:16+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /><xhtml:link
-      rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
     /><xhtml:link
       rel="alternate"
       hreflang="es"
@@ -104,11 +104,11 @@
   <url>
     <loc></loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
-      hreflang="ru"
+      hreflang="en"
       href=""
     /><xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="ru"
       href=""
     /><xhtml:link
       rel="alternate"
@@ -118,12 +118,12 @@
   <url>
     <loc>https://jexari.github.io/es/categories/</loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/categories/"
     /><xhtml:link
       rel="alternate"
       hreflang="es"
@@ -132,11 +132,11 @@
   <url>
     <loc></loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
-      hreflang="ru"
+      hreflang="en"
       href=""
     /><xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="ru"
       href=""
     /><xhtml:link
       rel="alternate"
