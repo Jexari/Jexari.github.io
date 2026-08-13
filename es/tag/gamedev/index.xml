@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GameDev | Ian Dolganov</title>
+    <link>https://jexari.github.io/es/tag/gamedev/</link>
+      <atom:link href="https://jexari.github.io/es/tag/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <description>GameDev</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es-es</language><lastBuildDate>Thu, 02 Mar 2023 20:55:47 +0300</lastBuildDate>
+    <image>
+      <url>https://jexari.github.io/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_512x512_fill_lanczos_center_3.png</url>
+      <title>GameDev</title>
+      <link>https://jexari.github.io/es/tag/gamedev/</link>
+    </image>
+    
+    <item>
+      <title>Lista de géneros de videojuegos</title>
+      <link>https://jexari.github.io/es/post/game_genres/</link>
+      <pubDate>Thu, 02 Mar 2023 20:55:47 +0300</pubDate>
+      <guid>https://jexari.github.io/es/post/game_genres/</guid>
+      <description>&lt;h1&gt;Géneros de videojuegos:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Acción
+&lt;ul&gt;
+&lt;li&gt;Plataformas&lt;/li&gt;
+&lt;li&gt;Shooter&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Shooter de arena&lt;/li&gt;
+&lt;li&gt;Shooter de desplazamiento&lt;/li&gt;
+&lt;li&gt;Shooter 3D&lt;/li&gt;
+&lt;li&gt;Rail shooter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Lucha&lt;/li&gt;
+&lt;li&gt;Beat ’em up&lt;/li&gt;
+&lt;li&gt;Juegos de ritmo&lt;/li&gt;
+&lt;li&gt;Quick time&lt;/li&gt;
+&lt;li&gt;Supervivencia&lt;/li&gt;
+&lt;li&gt;Acción de sigilo&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Simulador
+&lt;ul&gt;
+&lt;li&gt;Simulador de vuelo&lt;/li&gt;
+&lt;li&gt;Simulador de coches&lt;/li&gt;
+&lt;li&gt;Simulador espacial&lt;/li&gt;
+&lt;li&gt;Simulador de vida&lt;/li&gt;
+&lt;li&gt;Simulador político&lt;/li&gt;
+&lt;li&gt;Otros simuladores&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Aventura
+&lt;ul&gt;
+&lt;li&gt;Aventura de texto&lt;/li&gt;
+&lt;li&gt;Aventura gráfica&lt;/li&gt;
+&lt;li&gt;Elige tu propia aventura&lt;/li&gt;
+&lt;li&gt;Novela visual&lt;/li&gt;
+&lt;li&gt;Cine interactivo&lt;/li&gt;
+&lt;li&gt;3D en tiempo real&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Estrategia
+&lt;ul&gt;
+&lt;li&gt;4X&lt;/li&gt;
+&lt;li&gt;Estrategia en tiempo real&lt;/li&gt;
+&lt;li&gt;Juego de guerra&lt;/li&gt;
+&lt;li&gt;Estrategia económica&lt;/li&gt;
+&lt;li&gt;Otras estrategias&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Rompecabezas&lt;/li&gt;	
+&lt;li&gt;Juegos de rol
+&lt;ul&gt;
+&lt;li&gt;Action-RPG&lt;/li&gt;
+&lt;li&gt;MMORPG&lt;/li&gt;
+&lt;li&gt;Roguelike&lt;/li&gt;
+&lt;li&gt;RPG táctico&lt;/li&gt;
+&lt;li&gt;RPG de mundo abierto&lt;/li&gt;
+&lt;li&gt;JRPG&lt;/li&gt;
+&lt;li&gt;RPG de grupo en primera persona&lt;/li&gt;
+&lt;li&gt;Juegos gacha&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Géneros mixtos&lt;/li&gt;&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

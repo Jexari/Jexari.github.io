@@ -5,12 +5,27 @@
     <link>https://jexari.github.io/es/</link>
       <atom:link href="https://jexari.github.io/es/index.xml" rel="self" type="application/rss+xml" />
     <description>Ian Dolganov</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es-es</language><lastBuildDate>Mon, 01 Jun 2026 16:48:16 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es-es</language><lastBuildDate>Thu, 13 Aug 2026 16:37:17 +0300</lastBuildDate>
     <image>
       <url>https://jexari.github.io/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_512x512_fill_lanczos_center_3.png</url>
       <title>Ian Dolganov</title>
       <link>https://jexari.github.io/es/</link>
     </image>
+    
+    <item>
+      <title>Netlify: ¿por qué lo necesita un programador?</title>
+      <link>https://jexari.github.io/es/post/what-is-netlify/</link>
+      <pubDate>Thu, 13 Aug 2026 16:37:17 +0300</pubDate>
+      <guid>https://jexari.github.io/es/post/what-is-netlify/</guid>
+      <description>&lt;p align=&#34;justify&#34;&gt;Cuando empiezas a crear sitios web, al principio todo parece bastante sencillo: escribes HTML, CSS, JavaScript, abres el proyecto en el navegador y todo funciona. Pero bastante pronto surge la siguiente pregunta: ¿cómo mostrar ahora este sitio web a otras personas? No puedes simplemente enviar a todo el mundo un archivo comprimido con los archivos y unas instrucciones sobre qué archivo deben abrir. Aquí es donde Netlify resulta útil. En pocas palabras, Netlify es un servicio que permite publicar rápidamente un sitio web o una aplicación web en Internet y obtener un enlace normal que cualquiera puede abrir. Al mismo tiempo, no necesitas alquilar un servidor independiente, configurar nginx manualmente, aprender Linux solo por un proyecto pequeño ni subir cada vez los archivos modificados al hosting mediante FTP. Esto resulta especialmente cómodo para los desarrolladores frontend: creas una landing page, un portafolio, documentación, un pequeño sitio web con HTML, CSS y JavaScript, o un proyecto con un framework moderno, y todo esto se puede publicar en línea bastante rápido. Netlify está diseñado específicamente para publicar proyectos web y puede desplegarlos directamente desde un repositorio Git.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Y esto no se limita a los sitios web normales. También puedes usar Netlify para mostrar pequeños juegos de navegador. Por ejemplo, si has creado un juego en Cocos Creator y lo has compilado para Web, el resultado es una versión web que se puede alojar como un proyecto web normal. Lo mismo ocurre con los juegos creados con Phaser, Three.js, Babylon.js o simplemente escritos desde cero con JavaScript y Canvas. Lo principal es que, después de la compilación, el juego pueda ejecutarse en un navegador y no necesite un servidor de juego independiente funcionando constantemente. En ese caso, subes la build terminada a Netlify, obtienes un enlace y puedes simplemente enviárselo a alguien: esa persona lo abre en el navegador y ejecuta el juego inmediatamente. Para un desarrollador de juegos, esta es una forma muy cómoda de mostrar un prototipo, probar mecánicas o presentar un pequeño juego terminado sin obligar a otras personas a descargar un archivo comprimido, instalar un programa o ejecutar el proyecto desde un editor.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Esto resulta especialmente útil si estás estudiando o creando un portafolio. Supongamos que has hecho un pequeño juego 2D, un plataformas, un puzle o algún tipo de prototipo en Cocos Creator. Puedes guardar el código fuente en GitHub y añadir junto a él un enlace a la versión funcional en Netlify. De este modo, la persona que vea tu proyecto tendrá inmediatamente dos opciones: si le interesa el código, abre GitHub; si solo quiere ver el resultado, hace clic en Demo y juega directamente en el navegador. Para un portafolio, esto queda mucho mejor que un repositorio en el que no existe una forma rápida de ver el resultado. En este caso, Netlify se convierte básicamente en una forma sencilla de transformar tu proyecto local en una versión de demostración disponible desde cualquier lugar con un navegador.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Una de las cosas más cómodas de Netlify es la posibilidad de conectar un proyecto con GitHub. Después de eso, el proceso de publicación se vuelve mucho más sencillo. Trabajas en el proyecto como siempre, modificas el código, haces un commit, envías los cambios con git push, y Netlify detecta la nueva versión del repositorio, compila el proyecto y actualiza la versión publicada. En un sitio web normal, podría tratarse de una página nueva o de una corrección de diseño, mientras que en un juego de navegador podría ser un nuevo nivel, mecánicas corregidas, una interfaz actualizada o una nueva build. No necesitas entrar manualmente en el panel del hosting y sustituir los archivos cada vez. Netlify admite este flujo de despliegue continuo desde Git, por lo que actualizar un proyecto publicado encaja de forma natural en el flujo de trabajo habitual de un desarrollador.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Después de la publicación, Netlify proporciona inmediatamente al proyecto una dirección en Internet. Al principio será una dirección técnica en un dominio de Netlify, pero para proyectos de prueba, trabajos educativos, pequeñas aplicaciones y juegos, esto suele ser más que suficiente. Puedes enviar este enlace a un cliente, a un amigo o a un profesor, añadirlo a tu currículum o dejarlo en el README del proyecto en GitHub. Si el proyecto se vuelve más serio, puedes conectar tu propio dominio. Para un desarrollador principiante, esto resulta especialmente útil porque permite pasar rápidamente de un proyecto que solo funciona en localhost a un sitio web o juego real que otras personas pueden abrir. Netlify también permite subir directamente archivos estáticos normales, por lo que, para un proyecto muy pequeño, ni siquiera necesitas crear desde el principio un sistema de despliegue complejo.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;Netlify no solo es útil como un lugar donde puedes subir archivos HTML terminados. También ofrece compilaciones automáticas, variables de entorno, redirecciones, gestión de dominios, funciones serverless y otras características que pueden resultar útiles a medida que el proyecto crece. Por supuesto, no necesitas aprender todo esto de inmediato. Al principio basta con entender la idea básica: tienes tu código, tienes una build web terminada, tienes Netlify, que la publica, y tienes un enlace desde el que se puede abrir el resultado. Más adelante puedes empezar a aprender las funciones adicionales. Al mismo tiempo, es importante entender que Netlify no es una solución universal para absolutamente todo. Si un proyecto necesita un backend complejo, un servidor de juego funcionando constantemente, lógica propia del lado del servidor o una infraestructura personalizada, Netlify por sí solo puede no ser suficiente.&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;La principal ventaja de Netlify para un programador ni siquiera es que simplemente proporcione hosting. Su verdadera comodidad está en lo fácil que hace mostrar el resultado de tu trabajo. Puedes crear un sitio web, desarrollar una aplicación o hacer un pequeño juego de navegador con Cocos Creator, Phaser u otra herramienta, y después simplemente darle un enlace a alguien. No hace falta explicar cómo instalar el proyecto, pedirle que ejecute un servidor local ni enviar archivos comprimidos. Para proyectos educativos, portafolios, prototipos y pequeñas aplicaciones web, es una solución muy práctica. El desarrollo no termina realmente en el momento en que el código empieza a funcionar en tu ordenador. En algún momento necesitas mostrar el resultado a otras personas, y Netlify permite hacerlo sin complicaciones innecesarias relacionadas con la infraestructura del servidor.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Programa para el cajero</title>
@@ -35,6 +50,72 @@
 &lt;p align=&#34;justify&#34;&gt; Para Windows está prevista la creación del programa como un archivo independiente &lt;code&gt;CashRegister.exe&lt;/code&gt; mediante PyInstaller. La aplicación puede iniciarse sin una ventana de consola, mientras que los archivos de trabajo se crean y almacenan junto al archivo ejecutable. &lt;/p&gt;
 &lt;h3&gt;Objetivo del proyecto&lt;/h3&gt;
 &lt;p align=&#34;justify&#34;&gt; El objetivo principal del proyecto es desarrollar una aplicación de escritorio independiente que simule el funcionamiento de un puesto de trabajo de caja y poner en práctica el trabajo con una interfaz gráfica de usuario, el almacenamiento local de datos, los turnos de caja, el registro de operaciones y el control de la integridad de los datos. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lista de géneros de videojuegos</title>
+      <link>https://jexari.github.io/es/post/game_genres/</link>
+      <pubDate>Thu, 02 Mar 2023 20:55:47 +0300</pubDate>
+      <guid>https://jexari.github.io/es/post/game_genres/</guid>
+      <description>&lt;h1&gt;Géneros de videojuegos:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Acción
+&lt;ul&gt;
+&lt;li&gt;Plataformas&lt;/li&gt;
+&lt;li&gt;Shooter&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Shooter de arena&lt;/li&gt;
+&lt;li&gt;Shooter de desplazamiento&lt;/li&gt;
+&lt;li&gt;Shooter 3D&lt;/li&gt;
+&lt;li&gt;Rail shooter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Lucha&lt;/li&gt;
+&lt;li&gt;Beat ’em up&lt;/li&gt;
+&lt;li&gt;Juegos de ritmo&lt;/li&gt;
+&lt;li&gt;Quick time&lt;/li&gt;
+&lt;li&gt;Supervivencia&lt;/li&gt;
+&lt;li&gt;Acción de sigilo&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Simulador
+&lt;ul&gt;
+&lt;li&gt;Simulador de vuelo&lt;/li&gt;
+&lt;li&gt;Simulador de coches&lt;/li&gt;
+&lt;li&gt;Simulador espacial&lt;/li&gt;
+&lt;li&gt;Simulador de vida&lt;/li&gt;
+&lt;li&gt;Simulador político&lt;/li&gt;
+&lt;li&gt;Otros simuladores&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Aventura
+&lt;ul&gt;
+&lt;li&gt;Aventura de texto&lt;/li&gt;
+&lt;li&gt;Aventura gráfica&lt;/li&gt;
+&lt;li&gt;Elige tu propia aventura&lt;/li&gt;
+&lt;li&gt;Novela visual&lt;/li&gt;
+&lt;li&gt;Cine interactivo&lt;/li&gt;
+&lt;li&gt;3D en tiempo real&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Estrategia
+&lt;ul&gt;
+&lt;li&gt;4X&lt;/li&gt;
+&lt;li&gt;Estrategia en tiempo real&lt;/li&gt;
+&lt;li&gt;Juego de guerra&lt;/li&gt;
+&lt;li&gt;Estrategia económica&lt;/li&gt;
+&lt;li&gt;Otras estrategias&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Rompecabezas&lt;/li&gt;	
+&lt;li&gt;Juegos de rol
+&lt;ul&gt;
+&lt;li&gt;Action-RPG&lt;/li&gt;
+&lt;li&gt;MMORPG&lt;/li&gt;
+&lt;li&gt;Roguelike&lt;/li&gt;
+&lt;li&gt;RPG táctico&lt;/li&gt;
+&lt;li&gt;RPG de mundo abierto&lt;/li&gt;
+&lt;li&gt;JRPG&lt;/li&gt;
+&lt;li&gt;RPG de grupo en primera persona&lt;/li&gt;
+&lt;li&gt;Juegos gacha&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Géneros mixtos&lt;/li&gt;&lt;/ul&gt;
 </description>
     </item>
     

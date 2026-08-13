@@ -1,0 +1,1336 @@
+<!DOCTYPE html><html lang="es-es" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ian Dolganov" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Explicamos qué es Netlify, por qué lo necesitan los desarrolladores web, cómo ayuda a publicar rápidamente proyectos desde GitHub y por qué resulta cómodo para mostrar sitios web, portafolios, aplicaciones y juegos de navegador." />
+
+  
+    <link rel="alternate" hreflang="en" href="https://jexari.github.io/post/what-is-netlify/" />
+  
+    <link rel="alternate" hreflang="ru" href="https://jexari.github.io/ru/post/what-is-netlify/" />
+  
+  <link rel="alternate" hreflang="es-es" href="https://jexari.github.io/es/post/what-is-netlify/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/es/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://jexari.github.io/es/post/what-is-netlify/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Ian Dolganov" />
+  <meta property="og:url" content="https://jexari.github.io/es/post/what-is-netlify/" />
+  <meta property="og:title" content="Netlify: ¿por qué lo necesita un programador? | Ian Dolganov" />
+  <meta property="og:description" content="Explicamos qué es Netlify, por qué lo necesitan los desarrolladores web, cómo ayuda a publicar rápidamente proyectos desde GitHub y por qué resulta cómodo para mostrar sitios web, portafolios, aplicaciones y juegos de navegador." /><meta property="og:image" content="https://jexari.github.io/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://jexari.github.io/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="es-es" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-08-13T16:37:17&#43;03:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-08-13T16:37:17&#43;03:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jexari.github.io/es/post/what-is-netlify/"
+  },
+  "headline": "Netlify: ¿por qué lo necesita un programador?",
+  
+  "datePublished": "2026-08-13T16:37:17+03:00",
+  "dateModified": "2026-08-13T16:37:17+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ian Dolganov"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Dolganov",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jexari.github.io/media/icon_hu5220d52fe68c39156e323d896ec9182d_791806_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Explicamos qué es Netlify, por qué lo necesitan los desarrolladores web, cómo ayuda a publicar rápidamente proyectos desde GitHub y por qué resulta cómodo para mostrar sitios web, portafolios, aplicaciones y juegos de navegador."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Netlify: ¿por qué lo necesita un programador? | Ian Dolganov</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="353e26c7ab70e4ca87a4968e1e2e6eec" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Cerrar"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Buscar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/es/">Ian Dolganov</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Barra de navegación">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/es/">Ian Dolganov</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/es/#about"><span>Sobre mí</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/es/#experience"><span>Experiencia</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/es/#posts"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/es/#projects"><span>Proyectos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/es/#contact"><span>Contacto</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Buscar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Mostrar preferencias">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Claro</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Oscuro</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automático</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Idiomas">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>Español</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://jexari.github.io/post/what-is-netlify/">
+              <span>English</span>
+            </a>
+            
+            <a class="dropdown-item" href="https://jexari.github.io/ru/post/what-is-netlify/">
+              <span>Русский</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Netlify: ¿por qué lo necesita un programador?</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Ian Dolganov</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    ago. 13, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min de lectura
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/es/category/web-development/">web-development</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p align="justify">Cuando empiezas a crear sitios web, al principio todo parece bastante sencillo: escribes HTML, CSS, JavaScript, abres el proyecto en el navegador y todo funciona. Pero bastante pronto surge la siguiente pregunta: ¿cómo mostrar ahora este sitio web a otras personas? No puedes simplemente enviar a todo el mundo un archivo comprimido con los archivos y unas instrucciones sobre qué archivo deben abrir. Aquí es donde Netlify resulta útil. En pocas palabras, Netlify es un servicio que permite publicar rápidamente un sitio web o una aplicación web en Internet y obtener un enlace normal que cualquiera puede abrir. Al mismo tiempo, no necesitas alquilar un servidor independiente, configurar nginx manualmente, aprender Linux solo por un proyecto pequeño ni subir cada vez los archivos modificados al hosting mediante FTP. Esto resulta especialmente cómodo para los desarrolladores frontend: creas una landing page, un portafolio, documentación, un pequeño sitio web con HTML, CSS y JavaScript, o un proyecto con un framework moderno, y todo esto se puede publicar en línea bastante rápido. Netlify está diseñado específicamente para publicar proyectos web y puede desplegarlos directamente desde un repositorio Git.</p>
+<p align="justify">Y esto no se limita a los sitios web normales. También puedes usar Netlify para mostrar pequeños juegos de navegador. Por ejemplo, si has creado un juego en Cocos Creator y lo has compilado para Web, el resultado es una versión web que se puede alojar como un proyecto web normal. Lo mismo ocurre con los juegos creados con Phaser, Three.js, Babylon.js o simplemente escritos desde cero con JavaScript y Canvas. Lo principal es que, después de la compilación, el juego pueda ejecutarse en un navegador y no necesite un servidor de juego independiente funcionando constantemente. En ese caso, subes la build terminada a Netlify, obtienes un enlace y puedes simplemente enviárselo a alguien: esa persona lo abre en el navegador y ejecuta el juego inmediatamente. Para un desarrollador de juegos, esta es una forma muy cómoda de mostrar un prototipo, probar mecánicas o presentar un pequeño juego terminado sin obligar a otras personas a descargar un archivo comprimido, instalar un programa o ejecutar el proyecto desde un editor.</p>
+<p align="justify">Esto resulta especialmente útil si estás estudiando o creando un portafolio. Supongamos que has hecho un pequeño juego 2D, un plataformas, un puzle o algún tipo de prototipo en Cocos Creator. Puedes guardar el código fuente en GitHub y añadir junto a él un enlace a la versión funcional en Netlify. De este modo, la persona que vea tu proyecto tendrá inmediatamente dos opciones: si le interesa el código, abre GitHub; si solo quiere ver el resultado, hace clic en Demo y juega directamente en el navegador. Para un portafolio, esto queda mucho mejor que un repositorio en el que no existe una forma rápida de ver el resultado. En este caso, Netlify se convierte básicamente en una forma sencilla de transformar tu proyecto local en una versión de demostración disponible desde cualquier lugar con un navegador.</p>
+<p align="justify">Una de las cosas más cómodas de Netlify es la posibilidad de conectar un proyecto con GitHub. Después de eso, el proceso de publicación se vuelve mucho más sencillo. Trabajas en el proyecto como siempre, modificas el código, haces un commit, envías los cambios con git push, y Netlify detecta la nueva versión del repositorio, compila el proyecto y actualiza la versión publicada. En un sitio web normal, podría tratarse de una página nueva o de una corrección de diseño, mientras que en un juego de navegador podría ser un nuevo nivel, mecánicas corregidas, una interfaz actualizada o una nueva build. No necesitas entrar manualmente en el panel del hosting y sustituir los archivos cada vez. Netlify admite este flujo de despliegue continuo desde Git, por lo que actualizar un proyecto publicado encaja de forma natural en el flujo de trabajo habitual de un desarrollador.</p>
+<p align="justify">Después de la publicación, Netlify proporciona inmediatamente al proyecto una dirección en Internet. Al principio será una dirección técnica en un dominio de Netlify, pero para proyectos de prueba, trabajos educativos, pequeñas aplicaciones y juegos, esto suele ser más que suficiente. Puedes enviar este enlace a un cliente, a un amigo o a un profesor, añadirlo a tu currículum o dejarlo en el README del proyecto en GitHub. Si el proyecto se vuelve más serio, puedes conectar tu propio dominio. Para un desarrollador principiante, esto resulta especialmente útil porque permite pasar rápidamente de un proyecto que solo funciona en localhost a un sitio web o juego real que otras personas pueden abrir. Netlify también permite subir directamente archivos estáticos normales, por lo que, para un proyecto muy pequeño, ni siquiera necesitas crear desde el principio un sistema de despliegue complejo.</p>
+<p align="justify">Netlify no solo es útil como un lugar donde puedes subir archivos HTML terminados. También ofrece compilaciones automáticas, variables de entorno, redirecciones, gestión de dominios, funciones serverless y otras características que pueden resultar útiles a medida que el proyecto crece. Por supuesto, no necesitas aprender todo esto de inmediato. Al principio basta con entender la idea básica: tienes tu código, tienes una build web terminada, tienes Netlify, que la publica, y tienes un enlace desde el que se puede abrir el resultado. Más adelante puedes empezar a aprender las funciones adicionales. Al mismo tiempo, es importante entender que Netlify no es una solución universal para absolutamente todo. Si un proyecto necesita un backend complejo, un servidor de juego funcionando constantemente, lógica propia del lado del servidor o una infraestructura personalizada, Netlify por sí solo puede no ser suficiente.</p>
+<p align="justify">La principal ventaja de Netlify para un programador ni siquiera es que simplemente proporcione hosting. Su verdadera comodidad está en lo fácil que hace mostrar el resultado de tu trabajo. Puedes crear un sitio web, desarrollar una aplicación o hacer un pequeño juego de navegador con Cocos Creator, Phaser u otra herramienta, y después simplemente darle un enlace a alguien. No hace falta explicar cómo instalar el proyecto, pedirle que ejecute un servidor local ni enviar archivos comprimidos. Para proyectos educativos, portafolios, prototipos y pequeñas aplicaciones web, es una solución muy práctica. El desarrollo no termina realmente en el momento en que el código empieza a funcionar en tu ordenador. En algún momento necesitas mostrar el resultado a otras personas, y Netlify permite hacerlo sin complicaciones innecesarias relacionadas con la infraestructura del servidor.</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/es/tag/frontend/">frontend</a>
+  
+  <a class="badge badge-light" href="/es/tag/cocos-creator/">cocos-creator</a>
+  
+  <a class="badge badge-light" href="/es/tag/web-development/">web-development</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jexari.github.io/es/post/what-is-netlify/&amp;text=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jexari.github.io/es/post/what-is-netlify/&amp;t=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?&amp;body=https://jexari.github.io/es/post/what-is-netlify/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jexari.github.io/es/post/what-is-netlify/&amp;title=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?%20https://jexari.github.io/es/post/what-is-netlify/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jexari.github.io/es/post/what-is-netlify/&amp;title=Netlify:%20%c2%bfpor%20qu%c3%a9%20lo%20necesita%20un%20programador?" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jexari.github.io/"><img class="avatar mr-3 avatar-circle" src="/es/authors/admin/avatar_huac0b958e716f4fed4777fea865719f16_1719003_270x270_fill_q75_lanczos_center.jpg" alt="Ian Dolganov"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jexari.github.io/">Ian Dolganov</a></h5>
+      <h6 class="card-subtitle">Desarrollador Python Junior</h6>
+      <p class="card-text">Mis intereses académicos se centran en el desarrollo con Python, la ingeniería de software, el desarrollo backend y los enfoques modernos para el diseño y desarrollo de sistemas de software fiables.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/es/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Jexari" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.youtube.com/@ian_dolganov" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/profile.php?id=100089475094405" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/ian-dolganov-5b9267378/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://orcid.org/0009-0003-3619-1865" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2026 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/es/js/wowchemy.min.2a8cb4af17b88e08103d87442dfb7d7f.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

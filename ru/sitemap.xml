@@ -4,7 +4,7 @@
   
   
   <url>
-    <loc></loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc></loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="es"
       href=""
@@ -18,7 +18,7 @@
       href=""
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/categories/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="es"
       href="https://jexari.github.io/es/categories/"
@@ -32,7 +32,53 @@
       href="https://jexari.github.io/ru/categories/"
     /></url>
   <url>
-    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://jexari.github.io/ru/tag/cocos-creator/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/tag/cocos-creator/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/cocos-creator/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/cocos-creator/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tag/frontend/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/tag/frontend/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/frontend/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/frontend/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/what-is-netlify/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/post/what-is-netlify/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/post/what-is-netlify/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/post/what-is-netlify/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/post/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/post/"
+    /><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/"
@@ -40,6 +86,76 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tags/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/tag/web-development/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/tag/web-development/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/tag/web-development/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/tag/web-development/"
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/category/web-development/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/category/web-development/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/category/web-development/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/category/web-development/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /></url>
+  <url>
+    <loc>https://jexari.github.io/ru/</loc><lastmod>2026-08-13T16:37:17+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://jexari.github.io/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://jexari.github.io/ru/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/tag/python/</loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -78,48 +194,6 @@
       rel="alternate"
       hreflang="ru"
       href="https://jexari.github.io/ru/post/useful_python_features/"
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/tags/</loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://jexari.github.io/es/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/tags/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /></url>
-  <url>
-    <loc>https://jexari.github.io/ru/</loc><lastmod>2026-08-10T17:58:27+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://jexari.github.io/es/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://jexari.github.io/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://jexari.github.io/ru/"
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/post/python_enumerate_zip/</loc><lastmod>2026-08-10T00:45:54+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -332,6 +406,10 @@
   <url>
     <loc>https://jexari.github.io/ru/tag/gamedev/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/tag/gamedev/"
+    /><xhtml:link
+      rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/tag/gamedev/"
     /><xhtml:link
@@ -342,6 +420,10 @@
   <url>
     <loc>https://jexari.github.io/ru/category/gamedev/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/category/gamedev/"
+    /><xhtml:link
+      rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/category/gamedev/"
     /><xhtml:link
@@ -351,6 +433,10 @@
     /></url>
   <url>
     <loc>https://jexari.github.io/ru/post/game_genres/</loc><lastmod>2023-03-02T20:55:47+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://jexari.github.io/es/post/game_genres/"
+    /><xhtml:link
       rel="alternate"
       hreflang="en"
       href="https://jexari.github.io/post/game_genres/"
